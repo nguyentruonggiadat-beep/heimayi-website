@@ -66,6 +66,21 @@
           "label": "Protection rating",
           "value": "IP54"
         }
+      ],
+      "features": [
+        "Precise room temperature control: auto-adjusts valve opening based on real-time sensor feedback — ±0.5°C accuracy",
+        "Energy savings 15–30%: eliminates over-supply of cooling/heating medium to the fan coil unit",
+        "Fan speed interlocking: when valve opening is small, fan speed automatically reduces — reduces noise and saves energy",
+        "Built-in freeze protection and overcurrent protection — extends actuator and valve service life",
+        "Direct RS485 connection to room thermostat — no intermediate controller needed",
+        "Dual power supply: AC 220V ±10% and DC 24V ±5%"
+      ],
+      "apps": [
+        "Fan Coil Unit Control",
+        "District Heating Zones",
+        "Office Building HVAC",
+        "Hotel & Apartment HVAC",
+        "Hospital Climate Control"
       ]
     },
     {
@@ -121,6 +136,21 @@
           "label": "Installation",
           "value": "Wall mount / Table mount"
         }
+      ],
+      "features": [
+        "Wireless 433MHz pairing with compatible fan coil control valves — direct zone-level control without a gateway",
+        "Dual built-in temperature sensors for fast, accurate room temperature detection",
+        "Anti-tamper alarm: activates immediately when unit is removed from wall",
+        "Battery life up to 6 years — no maintenance required throughout entire HVAC seasons",
+        "User-settable target temperature via on-device buttons",
+        "Patented industrial design (patent no. ZL201730184482.5)"
+      ],
+      "apps": [
+        "District Heating Homes",
+        "Office Buildings",
+        "Hotels & Apartments",
+        "Hospitals",
+        "Schools & Universities"
       ]
     },
     {
@@ -236,6 +266,22 @@
           "label": "Flow DN200",
           "value": "Q1: 10 m³/h; Q2: 250 m³/h; Q4: 500 m³/h"
         }
+      ],
+      "features": [
+        "High-quality imported piezoelectric transducers — stable, consistent ultrasonic signal with no drift over time",
+        "PT1000 platinum resistance temperature sensor + precision circuit — highly accurate ΔT measurement (resolution 0.01°C)",
+        "Self-diagnostic function: detects communication faults, low power, tampering — displays error codes and auto-saves data before shutdown",
+        "Remote data transmission via M-Bus / RS485 / NB-IoT / 4G for centralised billing and energy management",
+        "Detachable design: mountable in any of 4 orientations — easy reading, simple on-site operation",
+        "Dual heating and cooling energy measurement in the same meter — suitable for district heating and central A/C",
+        "IP65 / IP67 / IP68 protection — suitable for damp plant rooms, underground meter pits and outdoor installation"
+      ],
+      "apps": [
+        "District Heating Billing",
+        "Central Air Conditioning",
+        "Building Energy Mgmt",
+        "Hotel & Apartment HVAC",
+        "Industrial Cooling"
       ]
     },
     {
@@ -339,6 +385,22 @@
           "label": "Flow DN100",
           "value": "Q1: 0.6 m³/h; Q3: 60.0 m³/h; Q4: 120.0 m³/h"
         }
+      ],
+      "features": [
+        "Class 2 ultrasonic flow measurement: wide turndown ratio, unaffected by water quality, no moving parts, zero maintenance",
+        "High-quality piezoelectric chip and dedicated microprocessor: low power, high EMI resistance, stable long-term accuracy",
+        "38,000 mAh battery with >6 year life — wireless plant-room installation without power cable",
+        "Ball valve + large-torque actuator (120 N·m, 33,100:1 gear ratio): reliable high-force operation on large-bore pipes",
+        "Auto self-flushing prevents scale accumulation and clogging inside the valve",
+        "Dual 4G / RS485 communication for flexible integration with any BMS or energy management platform",
+        "Manual operation override available during power failure — full mechanical backup"
+      ],
+      "apps": [
+        "AHU Systems",
+        "Chiller Plants",
+        "Main Distribution",
+        "Large Commercial Buildings",
+        "Industrial HVAC"
       ]
     },
     {
@@ -406,6 +468,23 @@
           "label": "Aperture control",
           "value": "1% step; 0–100% full-range proportional"
         }
+      ],
+      "features": [
+        "High-precision 40Cr steel gear train: more durable than powder metallurgy — high torque, low loss",
+        "Large motor starting torque with low temperature rise — reliable cold-start in low-ambient conditions",
+        "Default M-Bus communication; selectable NB-IoT / 4G / RS485 / LoRa without hardware change",
+        "Integrated on-site manual switch and position scale — valve position readable and adjustable without tools",
+        "SS304 high-strength valve body and ball — superior corrosion and wear resistance for long service life",
+        "Monthly auto-exercise (optional): prevents scale build-up and mechanical seizure",
+        "Valve retains last position on power failure or communication loss — safe fail-stay behaviour",
+        "1% aperture step adjustment, 0–100% full-range proportional control"
+      ],
+      "apps": [
+        "Centralized Chilled Water",
+        "District Heating Networks",
+        "Large Residential Complexes",
+        "Campus Buildings",
+        "Smart Energy Mgmt"
       ]
     }
   ]

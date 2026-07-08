@@ -78,6 +78,21 @@
           "label": "Standard",
           "value": "GB/T 778 / CJ/T 133"
         }
+      ],
+      "features": [
+        "NB-IoT/4G automatic reading eliminates manual meter-reading visits; stable, two-way communication",
+        "Dynamic network maintenance: system auto-maintains at regular intervals without manual adjustment",
+        "Waterproof epoxy-encapsulated circuit with anti-magnetic ring design; IP68 rated",
+        "Smart scheduled reading: configurable thresholds and active alerts for abnormal water usage",
+        "Real-time monitoring: triggers alarms for overflow, backflow, slow leak, and other abnormal flow events",
+        "Epoxy-moulded anti-tamper pin resists external magnet attacks; multiple body material options available"
+      ],
+      "apps": [
+        "Residential Communities",
+        "Commercial Buildings",
+        "Schools & Hospitals",
+        "Smart Water Networks",
+        "Rural Water Supply"
       ]
     },
     {
@@ -161,6 +176,22 @@
           "label": "Standard",
           "value": "GB/T 778 / CJ/T 133"
         }
+      ],
+      "features": [
+        "Non-contact electronic sensing immune to magnetic tampering — most secure against common water meter fraud",
+        "Self-developed non-contact sensor directly reads pulse signal from impeller rotation for high accuracy",
+        "Young-sampling anti-interference technology filters pipeline vibration and hydraulic hammering in real time",
+        "Ultra-low power with high-density Li-SOCl₂ battery; battery life up to 6+ years",
+        "IP68 rated; fully epoxy-encapsulated; withstands extended flooding of meter pit",
+        "Two-way NB-IoT / 4G for remote parameter updates and valve control",
+        "LCD display: water usage, battery level, signal strength — visible in any lighting"
+      ],
+      "apps": [
+        "High-Security Metering",
+        "Anti-tamper Zones",
+        "Residential Communities",
+        "Municipal Water",
+        "Industrial Parks"
       ]
     },
     {
@@ -240,6 +271,21 @@
           "label": "Standard",
           "value": "GB/T 778 / CJ/T 133"
         }
+      ],
+      "features": [
+        "Prepayment \"pay before use\" model eliminates bill arrears and accelerates revenue recovery",
+        "When balance drops to 5 m³ (configurable), meter displays warning and closes valve; user continues on remaining credit",
+        "Historical data query: cumulative usage, historical usage, and recent purchase amounts on-card",
+        "Unmanned management: no meter reader visits; real-time water usage monitoring reduces labour costs",
+        "Anti-tampering and anti-fraud design with automatic alarm and lock-out for multiple abnormal situations",
+        "Energy saving: users can query real-time consumption and cost to promote water conservation"
+      ],
+      "apps": [
+        "Residential Communities",
+        "Hotels & Hostels",
+        "Schools",
+        "Industrial Parks",
+        "Rural Villages"
       ]
     },
     {
@@ -323,6 +369,21 @@
           "label": "Standard",
           "value": "GB/T 778 / CJ/T 133"
         }
+      ],
+      "features": [
+        "Wired M-Bus/RS485 transmission: stable, reliable, safe data and power over bus",
+        "Non-contact photoelectric method reads meter disc barcode directly; reads and verifies in one pass",
+        "Electronic part does not contact the mechanical movement; no impact on original measurement accuracy",
+        "Real-time direct reading without creating readings on meter display; no additional power supply needed",
+        "Clean reading unaffected by water quality: meter face is specially sealed and separated",
+        "Always-on connected mode: power only needed at reading time; very low leakage and power consumption"
+      ],
+      "apps": [
+        "Retrofit Existing Meters",
+        "Residential Communities",
+        "Municipal Water",
+        "Industrial Water Mgmt",
+        "Smart City Water"
       ]
     },
     {
@@ -406,6 +467,23 @@
           "label": "Standard",
           "value": "GB/T 778 / CJ/T 133"
         }
+      ],
+      "features": [
+        "NB-IoT/4G network transmission: deep signal penetration, stable, two-way communication with software platform",
+        "Anti-interference young-sampling technology filters pipeline vibration and hydraulic hammering; true signal from internal sensor",
+        "IP68 rated; fully epoxy-encapsulated; submerged in water normally with stable performance",
+        "Ultra-low power Li-SOCl₂ battery with high energy density; battery life up to 6+ years",
+        "Integrated motorised valve: remotely open/close valve, limit flow; supports prepayment and auto-shutoff on zero balance",
+        "Smart scheduled reading with configurable thresholds and active alerts for abnormal water usage",
+        "Real-time alarms: triggers on overflow, backflow, slow leak, and other abnormal flow events",
+        "Self-diagnostics: real-time monitoring of battery level and valve status with alerts and data logging"
+      ],
+      "apps": [
+        "District Water Management",
+        "Leakage Control",
+        "Smart Water Networks",
+        "Remote Shut-off",
+        "Pre-paid Water Systems"
       ]
     },
     {
@@ -461,6 +539,22 @@
           "label": "Valve control (optional)",
           "value": "Integrated electric valve: remote open/close, flow limiting"
         }
+      ],
+      "features": [
+        "Wide flow adaptability: ideal for applications with large flow variation — maintains high accuracy even at low flow",
+        "Very low start-up flow rate for precise metering at minimum consumption",
+        "Built-in filter screen handles impurities in the water supply pipeline",
+        "Simple vertical inline installation — no front disassembly needed, no special fittings required",
+        "Remote reading via NB-IoT / 4G with real-time reporting and threshold alerts",
+        "Accuracy: ±5% at low-flow zone / ±2% at high-flow zone per standard",
+        "Optional integrated valve control for remote open / close / flow-limit"
+      ],
+      "apps": [
+        "Apartment Blocks",
+        "Commercial Buildings",
+        "Industrial Manufacturing",
+        "Municipal Water Supply",
+        "Urban Residential Mains"
       ]
     },
     {
@@ -512,6 +606,23 @@
           "label": "Valve control (optional)",
           "value": "Integrated electric valve for remote control"
         }
+      ],
+      "features": [
+        "Carrier-network transmission — stable, reliable, secure; plug-and-play on installation",
+        "Non-contact mechanical electronic encoding structure, no mechanical wear",
+        "Remote encrypted data transmission ensures signal security against interception",
+        "Ultra-low power with high-density Li-SOCl₂ battery + capacitor stabilisation — 6+ year service life",
+        "Periodic scheduled reading, active wake-up, real-time water volume reporting with threshold alerts",
+        "Dual-electronic anti-magnetic structure prevents interference; head unit removable for on-site replacement",
+        "Integrated control valve for remote open / close via cloud or on-site command",
+        "Self-diagnostic function for fault detection and anti-interference"
+      ],
+      "apps": [
+        "Commercial Buildings",
+        "Industrial Mains",
+        "Municipal Supply Lines",
+        "Factory Water Supply",
+        "Campus Metering"
       ]
     },
     {
@@ -583,6 +694,21 @@
           "label": "Flow DN40 (R250)",
           "value": "Min: 16 L/h; Transitional: 64 L/h; Max: 16,000 L/h; Overload: 20,000 L/h"
         }
+      ],
+      "features": [
+        "Picosecond-precision ultrasonic chip: small start-up flow, wide measurement range, high accuracy — measures even drips",
+        "Fully sealed electronics: waterproof, moisture-proof, dust-proof, dirt-proof, sand-proof",
+        "Stores 24 monthly / 360 daily / 192 hourly records — no data loss on power failure",
+        "Real-time monitoring of battery, temperature, flow; alarms for low voltage, abnormal sensor, non-full pipe",
+        "Multi-protocol support: RS485 / M-Bus / NB-IoT / LoRa / 4G / TTL for centralised meter reading",
+        "Supports remote over-the-air firmware upgrade — adapts to future requirements without site visit"
+      ],
+      "apps": [
+        "Residential Pipelines",
+        "Light Commercial",
+        "Apartment Buildings",
+        "Smart Water IoT",
+        "Utility Metering"
       ]
     },
     {
@@ -630,6 +756,21 @@
           "label": "Communication",
           "value": "NB-IoT / 4G / M-Bus / RS485"
         }
+      ],
+      "features": [
+        "No moving mechanical parts — typical service life 15–20 years, unaffected by impurities in water",
+        "Very low start-up flow (0.0015 m³/h) for accurate billing at near-zero consumption",
+        "Multi-channel configuration: 1, 2 or 4 ultrasonic channels for any pipe size",
+        "Intelligent monitoring: leakage alerts, reverse flow alarm, abnormal-flow detection",
+        "Ultra-low power technology — long battery life, low running cost",
+        "Multiple communication options: NB-IoT, 4G, M-Bus, RS485 for centralised reading"
+      ],
+      "apps": [
+        "Main Supply Lines",
+        "Industrial Plants",
+        "Municipal Water",
+        "Smart Water Networks",
+        "Irrigation Systems"
       ]
     },
     {
@@ -681,6 +822,21 @@
           "label": "Communication",
           "value": "NB-IoT"
         }
+      ],
+      "features": [
+        "Retrofits any existing mechanical water meter — no pipe work, no meter replacement",
+        "Advanced image AI recognition: >99% accuracy on any dial layout or font",
+        "Fully detachable from meter — battery or module replaceable independently and reusable",
+        "Battery life up to 6 years — no frequent site visits required",
+        "Free-band LPWAN network combined with NB-IoT reduces per-meter communication cost",
+        "Data collected as binary code / original image / meter reading — zero transcription error"
+      ],
+      "apps": [
+        "Retrofit Legacy Meters",
+        "Rural Water Supply",
+        "Community Metering",
+        "Industrial Meter Upgrades",
+        "Smart City Water"
       ]
     },
     {
@@ -732,6 +888,21 @@
           "label": "Protocol",
           "value": "Super-frame + two-way search"
         }
+      ],
+      "features": [
+        "Compact enclosure fits any narrow outdoor or utility-room location — installs anywhere with good signal",
+        "Wirelessly collects data from pulse water meters and HWC camera direct-reading modules",
+        "Triple-sealed potting compound: anti-water, anti-moisture, anti-impact protection",
+        "Scheduled meter-reading tasks at configurable time points via central management",
+        "\"Super-frame + two-way search\" protocol for maximum wireless reading reliability",
+        "Bluetooth app for on-site commissioning, signal strength verification and data inspection"
+      ],
+      "apps": [
+        "Multi-meter Districts",
+        "Apartment Complexes",
+        "Industrial Parks",
+        "Rural Water Networks",
+        "Smart Water Hubs"
       ]
     }
   ]

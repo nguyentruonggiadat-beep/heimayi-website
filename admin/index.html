@@ -25,6 +25,11 @@
       .card-specs td { font-size: 12px; padding: 4px 0; color: rgba(0,0,0,.6); vertical-align: top; }
       .card-specs td:first-child { color: rgba(0,0,0,.4); width: 45%; }
       .card-empty-hint { font-size: 12px; color: rgba(0,0,0,.35); margin-top: 8px; }
+      .card-section-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: rgba(0,0,0,.4); margin: 14px 0 8px; }
+      .card-features { margin: 0; padding-left: 18px; }
+      .card-features li { font-size: 12px; line-height: 1.6; color: rgba(0,0,0,.6); margin-bottom: 4px; }
+      .card-apps { display: flex; flex-wrap: wrap; gap: 6px; }
+      .card-apps span { font-size: 11px; font-weight: 500; padding: 3px 8px; border-radius: 4px; background: #eaf2ff; color: #0071e3; }
     `;
 
     function ProductPreview(createClass, h) {
@@ -48,6 +53,18 @@
                   h('div', { className: 'card-desc' }, p.desc || ''),
                   (p.tags && p.tags.length) ? h('div', { className: 'card-tags' },
                     p.tags.map(function (t, ti) { return h('span', { key: ti }, t); })
+                  ) : null,
+                  (p.features && p.features.length) ? h('div', null,
+                    h('div', { className: 'card-section-title' }, 'Key Features'),
+                    h('ul', { className: 'card-features' },
+                      p.features.map(function (f, fi) { return h('li', { key: fi }, f); })
+                    )
+                  ) : null,
+                  (p.apps && p.apps.length) ? h('div', null,
+                    h('div', { className: 'card-section-title' }, 'Applications'),
+                    h('div', { className: 'card-apps' },
+                      p.apps.map(function (a, ai) { return h('span', { key: ai }, a); })
+                    )
                   ) : null,
                   (p.specs && p.specs.length) ? h('div', { className: 'card-specs' },
                     h('table', null,

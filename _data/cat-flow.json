@@ -66,6 +66,23 @@
           "label": "Connection method",
           "value": "Flange / Insertion"
         }
+      ],
+      "features": [
+        "Zero obstruction: no moving parts, no pressure drop, no mechanical wear",
+        "High accuracy ±0.5% R for liquid, ±1.0% R for gas; unaffected by density, viscosity, temperature, or pressure",
+        "Temperature and pressure compensation: auto-corrects volume flow to standard conditions in real time",
+        "Liner options: PTFE, Neoprene, Polyurethane, FKM, FEP, PFA for any chemical compatibility",
+        "Electrode options: 316L, Hastelloy B/C, Titanium, Tantalum, Pt-Ir, Tungsten Carbide",
+        "Wide operating range: −40°C to 130°C process temperature; up to PN40 pressure rating",
+        "Self-diagnostics detects empty pipe, electrode fouling, and signal anomalies",
+        "Multiple interfaces: 4-20mA, pulse output; RS485 (Modbus), HART for PLC/SCADA integration"
+      ],
+      "apps": [
+        "Water Treatment",
+        "Power & Energy (Cooling)",
+        "Oil & Gas",
+        "Metallurgy & Mining",
+        "Textile & Dyeing"
       ]
     },
     {
@@ -129,6 +146,22 @@
           "label": "Sensor protection",
           "value": "IP68; shielded twisted-pair cable; standard 9 m; max 300 m"
         }
+      ],
+      "features": [
+        "Clamp-on installation: zero pipe cutting, zero production downtime",
+        "Proprietary TGA Time-of-Flight algorithm: measurement rate over 300 times/second; accuracy below 1.0%",
+        "Powerful FPGA chip with 700,000 logic gates: high-frequency sampling with bubble/impurity tolerance",
+        "Handles intermittent bubbles or impurities within 5 seconds without losing measurement",
+        "Easy clip-on installation: no need to stop water supply or halt production",
+        "Durable metal housing: conductive, thermally stable, impact-resistant and crush-resistant",
+        "Bidirectional flow measurement; high-resolution colour LCD display; large 10-year data memory"
+      ],
+      "apps": [
+        "HVAC Cooling System",
+        "Thermal Power",
+        "Oil & Gas",
+        "Water Treatment",
+        "Building Energy Mgmt"
       ]
     },
     {
@@ -196,6 +229,23 @@
           "label": "Explosion-proof rating",
           "value": "Ex db IIC T6 Gb"
         }
+      ],
+      "features": [
+        "High accuracy: liquid ±1.0% R, gas and steam ±1.5% R; no moving parts, no mechanical wear",
+        "Temperature and pressure compensation: real-time capture with auto error correction to standard conditions or mass flow",
+        "Wide operating range: −40°C to 400°C, up to PN63 pressure rating for complex conditions",
+        "Battery-powered option: lithium battery version operates over one year continuously without external power",
+        "Multiple interfaces: 4-20mA, pulse output; RS485 (Modbus), HART for PLC/SCADA integration",
+        "Large LCD display shows instantaneous and cumulative flow on-site",
+        "Rated up to 25 MPa with vibration-resistant sensor technology"
+      ],
+      "apps": [
+        "Urban Infrastructure",
+        "Power & Energy",
+        "Oil & Gas",
+        "Paper & Textile",
+        "Food & Pharmaceutical",
+        "Metallurgy & Steel"
       ]
     }
   ]

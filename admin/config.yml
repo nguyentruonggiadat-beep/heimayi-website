@@ -45,7 +45,27 @@ collections:
                 hint: "Các nhãn nhỏ hiện trên thẻ sản phẩm — ví dụ: DN15–DN150, PN16/PN25, IP65"
                 field: {label: "Nội dung tag", name: "tag", widget: string}
 
-              # ── 5. Bảng thông số kỹ thuật ──
+              # ── 5. Tính năng nổi bật ──
+              - label: "✅ Key Features (tính năng nổi bật)"
+                name: "features"
+                widget: list
+                required: false
+                collapsed: true
+                summary: "{{fields.feature}}"
+                hint: "Danh sách gạch đầu dòng hiện trong trang chi tiết sản phẩm — mỗi dòng là 1 tính năng, viết đầy đủ câu"
+                field: {label: "Tính năng", name: "feature", widget: text}
+
+              # ── 6. Ứng dụng / lĩnh vực sử dụng ──
+              - label: "🏭 Applications (lĩnh vực ứng dụng)"
+                name: "apps"
+                widget: list
+                required: false
+                collapsed: true
+                summary: "{{fields.app}}"
+                hint: "Các lĩnh vực/ngành mà sản phẩm này thường được dùng — hiện dạng nhãn trong trang chi tiết"
+                field: {label: "Lĩnh vực", name: "app", widget: string}
+
+              # ── 7. Bảng thông số kỹ thuật ──
               - label: "⚙️ Bảng thông số kỹ thuật"
                 name: "specs"
                 widget: list

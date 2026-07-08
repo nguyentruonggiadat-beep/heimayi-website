@@ -66,6 +66,21 @@
           "label": "Protection rating",
           "value": "IP67 / IP68"
         }
+      ],
+      "features": [
+        "High accuracy: temperature ±0.3°C, pressure ±0.5% FS (±0.25% FS optional) — pipeline monitoring without dedicated instruments",
+        "Surface-mount temperature sensor: installs on pipe exterior — no cutting, no welding, no process interruption",
+        "Battery-powered wireless version: standby <2.5 µA, battery life >6 years; no communication cable required",
+        "Wide environmental adaptability: high/low temperature, corrosion, HVAC, agriculture, underground pipelines",
+        "Flexible communication: M-Bus / RS485 / 4G / LoRa to suit any data system",
+        "IP67 / IP68 — outdoor, underground and submersion-rated"
+      ],
+      "apps": [
+        "District Heating Pipelines",
+        "Water Supply Pipelines",
+        "Gas Pipelines",
+        "Agricultural Monitoring",
+        "Pipeline Monitoring"
       ]
     },
     {
@@ -137,6 +152,21 @@
           "label": "Protection rating",
           "value": "IP68"
         }
+      ],
+      "features": [
+        "Edge computing: data processed locally — end-to-end latency 10~50 ms, no cloud round-trip needed",
+        "Supports diverse sensors: temperature, humidity, pressure, liquid level, CH₄, H₂S, CO for comprehensive monitoring",
+        "Ultra-low standby current <2 µA — Lithium battery life up to 10 years",
+        "Flexible communication: 4G uplink; RS485 / M-Bus / 4-20mA analogue downlink",
+        "Compact 194×135×50mm wall-mount enclosure — deploys in any tight space without complex wiring",
+        "IP68 and EMI-resistant — durable in harsh outdoor and underground environments"
+      ],
+      "apps": [
+        "Smart Communities",
+        "Smart Buildings",
+        "Smart Agriculture",
+        "Smart Water Mgmt",
+        "Smart City Infrastructure"
       ]
     },
     {
@@ -216,6 +246,21 @@
           "label": "Protection rating",
           "value": "IP54 (standard); IP65 optional"
         }
+      ],
+      "features": [
+        "Supports remote online upgrade and remote operation & maintenance management",
+        "Wide compatibility: simultaneously manages water, electricity, heat and flow meters on one concentrator",
+        "High-reliability automation: periodic auto meter reading, auto protocol parsing, offline operation and local data backup",
+        "Built-in web server: manage concentrator and set parameters from any PC browser",
+        "Hardware watchdog: auto-resets system after fault or power failure — no manual intervention needed",
+        "Open secondary development interfaces — easily integrates with third-party meter management platforms"
+      ],
+      "apps": [
+        "District Metering Areas",
+        "Campus & Industrial Parks",
+        "Residential Communities",
+        "Municipal Water Networks",
+        "Gas Utility Networks"
       ]
     }
   ]

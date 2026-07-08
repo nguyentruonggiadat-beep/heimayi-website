@@ -70,6 +70,23 @@
           "label": "Sealing material",
           "value": "SS304 / FEPM (silicon-free)"
         }
+      ],
+      "features": [
+        "Multi-stage precision gear drive with superior transmission accuracy for exact positioning and control",
+        "Control range configurable anywhere along full mechanical travel, covering both opening and closing directions",
+        "Supports linear and equal-percentage flow characteristics, compatible with various media and control curves",
+        "Stable operation from −20°C to 70°C; suitable for industrial, HVAC, building, and chemical pipeline environments",
+        "Dual output: fault signal output + visual alarm indicator light",
+        "Motor torque protected via electric actuator control, eliminating traditional mechanical travel switches",
+        "Accepts 4-20mA, 0-10V, digital, and Modbus signals; optional infrared remote control",
+        "Integrates multiple function modules; connects directly to building automation systems"
+      ],
+      "apps": [
+        "HVAC & Building Automation",
+        "District Heating",
+        "Water Treatment",
+        "Chemical Process",
+        "Steam Systems"
       ]
     },
     {
@@ -149,6 +166,23 @@
           "label": "Power supply",
           "value": "AC 220V (50/60Hz) or DC 24V"
         }
+      ],
+      "features": [
+        "Compact design with large flow capacity (high Cv value), space-saving for large-diameter pipelines",
+        "High adjustment accuracy with fast response, meeting precise process parameter control requirements",
+        "Strong adaptability to high-temperature, high-pressure, and corrosive media; hard-sealed version for steam/hot water",
+        "Straight-through flow design: pressure loss coefficient ≤0.5, much lower than ball valves",
+        "Full-travel response time 3–10 seconds for fast and precise control",
+        "W-body design filters particles and fibers, suitable for special media like paper pulp (slurry)",
+        "Smart protection: dual limit switch (mechanical + electronic), over-temperature/over-pressure alarm, auto parameter setting",
+        "Long service life: small contact area between ball and seat reduces friction and corrosion"
+      ],
+      "apps": [
+        "HVAC Chiller Systems",
+        "Municipal Water Supply",
+        "Industrial Process",
+        "Power Generation",
+        "Wastewater Treatment"
       ]
     },
     {
@@ -219,6 +253,21 @@
           "label": "Protection rating",
           "value": "IP65 (standard); IP67 / IP68 optional"
         }
+      ],
+      "features": [
+        "Precise mixing ratio control: mixing/diverting accuracy ±1%, continuous blending from 0–100%; flow direction switch ≤5 seconds",
+        "Monolithic three-way valve body: no additional piping required, minimising leakage risk; pressure loss ≤0.8",
+        "Wide turndown ratio 50:1 standard (100:1 high-end); supports equal-percentage and linear flow characteristics",
+        "High sealing grade, virtually zero leakage: disc and seat are wear-resistant with service life ≥100,000 cycles",
+        "Compatible with water, oil, steam, acid/base solutions; explosion-proof version for hazardous conditions",
+        "Supports Modbus/HART communication protocols with analogue signal input"
+      ],
+      "apps": [
+        "Chiller Blending",
+        "District Heating",
+        "Process Switching",
+        "Chemical Industry",
+        "Pharmaceutical"
       ]
     },
     {
@@ -278,6 +327,20 @@
           "label": "Service life",
           "value": "100,000 cycles"
         }
+      ],
+      "features": [
+        "Wired transmission: stable, high anti-interference performance",
+        "Low power consumption: simple circuit structure with low maintenance cost; supports quick-connect option",
+        "RS485 Modbus communication protocol for direct BMS or PLC integration",
+        "Precision metal gear: compact size, open/close at any angle 0–100%, accuracy ±1%",
+        "Rated for 100,000 open/close cycles — outlasts most HVAC systems"
+      ],
+      "apps": [
+        "Smart Home",
+        "Fan Coil Units",
+        "Small HVAC",
+        "Laboratory",
+        "Light Industrial"
       ]
     },
     {
@@ -333,6 +396,21 @@
           "label": "Service life",
           "value": "100,000 cycles"
         }
+      ],
+      "features": [
+        "Wireless installation: no wiring required, reducing construction costs",
+        "Multi-protocol compatibility: LoRaWAN / 4G wireless for easy integration and expansion",
+        "Low power consumption with long operating life; suitable for applications without continuous power supply",
+        "OTA firmware upgrades over the air — no field service required",
+        "Bluetooth commissioning app for on-site setup and diagnostics",
+        "100,000-cycle rated — same durability as wired version"
+      ],
+      "apps": [
+        "Retrofit HVAC",
+        "Remote Locations",
+        "Smart Agriculture",
+        "Smart City",
+        "Building IoT"
       ]
     },
     {
@@ -400,6 +478,23 @@
           "label": "Working pressure",
           "value": "0.2–10 bar (2–100 m water column)"
         }
+      ],
+      "features": [
+        "Independent solar power: 10–20W monocrystalline panel (efficiency ≥22%) with 7–15 day battery backup",
+        "Ultra-low power design: static current ≤50µA, auto-switches between solar charging and battery",
+        "Supports 4G/LoRaWAN wireless communication with coverage up to 3–10 km",
+        "Flexible control: adjust valve opening 0–100% via smartphone app or web browser",
+        "Integrates soil moisture and rainfall sensors for demand-based smart irrigation",
+        "Real-time monitoring: reports valve status, battery level, and environmental parameters",
+        "Automatic fault detection: self-detects valve jamming, communication failure, low battery",
+        "Comprehensive protection: over-flow, over-pressure, low-battery, short-circuit, reverse-polarity protection"
+      ],
+      "apps": [
+        "Agricultural Irrigation",
+        "Landscape Watering",
+        "Greenhouse Automation",
+        "Remote Fields",
+        "Smart Farming"
       ]
     }
   ]

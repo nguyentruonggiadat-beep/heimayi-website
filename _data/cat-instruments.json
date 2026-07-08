@@ -58,6 +58,23 @@
           "label": "Installation method",
           "value": "Threaded / Flange / Snap-on clamp"
         }
+      ],
+      "features": [
+        "Compact integrated design: small size for confined spaces such as equipment rooms, pipe slots, and small vessels",
+        "Quick installation: supports threaded, snap-on, or flange connection; no additional accessories required",
+        "High accuracy ±0.1°C with automatic non-linear compensation for thermocouple/RTD drift",
+        "EMC-compliant circuit with strong resistance to electromagnetic interference, voltage fluctuations, and RF noise",
+        "Multiple output types: supports 4-20mA analogue, digital, or hybrid; compatible with HART, Modbus, direct PLC/DCS",
+        "Optional LCD screen shows measured temperature value with local and remote viewing support",
+        "High protection: IP65/IP67 rated, dust-proof, waterproof, and corrosion-resistant",
+        "Low power consumption: reduces energy usage over 30% compared to conventional transmitters"
+      ],
+      "apps": [
+        "Water Treatment Plants",
+        "Power & Energy",
+        "Oil & Gas",
+        "Chemical Plants",
+        "Industrial Automation"
       ]
     },
     {
@@ -133,6 +150,22 @@
           "label": "Data buffer",
           "value": "1,000 historical records"
         }
+      ],
+      "features": [
+        "In-head installation: mounts directly in sensor connection head, 4-20mA output; cost-effective with strong EMI immunity",
+        "Automatic cold-junction compensation for thermocouple input",
+        "High accuracy ±0.1°C to ±0.5°C; repeatability ≤0.1%; silicone-sealed structure for vibration and moisture resistance",
+        "Multiple communication options: LoRaWAN, NB-IoT, 4G, RS485, 4-20mA in one device",
+        "Compatible with industrial control systems: Modbus, HART protocols; integrates with PLC, DCS, SCADA",
+        "Flexible power supply: supports 3.6V battery or external DC 9–36V",
+        "Battery life ≥5 years at ambient temperature / ≥18 months at −30°C"
+      ],
+      "apps": [
+        "District Heating",
+        "Power & Energy",
+        "Oil & Gas",
+        "Chemical Process",
+        "Pharmaceutical"
       ]
     },
     {
@@ -196,6 +229,21 @@
           "label": "Explosion-proof rating",
           "value": "Exd IIC T6 Ga / Ex ia IIC T6 Ga (optional)"
         }
+      ],
+      "features": [
+        "Micro-integrated structure: compact, easy pipeline installation from DN25; supports clamp and flange mounting",
+        "Flexible materials: 316L stainless steel, Hastelloy C-276, or ceramic; meets GMP hygiene standards; IP67/IP68",
+        "Integrated temperature compensation and overload resistance: ±0.1% FS accuracy from −40°C to 85°C; withstands 3× rated pressure",
+        "Self-diagnostics and data protection: auto-detects sensor breaks, over-range; data protection on power loss",
+        "Multiple interfaces: 4-20mA analogue, RS485 (Modbus), HART 7.0; integrates with PLC, DCS, and IoT platforms",
+        "Wide measurement range: 0 to 100 MPa customisable; supports gauge, absolute, and differential pressure"
+      ],
+      "apps": [
+        "Oil & Gas / Chemicals",
+        "Power & Energy",
+        "Water Treatment",
+        "Food & Pharmaceutical",
+        "Industrial Automation"
       ]
     },
     {
@@ -255,6 +303,21 @@
           "label": "Protection rating",
           "value": "IP65 (threaded); IP67 (cable)"
         }
+      ],
+      "features": [
+        "High-accuracy silicon sensor: supports thin-film and diffused silicon sensors; accuracy up to ±0.075% FS",
+        "HART 7.0 remote calibration, parameter setting, and status monitoring without site visit",
+        "Industrial IoT connectivity: uploads pressure data to cloud platform for real-time monitoring",
+        "High durability: strong overload capacity, stable output in variable temperature, vibration, and impact conditions",
+        "Comprehensive protection: up to IP67/IP68; dust-proof, waterproof, and corrosion-resistant",
+        "Data continuity: parameters retained after power restoration; non-volatile EEPROM memory"
+      ],
+      "apps": [
+        "Food & Pharmaceutical",
+        "Power & Energy",
+        "Oil & Gas",
+        "HVAC & Building Automation",
+        "Process Control"
       ]
     },
     {
@@ -322,6 +385,22 @@
           "label": "Protection rating",
           "value": "IP65 / IP67"
         }
+      ],
+      "features": [
+        "Advanced composite sensor: single-crystal silicon or diffused silicon; ±0.075% FS accuracy",
+        "Wide turndown ratio up to 100:1; covers micro DP (0–1 kPa) to high DP (0–10 MPa) in one transmitter",
+        "Excellent long-term stability: drift better than 0.1%/year, reducing calibration frequency",
+        "Remote configuration and calibration via HART, Modbus without on-site manual operation",
+        "Non-volatile EEPROM memory: calibration data retained during power loss",
+        "Corrosion-resistant diaphragm: 316L stainless steel, Hastelloy C, Monel, or Tantalum for corrosive media",
+        "Self-diagnostics: monitors sensor status, circuit, and communication with 100ms alarm response"
+      ],
+      "apps": [
+        "HVAC & Building Automation",
+        "Food & Pharmaceutical",
+        "Power & Energy",
+        "Oil & Gas",
+        "Filter Monitoring"
       ]
     },
     {
@@ -385,6 +464,22 @@
           "label": "Protection rating",
           "value": "IP67 (standard); IP68 (optional)"
         }
+      ],
+      "features": [
+        "High accuracy: ±0.1% FS for precise liquid level measurement across most industrial scenarios",
+        "Integrated compensation: auto-corrects for temperature and pressure variations for stable data",
+        "Multi-protocol support: 4-20mA with HART, Modbus; compatible with PLC, DCS, and industrial automation systems",
+        "Flexible diaphragm materials: 316L, Hastelloy C-276, Tantalum, PTFE; customisable for high-temp and sanitary use",
+        "Strong EMI resistance: multi-frequency RF filter counters electromagnetic interference in industrial environments",
+        "Solid protection: IP68 rated housing resists dust and contaminated water ingress",
+        "Easy installation and calibration: standard flange connection; supports zero and span calibration via HART"
+      ],
+      "apps": [
+        "Food & Beverage Processing",
+        "Pharmaceutical",
+        "Oil & Gas",
+        "Storage Tank Industries",
+        "Water Treatment"
       ]
     },
     {
@@ -452,6 +547,23 @@
           "label": "Protection rating",
           "value": "IP67 / IP68"
         }
+      ],
+      "features": [
+        "Submersible design: sensor immersed directly without complex installation; suitable for tanks, rivers, deep wells",
+        "High accuracy: isolated diffused silicon or capacitive sensor with ±0.1% FS full-scale accuracy",
+        "Auto temperature compensation: integrated sensor auto-corrects for liquid density changes from −40°C to 125°C",
+        "Corrosion-resistant and explosion-proof: 316L stainless steel or PVDF; Exd II CT6 option for hazardous environments",
+        "Rigid, durable structure: no moving parts; shock-resistant and vibration-resistant for long service life",
+        "Multiple output signals: 4-20mA, 0-5V, 0-10V, RS485 for easy PLC/DCS integration",
+        "Wireless 4G transmission option: direct interaction with monitoring platforms, no RTU required",
+        "Comprehensive protection: reverse polarity, over-current/over-pressure, and EMI protection built-in"
+      ],
+      "apps": [
+        "Food Processing",
+        "Water Quality & Oil Exploration",
+        "Oil & Gas",
+        "Irrigation & Agriculture",
+        "Industrial Process Control"
       ]
     },
     {
@@ -523,6 +635,24 @@
           "label": "Process connection",
           "value": "Threaded / Universal flange / Anti-corrosion flange / Sanitary clamp"
         }
+      ],
+      "features": [
+        "Self-developed millimetre-wave CMOS RF chip: higher SNR, smaller dead zone, cleaner RF structure",
+        "Wide 5 GHz bandwidth for high resolution and measurement accuracy",
+        "Horn antenna design: narrow beam angle, focused energy, minimises false echoes inside tanks",
+        "Non-contact measurement: no media contamination, no wear, no maintenance; service life over 10 years",
+        "On-site calibration via mobile phone Bluetooth — no laptop required",
+        "Multiple interface support: 4-20mA/HART or RS485/Modbus",
+        "Works on any media with dielectric constant ≥2; temperature range −40°C to +300°C",
+        "Self-diagnostics and protection: auto-monitoring with full-system fault alerts; reverse polarity protection"
+      ],
+      "apps": [
+        "Metallurgy",
+        "Food & Pharmaceutical",
+        "Oil & Gas",
+        "Grain Storage",
+        "Mining & Coal",
+        "Water Treatment & Environment"
       ]
     }
   ]

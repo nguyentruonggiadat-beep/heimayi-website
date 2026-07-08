@@ -67,6 +67,21 @@
           "label": "Mechanical lock",
           "value": "Customisable (matched with full manhole cover system)"
         }
+      ],
+      "features": [
+        "Multi-state real-time monitoring: tilt, displacement and vibration sensors detect unauthorised opening — triggers instant audio/visual alert and platform notification",
+        "Smart remote control: 4G + Bluetooth communication; remote lock/unlock of cover (integrated-lock variant)",
+        "Precise GPS / BeiDou positioning for rapid dispatch to exact fault or missing-cover location",
+        "High-strength composite housing (helmet-grade material): impact-resistant, corrosion-resistant; IP67 / IP68",
+        "Predictive maintenance: low-battery alarm and self-diagnostic; auto-generates maintenance reports",
+        "Flexible expansion: add water-level sensor, CH₄ gas sensor, temperature, humidity as required"
+      ],
+      "apps": [
+        "Urban Drainage Networks",
+        "Smart City Infrastructure",
+        "Municipal Road Mgmt",
+        "Underground Utilities",
+        "Flood Prevention"
       ]
     },
     {
@@ -119,6 +134,22 @@
           "label": "Protection rating",
           "value": "IP65–IP68"
         }
+      ],
+      "features": [
+        "BeiDou satellite positioning with LBS and BLE supplementary — 1~10m accuracy in open environments",
+        "Vibration + tilt sensors for real-time cargo safety: immediate alerts on drops, collisions, tilts or theft attempts",
+        "4G real-time data upload to cloud platform and mobile app for live fleet management dashboards",
+        "Intelligent BLE low-power mode switching — 7~10 day standby battery life (customisable for longer duration)",
+        "AA battery power supply: significantly safer than lithium-ion, reduces fire and hazmat risk for cargo shipments",
+        "Custom geo-fencing: automatic alert when cargo leaves defined route or enters/exits a designated zone",
+        "API integration: seamlessly connects with existing ERP, WMS and logistics management systems"
+      ],
+      "apps": [
+        "Cold Chain Logistics",
+        "High-value Cargo Tracking",
+        "Returnable Packaging",
+        "Fleet Management",
+        "Port & Warehouse Logistics"
       ]
     }
   ]
