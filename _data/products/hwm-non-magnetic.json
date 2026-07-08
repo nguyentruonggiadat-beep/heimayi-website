@@ -1,0 +1,101 @@
+{
+  "code": "HWM Non-magnetic",
+  "name": "HWM IoT Non-magnetic Water Meter",
+  "desc": "Non-magnetic impeller IoT water meter — interference-resistant, remote data transmission.",
+  "overview": "The HWM Non-magnetic IoT Water Meter uses a proprietary non-contact electronic sensing element that eliminates reliance on magnetic sensing. This makes it completely immune to strong-magnet tampering attacks — one of the most common forms of meter fraud. Liquid crystal display shows reading, battery status and signal strength. Bi-directional NB-IoT / 4G communication.",
+  "image": "images/hwm_nonmagnetic.png",
+  "tags": [
+    "DN15–DN25",
+    "Anti-tamper",
+    "NB-IoT / 4G",
+    "IP68"
+  ],
+  "specs": [
+    {
+      "label": "Pipe size",
+      "value": "DN15 / DN20 / DN25"
+    },
+    {
+      "label": "Accuracy class (mechanical)",
+      "value": "Class B / Class E1"
+    },
+    {
+      "label": "Accuracy class (electronics)",
+      "value": "Class 2"
+    },
+    {
+      "label": "Temperature range",
+      "value": "0.1°C – 30°C"
+    },
+    {
+      "label": "Max working pressure",
+      "value": "≤1 MPa"
+    },
+    {
+      "label": "Allowable pressure loss",
+      "value": "≤0.063 MPa"
+    },
+    {
+      "label": "Flow error at low flow (Q1≤Q<Q2)",
+      "value": "±5% (T≤30°C); ±3% (T>30°C)"
+    },
+    {
+      "label": "Flow error at high flow (Q2≤Q≤Q4)",
+      "value": "±2%"
+    },
+    {
+      "label": "Turndown ratio R (DN15)",
+      "value": "80 or 100"
+    },
+    {
+      "label": "Max flow Q4 (DN15, R80)",
+      "value": "3.1 m³/h"
+    },
+    {
+      "label": "Min flow Q1 (DN15, R80)",
+      "value": "0.050 m³/h"
+    },
+    {
+      "label": "Starting flow Qs (DN15, R80)",
+      "value": "0.031 m³/h"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 3.6V"
+    },
+    {
+      "label": "Sensing method",
+      "value": "Non-contact electronic sensor (no reed switch); direct impulse reading"
+    },
+    {
+      "label": "Communication",
+      "value": "NB-IoT / 4G"
+    },
+    {
+      "label": "Display range",
+      "value": "0.0001–9,999,999 m³"
+    },
+    {
+      "label": "Standard",
+      "value": "GB/T 778 / CJ/T 133"
+    }
+  ],
+  "features": [
+    "Non-contact electronic sensing immune to magnetic tampering — most secure against common water meter fraud",
+    "Self-developed non-contact sensor directly reads pulse signal from impeller rotation for high accuracy",
+    "Young-sampling anti-interference technology filters pipeline vibration and hydraulic hammering in real time",
+    "Ultra-low power with high-density Li-SOCl₂ battery; battery life up to 6+ years",
+    "IP68 rated; fully epoxy-encapsulated; withstands extended flooding of meter pit",
+    "Two-way NB-IoT / 4G for remote parameter updates and valve control",
+    "LCD display: water usage, battery level, signal strength — visible in any lighting"
+  ],
+  "apps": [
+    "High-Security Metering",
+    "Anti-tamper Zones",
+    "Residential Communities",
+    "Municipal Water",
+    "Industrial Parks"
+  ],
+  "category": "iot-water-meters",
+  "theme": "dark"
+}

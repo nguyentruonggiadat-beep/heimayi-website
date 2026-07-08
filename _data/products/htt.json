@@ -1,0 +1,93 @@
+{
+  "code": "HTT",
+  "name": "HTT Series Temperature Transmitter",
+  "desc": "Thermocouple & RTD transmitter, 2-wire 4-20mA, LoRaWAN/NB-IoT/4G/RS485/HART/Modbus, IP65, battery or DC 9V~36V.",
+  "overview": "The HTT Series 2-wire temperature transmitter supports both thermocouple (TC) and RTD (PT100/PT1000) sensors. It installs directly in the sensor junction box, sharing the 4-20mA signal line as a power supply — eliminating expensive cabling. Multi-protocol wireless options (LoRaWAN, NB-IoT, 4G) available for remote transmission over kilometres.",
+  "image": "images/htt.png",
+  "tags": [
+    "−40°C to 150°C",
+    "±0.1–0.5°C",
+    "LoRaWAN / NB-IoT / 4G / RS485",
+    "IP65 · Ex rated"
+  ],
+  "specs": [
+    {
+      "label": "Measurement range",
+      "value": "−40°C – 150°C (default)"
+    },
+    {
+      "label": "Accuracy",
+      "value": "±0.1°C – ±0.5°C"
+    },
+    {
+      "label": "Long-term drift",
+      "value": "≤0.1°C / year"
+    },
+    {
+      "label": "Response time",
+      "value": "≤18 s (at 1 m/s wind speed)"
+    },
+    {
+      "label": "Communication",
+      "value": "LoRaWAN / NB-IoT / 4G / RS485 / 4-20mA"
+    },
+    {
+      "label": "Protocol",
+      "value": "Modbus / HART"
+    },
+    {
+      "label": "Power supply",
+      "value": "Li-SOCl₂ 3.6V (38 Ah) or external DC 9–36V"
+    },
+    {
+      "label": "Battery life",
+      "value": "≥5 years (ambient); ≥18 months (at −30°C)"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP65"
+    },
+    {
+      "label": "Explosion-proof rating",
+      "value": "Exd IIC T6 Gb (optional)"
+    },
+    {
+      "label": "Ambient temperature",
+      "value": "−40°C – 80°C"
+    },
+    {
+      "label": "Housing material",
+      "value": "SS304 / Aluminum alloy"
+    },
+    {
+      "label": "Display",
+      "value": "LCD (temperature / battery / signal status)"
+    },
+    {
+      "label": "Reporting cycle",
+      "value": "1–1,440 min (adjustable)"
+    },
+    {
+      "label": "Data buffer",
+      "value": "1,000 historical records"
+    }
+  ],
+  "features": [
+    "In-head installation: mounts directly in sensor connection head, 4-20mA output; cost-effective with strong EMI immunity",
+    "Automatic cold-junction compensation for thermocouple input",
+    "High accuracy ±0.1°C to ±0.5°C; repeatability ≤0.1%; silicone-sealed structure for vibration and moisture resistance",
+    "Multiple communication options: LoRaWAN, NB-IoT, 4G, RS485, 4-20mA in one device",
+    "Compatible with industrial control systems: Modbus, HART protocols; integrates with PLC, DCS, SCADA",
+    "Flexible power supply: supports 3.6V battery or external DC 9–36V",
+    "Battery life ≥5 years at ambient temperature / ≥18 months at −30°C"
+  ],
+  "apps": [
+    "District Heating",
+    "Power & Energy",
+    "Oil & Gas",
+    "Chemical Process",
+    "Pharmaceutical"
+  ],
+  "category": "instrumentation",
+  "theme": "dark"
+}

@@ -1,0 +1,133 @@
+{
+  "code": "HHU",
+  "name": "HHU Ultrasonic Heat Meter",
+  "desc": "Smart ultrasonic heat/cold energy meter, GB/T32224-2020 & JJG225-2024 compliant, IP65/67/68, RS485/M-Bus/4G/NB-IoT, PT1000 sensor.",
+  "overview": "The HHU Ultrasonic Heat Energy Meter measures heating and cooling energy in district heating, central air conditioning and building energy management systems. Ultrasonic flow measurement means no moving parts, long service life and minimal maintenance. Class 2 accuracy. Supports M-Bus, RS485, NB-IoT and 4G for remote data collection. IP65–IP68 waterproofing.",
+  "image": "images/hhu.png",
+  "tags": [
+    "Class 2",
+    "DN15–DN300",
+    "M-Bus / RS485 / NB-IoT / 4G",
+    "IP65–IP68"
+  ],
+  "specs": [
+    {
+      "label": "Fluid type",
+      "value": "Water / homogeneous single-phase liquid"
+    },
+    {
+      "label": "Accuracy class",
+      "value": "Class 2"
+    },
+    {
+      "label": "Turndown ratio",
+      "value": "Heat meter R=100:1; household R=25:1"
+    },
+    {
+      "label": "Temperature sensor",
+      "value": "PT1000 platinum resistance"
+    },
+    {
+      "label": "Temperature range",
+      "value": "4°C – 95°C"
+    },
+    {
+      "label": "Temperature difference ΔT range",
+      "value": "3K – 75K"
+    },
+    {
+      "label": "Temperature resolution",
+      "value": "0.01°C"
+    },
+    {
+      "label": "Nominal pressure",
+      "value": "1.0 MPa (1.6 MPa and 2.5 MPa supported)"
+    },
+    {
+      "label": "Pressure loss",
+      "value": "<0.015 MPa"
+    },
+    {
+      "label": "Power supply",
+      "value": "Li-ion 3.6V; life >6 years"
+    },
+    {
+      "label": "Communication",
+      "value": "RS485 / M-Bus (default); 4G / NB-IoT"
+    },
+    {
+      "label": "Protocol",
+      "value": "Modbus / T188 / customisable"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP65 / IP67 / IP68"
+    },
+    {
+      "label": "Environmental class",
+      "value": "Class A"
+    },
+    {
+      "label": "Flow DN15",
+      "value": "Q1: 0.015 m³/h; Q2: 1.5 m³/h; Q4: 3.0 m³/h"
+    },
+    {
+      "label": "Flow DN20",
+      "value": "Q1: 0.025 m³/h; Q2: 2.5 m³/h; Q4: 5.0 m³/h"
+    },
+    {
+      "label": "Flow DN25",
+      "value": "Q1: 0.035 m³/h; Q2: 3.5 m³/h; Q4: 7.0 m³/h"
+    },
+    {
+      "label": "Flow DN32",
+      "value": "Q1: 0.06 m³/h; Q2: 6.0 m³/h; Q4: 12.0 m³/h"
+    },
+    {
+      "label": "Flow DN40",
+      "value": "Q1: 0.1 m³/h; Q2: 10.0 m³/h; Q4: 20.0 m³/h"
+    },
+    {
+      "label": "Flow DN50",
+      "value": "Q1: 0.6 m³/h; Q2: 15 m³/h; Q4: 30 m³/h"
+    },
+    {
+      "label": "Flow DN65",
+      "value": "Q1: 1 m³/h; Q2: 25 m³/h; Q4: 50 m³/h"
+    },
+    {
+      "label": "Flow DN80",
+      "value": "Q1: 1.6 m³/h; Q2: 40 m³/h; Q4: 80 m³/h"
+    },
+    {
+      "label": "Flow DN100",
+      "value": "Q1: 2.4 m³/h; Q2: 60 m³/h; Q4: 120 m³/h"
+    },
+    {
+      "label": "Flow DN150",
+      "value": "Q1: 6 m³/h; Q2: 150 m³/h; Q4: 300 m³/h"
+    },
+    {
+      "label": "Flow DN200",
+      "value": "Q1: 10 m³/h; Q2: 250 m³/h; Q4: 500 m³/h"
+    }
+  ],
+  "features": [
+    "High-quality imported piezoelectric transducers — stable, consistent ultrasonic signal with no drift over time",
+    "PT1000 platinum resistance temperature sensor + precision circuit — highly accurate ΔT measurement (resolution 0.01°C)",
+    "Self-diagnostic function: detects communication faults, low power, tampering — displays error codes and auto-saves data before shutdown",
+    "Remote data transmission via M-Bus / RS485 / NB-IoT / 4G for centralised billing and energy management",
+    "Detachable design: mountable in any of 4 orientations — easy reading, simple on-site operation",
+    "Dual heating and cooling energy measurement in the same meter — suitable for district heating and central A/C",
+    "IP65 / IP67 / IP68 protection — suitable for damp plant rooms, underground meter pits and outdoor installation"
+  ],
+  "apps": [
+    "District Heating Billing",
+    "Central Air Conditioning",
+    "Building Energy Mgmt",
+    "Hotel & Apartment HVAC",
+    "Industrial Cooling"
+  ],
+  "category": "smart-hvac",
+  "theme": "dark"
+}

@@ -1,0 +1,70 @@
+{
+  "code": "HLL",
+  "name": "HLL Smart Logistics Locator",
+  "desc": "Smart IoT logistics locator with multi-mode positioning (LBS+BLE+BDS), 4G cloud management, IP65–IP68. For cold chain, circular packaging and high-value cargo tracking.",
+  "overview": "The HLL Smart Logistics Locator is an IoT tracking device for cold chain logistics, high-value cargo and returnable packaging management. BeiDou / GPS / LBS tri-mode positioning. Tilt, shock and temperature sensors. 4G real-time data upload. 7–10 day standby battery life. IP65–IP68 for all-weather operation.",
+  "image": "images/hll.png",
+  "tags": [
+    "GPS / BeiDou / LBS",
+    "4G real-time",
+    "Shock & tilt alert",
+    "7–10 day standby",
+    "IP65–IP68"
+  ],
+  "specs": [
+    {
+      "label": "Positioning system",
+      "value": "LBS base station + BeiDou inertial navigation + Bluetooth BLE; BDS (BeiDou) optional"
+    },
+    {
+      "label": "Positioning accuracy",
+      "value": "1–10 m (single-point)"
+    },
+    {
+      "label": "Communication",
+      "value": "4G"
+    },
+    {
+      "label": "Bluetooth version",
+      "value": "BLE 4.2"
+    },
+    {
+      "label": "Power supply",
+      "value": "5× AA alkaline batteries; Li-ion rechargeable optional"
+    },
+    {
+      "label": "Standby time",
+      "value": "7–10 days (customisable for longer)"
+    },
+    {
+      "label": "Operating temperature",
+      "value": "−40°C – 85°C"
+    },
+    {
+      "label": "Humidity",
+      "value": "0–95% RH (non-condensing)"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP65–IP68"
+    }
+  ],
+  "features": [
+    "BeiDou satellite positioning with LBS and BLE supplementary — 1~10m accuracy in open environments",
+    "Vibration + tilt sensors for real-time cargo safety: immediate alerts on drops, collisions, tilts or theft attempts",
+    "4G real-time data upload to cloud platform and mobile app for live fleet management dashboards",
+    "Intelligent BLE low-power mode switching — 7~10 day standby battery life (customisable for longer duration)",
+    "AA battery power supply: significantly safer than lithium-ion, reduces fire and hazmat risk for cargo shipments",
+    "Custom geo-fencing: automatic alert when cargo leaves defined route or enters/exits a designated zone",
+    "API integration: seamlessly connects with existing ERP, WMS and logistics management systems"
+  ],
+  "apps": [
+    "Cold Chain Logistics",
+    "High-value Cargo Tracking",
+    "Returnable Packaging",
+    "Fleet Management",
+    "Port & Warehouse Logistics"
+  ],
+  "category": "smart-city",
+  "theme": "dark"
+}

@@ -1,0 +1,80 @@
+{
+  "code": "HPT Mini",
+  "name": "HPT Series Miniature Pressure Transmitter",
+  "desc": "High-accuracy miniature pressure transmitter, cavity-free direct pipe mounting, gauge/absolute/differential, IP67/IP68, 4-20mA/RS485/HART.",
+  "overview": "The HPT Mini Series miniature pressure transmitter uses silicon micro-fusion and diffused silicon sensing technology for compact, lightweight and highly accurate pressure measurement. The all-stainless-steel structure is suitable for direct pipeline mounting from DN25. IP67/IP68 waterproofing and explosion-proof options (Exd IIC T6 Ga) make it ideal for outdoor and hazardous environments.",
+  "image": "images/hpt_mini.png",
+  "tags": [
+    "0–100 MPa range",
+    "±0.1% FS",
+    "4-20mA / RS485 / HART",
+    "IP67/IP68"
+  ],
+  "specs": [
+    {
+      "label": "Measurement type",
+      "value": "Gauge / Absolute / Differential pressure"
+    },
+    {
+      "label": "Measurement range",
+      "value": "0–1 kPa to 0–100 MPa (customisable)"
+    },
+    {
+      "label": "Accuracy",
+      "value": "±0.1% FS / ±0.25% FS"
+    },
+    {
+      "label": "Medium temperature",
+      "value": "−40°C – +125°C (standard); −196°C – +200°C (optional)"
+    },
+    {
+      "label": "Ambient temperature",
+      "value": "−40°C – +85°C (−60°C low-temp version available)"
+    },
+    {
+      "label": "Overload capacity",
+      "value": "3× rated pressure"
+    },
+    {
+      "label": "Response time",
+      "value": "≤1 ms"
+    },
+    {
+      "label": "Signal output",
+      "value": "4-20mA / RS485 (Modbus) / HART"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 24V"
+    },
+    {
+      "label": "Wetted material",
+      "value": "316L SS / Hastelloy C-276 / Ceramic (optional)"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP67 / IP68"
+    },
+    {
+      "label": "Explosion-proof rating",
+      "value": "Exd IIC T6 Ga / Ex ia IIC T6 Ga (optional)"
+    }
+  ],
+  "features": [
+    "Micro-integrated structure: compact, easy pipeline installation from DN25; supports clamp and flange mounting",
+    "Flexible materials: 316L stainless steel, Hastelloy C-276, or ceramic; meets GMP hygiene standards; IP67/IP68",
+    "Integrated temperature compensation and overload resistance: ±0.1% FS accuracy from −40°C to 85°C; withstands 3× rated pressure",
+    "Self-diagnostics and data protection: auto-detects sensor breaks, over-range; data protection on power loss",
+    "Multiple interfaces: 4-20mA analogue, RS485 (Modbus), HART 7.0; integrates with PLC, DCS, and IoT platforms",
+    "Wide measurement range: 0 to 100 MPa customisable; supports gauge, absolute, and differential pressure"
+  ],
+  "apps": [
+    "Oil & Gas / Chemicals",
+    "Power & Energy",
+    "Water Treatment",
+    "Food & Pharmaceutical",
+    "Industrial Automation"
+  ],
+  "category": "instrumentation",
+  "theme": "dark"
+}

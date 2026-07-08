@@ -1,0 +1,87 @@
+{
+  "code": "HVA",
+  "name": "HVA Electric Ball Valve",
+  "desc": "Quarter-turn electric ball valve for fast open/close operation, compatible with various media types including water, steam and chemicals.",
+  "overview": "The HVA series electric three-way valve is available in T-type (mixing) and L-type (diverting) configurations for chiller blending, district heating and industrial process control. Full-stroke response in ≤5 seconds. Supports HART, Modbus and RS485 with IP65–IP68 protection options.",
+  "image": "images/hva_ball.png",
+  "tags": [
+    "DN15–DN300",
+    "PN16–PN64",
+    "4-20mA / RS485 / Modbus / HART"
+  ],
+  "specs": [
+    {
+      "label": "Nominal diameter",
+      "value": "DN15–DN300 (standard); above DN300 custom"
+    },
+    {
+      "label": "Rated pressure",
+      "value": "PN16 / PN25 / PN40 / PN64"
+    },
+    {
+      "label": "Connection method",
+      "value": "Flange (RF/RTJ), butt weld, socket weld, threaded (small diameter)"
+    },
+    {
+      "label": "Applicable media",
+      "value": "Liquids: water, oil, acid/base; Gas: air, steam; Mixed: hot-cold liquid blend"
+    },
+    {
+      "label": "Valve body material",
+      "value": "Carbon steel / Stainless steel / Duplex steel"
+    },
+    {
+      "label": "Sealing form",
+      "value": "Soft seal (PTFE/EPDM/PPL); Hard seal (Stellite spray weld)"
+    },
+    {
+      "label": "Flow characteristic",
+      "value": "Equal percentage / Linear"
+    },
+    {
+      "label": "Control accuracy",
+      "value": "±1% (standard); ±0.5% (high-accuracy custom)"
+    },
+    {
+      "label": "Response time",
+      "value": "Full stroke: 5–15 s (depending on diameter / torque)"
+    },
+    {
+      "label": "Output torque",
+      "value": "50 N·m – 3,000 N·m (standard); >5,000 N·m custom"
+    },
+    {
+      "label": "Signal input",
+      "value": "4-20mA / 0-10V / RS485"
+    },
+    {
+      "label": "Protocol",
+      "value": "Modbus / HART"
+    },
+    {
+      "label": "Power supply",
+      "value": "AC 220V / 380V or DC 24V"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP65 (standard); IP67 / IP68 optional"
+    }
+  ],
+  "features": [
+    "Precise mixing ratio control: mixing/diverting accuracy ±1%, continuous blending from 0–100%; flow direction switch ≤5 seconds",
+    "Monolithic three-way valve body: no additional piping required, minimising leakage risk; pressure loss ≤0.8",
+    "Wide turndown ratio 50:1 standard (100:1 high-end); supports equal-percentage and linear flow characteristics",
+    "High sealing grade, virtually zero leakage: disc and seat are wear-resistant with service life ≥100,000 cycles",
+    "Compatible with water, oil, steam, acid/base solutions; explosion-proof version for hazardous conditions",
+    "Supports Modbus/HART communication protocols with analogue signal input"
+  ],
+  "apps": [
+    "Chiller Blending",
+    "District Heating",
+    "Process Switching",
+    "Chemical Industry",
+    "Pharmaceutical"
+  ],
+  "category": "electric-valves",
+  "theme": "light"
+}

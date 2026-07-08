@@ -1,0 +1,86 @@
+{
+  "code": "HVA IoT",
+  "name": "HVA Unit IoT Intelligent Valve",
+  "desc": "IoT flow balance valve for centralized cooling/heating networks. Integrates temperature sensing, M-Bus/RS485/NB-IoT/4G/LoRa for whole-network hydraulic balance.",
+  "overview": "The HVA IoT Intelligent Valve is designed for centralized chilled water and district heating networks. It connects to the cloud via M-Bus, NB-IoT, 4G or LoRa and performs real-time hydraulic balancing across building units — adjusting valve position based on return temperature to prevent over-cooling / over-heating. Large built-in battery (38,000 mAh) provides years of wireless operation.",
+  "image": "images/hva_iot.png",
+  "tags": [
+    "DN40–DN400",
+    "M-Bus / NB-IoT / 4G / LoRa",
+    "38,000 mAh battery",
+    "IP65–IP68"
+  ],
+  "specs": [
+    {
+      "label": "Nominal diameter",
+      "value": "V901 (M-Bus/RS485): DN40–DN400; V902 (NB-IoT/4G/LoRa): DN40–DN150"
+    },
+    {
+      "label": "Communication V901",
+      "value": "M-Bus / RS485"
+    },
+    {
+      "label": "Communication V902",
+      "value": "NB-IoT / 4G / LoRa"
+    },
+    {
+      "label": "Actuator torque",
+      "value": "80 N·m / 120 N·m (standard); 250 / 500 / 1,000 N·m (custom)"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 24V / Battery"
+    },
+    {
+      "label": "Battery capacity",
+      "value": "38,000 mAh (standard); 76,000 mAh (optional)"
+    },
+    {
+      "label": "Static power consumption",
+      "value": "<6 mA (wired); <10 µA (wireless)"
+    },
+    {
+      "label": "Water medium temperature",
+      "value": "0°C – 95°C"
+    },
+    {
+      "label": "Body material",
+      "value": "SS304 / Carbon steel / Cast iron"
+    },
+    {
+      "label": "Actuator housing",
+      "value": "Die-cast aluminum alloy"
+    },
+    {
+      "label": "Service life",
+      "value": "100,000 cycles"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP65 (standard); IP68 (optional)"
+    },
+    {
+      "label": "Aperture control",
+      "value": "1% step; 0–100% full-range proportional"
+    }
+  ],
+  "features": [
+    "High-precision 40Cr steel gear train: more durable than powder metallurgy — high torque, low loss",
+    "Large motor starting torque with low temperature rise — reliable cold-start in low-ambient conditions",
+    "Default M-Bus communication; selectable NB-IoT / 4G / RS485 / LoRa without hardware change",
+    "Integrated on-site manual switch and position scale — valve position readable and adjustable without tools",
+    "SS304 high-strength valve body and ball — superior corrosion and wear resistance for long service life",
+    "Monthly auto-exercise (optional): prevents scale build-up and mechanical seizure",
+    "Valve retains last position on power failure or communication loss — safe fail-stay behaviour",
+    "1% aperture step adjustment, 0–100% full-range proportional control"
+  ],
+  "apps": [
+    "Centralized Chilled Water",
+    "District Heating Networks",
+    "Large Residential Complexes",
+    "Campus Buildings",
+    "Smart Energy Mgmt"
+  ],
+  "category": "smart-hvac",
+  "theme": "dark"
+}

@@ -3181,25 +3181,39 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(
 
 /* ── PRODUCT LOADER (reads from _data/cat-*.json, edited via /admin CMS) ── */
 (async function loadProducts() {
-  const FILES = {
-    'cat-valves': '_data/cat-valves.json',
-    'cat-instruments': '_data/cat-instruments.json',
-    'cat-flow': '_data/cat-flow.json',
-    'cat-water': '_data/cat-water.json',
-    'cat-data': '_data/cat-data.json',
-    'cat-city': '_data/cat-city.json',
-    'cat-hvac': '_data/cat-hvac.json'
+  // Each product now lives in its own file under _data/products/ (one file
+  // per product, edited individually via /admin). _data/products/index.json
+  // lists which files exist — Netlify regenerates it on every build via
+  // scripts/build-manifest.js, so newly added/removed products always show
+  // up without any manual step.
+  const CATEGORY_TO_ID = {
+    'electric-valves': 'cat-valves',
+    'instrumentation': 'cat-instruments',
+    'flow-meters': 'cat-flow',
+    'iot-water-meters': 'cat-water',
+    'data-collection': 'cat-data',
+    'smart-city': 'cat-city',
+    'smart-hvac': 'cat-hvac'
   };
   let ALL;
   try {
-    const entries = await Promise.all(Object.entries(FILES).map(async ([catId, url]) => {
-      const res = await fetch(url, { cache: 'no-store' });
-      if (!res.ok) throw new Error('fetch failed: ' + url);
-      return [catId, await res.json()];
+    const manifestRes = await fetch('_data/products/index.json', { cache: 'no-store' });
+    if (!manifestRes.ok) throw new Error('fetch failed: _data/products/index.json');
+    const files = await manifestRes.json();
+    const products = await Promise.all(files.map(async (fn) => {
+      const res = await fetch('_data/products/' + fn, { cache: 'no-store' });
+      if (!res.ok) throw new Error('fetch failed: _data/products/' + fn);
+      return res.json();
     }));
-    ALL = Object.fromEntries(entries);
+    ALL = {};
+    products.forEach((p) => {
+      const catId = CATEGORY_TO_ID[p.category];
+      if (!catId) return;
+      if (!ALL[catId]) ALL[catId] = { theme: p.theme || 'light', products: [] };
+      ALL[catId].products.push(p);
+    });
   } catch (err) {
-    // Fallback: embedded snapshot (keeps the site working if _data/*.json is unreachable)
+    // Fallback: embedded snapshot (keeps the site working if _data/products/* is unreachable)
     console.warn('Falling back to embedded product-data:', err);
     ALL = JSON.parse(document.getElementById('product-data').textContent);
   }

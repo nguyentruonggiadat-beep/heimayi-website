@@ -1,0 +1,68 @@
+{
+  "code": "HWC Direct",
+  "name": "HWC IoT Camera Direct Reading Module",
+  "desc": "AI camera module for small mechanical meter retrofit. >99% image recognition accuracy, LPWAN+NB-IoT, IP68, 6-year battery life.",
+  "overview": "The HWC IoT Camera Direct-reading Module uses AI image recognition based on deep learning to read any mechanical water meter dial — no replacement of the original meter needed. Accuracy rate >99%. Reading in <3 seconds. Detachable from the meter for easy replacement. Combined LPWAN network (NB-IoT gateway) to reduce infrastructure cost. Battery life up to 6 years.",
+  "image": "images/hwc_direct.png",
+  "tags": [
+    "Retrofit any meter",
+    "AI >99% accuracy",
+    "NB-IoT / LoRaWAN",
+    "IP68"
+  ],
+  "specs": [
+    {
+      "label": "Power supply",
+      "value": "3.6V (built-in battery)"
+    },
+    {
+      "label": "Standby current",
+      "value": "<3 µA; max operating current <30 mA"
+    },
+    {
+      "label": "Operating temperature",
+      "value": "−25°C – 65°C"
+    },
+    {
+      "label": "Recognition rate",
+      "value": ">99%"
+    },
+    {
+      "label": "Reading time",
+      "value": "<3 seconds"
+    },
+    {
+      "label": "Communication speed",
+      "value": "Up to 200 kbps (LPWAN)"
+    },
+    {
+      "label": "RF sensitivity",
+      "value": "−112 dBm"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP68"
+    },
+    {
+      "label": "Communication",
+      "value": "NB-IoT"
+    }
+  ],
+  "features": [
+    "Retrofits any existing mechanical water meter — no pipe work, no meter replacement",
+    "Advanced image AI recognition: >99% accuracy on any dial layout or font",
+    "Fully detachable from meter — battery or module replaceable independently and reusable",
+    "Battery life up to 6 years — no frequent site visits required",
+    "Free-band LPWAN network combined with NB-IoT reduces per-meter communication cost",
+    "Data collected as binary code / original image / meter reading — zero transcription error"
+  ],
+  "apps": [
+    "Retrofit Legacy Meters",
+    "Rural Water Supply",
+    "Community Metering",
+    "Industrial Meter Upgrades",
+    "Smart City Water"
+  ],
+  "category": "iot-water-meters",
+  "theme": "dark"
+}

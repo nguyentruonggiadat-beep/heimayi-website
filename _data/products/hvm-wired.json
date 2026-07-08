@@ -1,0 +1,75 @@
+{
+  "code": "HVM Wired",
+  "name": "HVM Wired Miniature Ball Valve",
+  "desc": "Compact wired remote-control miniature ball valve for small-scale control systems.",
+  "overview": "The HVM Wired miniature electric ball valve is designed for small-scale fluid control in smart homes, HVAC fan coil units and light industrial applications. RS485 / Modbus communication. 100,000-cycle rated. Compact brass body for tight installation spaces.",
+  "image": "images/hvm_wired.png",
+  "tags": [
+    "DN8–DN40",
+    "DC 12–24V",
+    "100,000 cycles",
+    "RS485 Modbus"
+  ],
+  "specs": [
+    {
+      "label": "Nominal diameter",
+      "value": "DN8 / DN15 / DN20 / DN25 / DN32 / DN40"
+    },
+    {
+      "label": "Communication",
+      "value": "RS485 (Modbus)"
+    },
+    {
+      "label": "Working voltage",
+      "value": "DC 12–24V"
+    },
+    {
+      "label": "Opening degree control",
+      "value": "0–100%"
+    },
+    {
+      "label": "Control accuracy",
+      "value": "±1%"
+    },
+    {
+      "label": "Valve torque",
+      "value": "3.5–4.5 N·m"
+    },
+    {
+      "label": "Static power consumption",
+      "value": "<6 mA (static); <22 mA (dynamic)"
+    },
+    {
+      "label": "Water medium temperature",
+      "value": "0°C – 100°C"
+    },
+    {
+      "label": "Ambient temperature",
+      "value": "−20°C – 45°C"
+    },
+    {
+      "label": "Body material",
+      "value": "Brass"
+    },
+    {
+      "label": "Service life",
+      "value": "100,000 cycles"
+    }
+  ],
+  "features": [
+    "Wired transmission: stable, high anti-interference performance",
+    "Low power consumption: simple circuit structure with low maintenance cost; supports quick-connect option",
+    "RS485 Modbus communication protocol for direct BMS or PLC integration",
+    "Precision metal gear: compact size, open/close at any angle 0–100%, accuracy ±1%",
+    "Rated for 100,000 open/close cycles — outlasts most HVAC systems"
+  ],
+  "apps": [
+    "Smart Home",
+    "Fan Coil Units",
+    "Small HVAC",
+    "Laboratory",
+    "Light Industrial"
+  ],
+  "category": "electric-valves",
+  "theme": "light"
+}

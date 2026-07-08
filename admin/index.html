@@ -36,46 +36,41 @@
       return createClass({
         render: function () {
           var entry = this.props.entry;
-          var products = entry.getIn(['data', 'products']) || [];
-          var list = products.toJS ? products.toJS() : [];
-          if (!list.length) {
-            return h('div', { style: { padding: 24, fontFamily: 'Inter, sans-serif', color: 'rgba(0,0,0,.4)' } }, 'Chưa có sản phẩm nào — thêm sản phẩm để xem trước tại đây.');
-          }
-          return h('div', { style: { display: 'flex', flexWrap: 'wrap', gap: 20, padding: 24, fontFamily: 'Inter, sans-serif' } },
-            list.map(function (p, i) {
-              var img = p.image ? this.props.getAsset(p.image) : null;
-              return h('div', { className: 'card', key: i },
-                h('div', { className: 'card-img' },
-                  img ? h('img', { src: img.toString() }) : h('span', { className: 'empty' }, 'Chưa có ảnh')
-                ),
-                h('div', { className: 'card-body' },
-                  h('div', { className: 'card-name' }, (p.code ? p.code + ' — ' : '') + (p.name || 'Chưa đặt tên')),
-                  h('div', { className: 'card-desc' }, p.desc || ''),
-                  (p.tags && p.tags.length) ? h('div', { className: 'card-tags' },
-                    p.tags.map(function (t, ti) { return h('span', { key: ti }, t); })
-                  ) : null,
-                  (p.features && p.features.length) ? h('div', null,
-                    h('div', { className: 'card-section-title' }, 'Key Features'),
-                    h('ul', { className: 'card-features' },
-                      p.features.map(function (f, fi) { return h('li', { key: fi }, f); })
-                    )
-                  ) : null,
-                  (p.apps && p.apps.length) ? h('div', null,
-                    h('div', { className: 'card-section-title' }, 'Applications'),
-                    h('div', { className: 'card-apps' },
-                      p.apps.map(function (a, ai) { return h('span', { key: ai }, a); })
-                    )
-                  ) : null,
-                  (p.specs && p.specs.length) ? h('div', { className: 'card-specs' },
-                    h('table', null,
-                      p.specs.map(function (s, si) {
-                        return h('tr', { key: si }, h('td', null, s.label), h('td', null, s.value));
-                      })
-                    )
-                  ) : null
-                )
-              );
-            }, this)
+          var data = entry.get('data');
+          var p = data && data.toJS ? data.toJS() : {};
+          var img = p.image ? this.props.getAsset(p.image) : null;
+          return h('div', { style: { padding: 24, fontFamily: 'Inter, sans-serif' } },
+            h('div', { className: 'card' },
+              h('div', { className: 'card-img' },
+                img ? h('img', { src: img.toString() }) : h('span', { className: 'empty' }, 'Chưa có ảnh')
+              ),
+              h('div', { className: 'card-body' },
+                h('div', { className: 'card-name' }, (p.code ? p.code + ' — ' : '') + (p.name || 'Chưa đặt tên')),
+                h('div', { className: 'card-desc' }, p.desc || ''),
+                (p.tags && p.tags.length) ? h('div', { className: 'card-tags' },
+                  p.tags.map(function (t, ti) { return h('span', { key: ti }, t); })
+                ) : null,
+                (p.features && p.features.length) ? h('div', null,
+                  h('div', { className: 'card-section-title' }, 'Key Features'),
+                  h('ul', { className: 'card-features' },
+                    p.features.map(function (f, fi) { return h('li', { key: fi }, f); })
+                  )
+                ) : null,
+                (p.apps && p.apps.length) ? h('div', null,
+                  h('div', { className: 'card-section-title' }, 'Applications'),
+                  h('div', { className: 'card-apps' },
+                    p.apps.map(function (a, ai) { return h('span', { key: ai }, a); })
+                  )
+                ) : null,
+                (p.specs && p.specs.length) ? h('div', { className: 'card-specs' },
+                  h('table', null,
+                    p.specs.map(function (s, si) {
+                      return h('tr', { key: si }, h('td', null, s.label), h('td', null, s.value));
+                    })
+                  )
+                ) : null
+              )
+            )
           );
         }
       });
@@ -83,9 +78,6 @@
 
     if (window.CMS && window.createClass && window.h) {
       CMS.registerPreviewStyle(previewStyle, { raw: true });
-      // All 7 categories share the same file name ("products"), so a single
-      // registration covers every collection — Decap keys file-collection
-      // previews by file name, not by the parent collection name.
       CMS.registerPreviewTemplate('products', ProductPreview(window.createClass, window.h));
     }
   </script>

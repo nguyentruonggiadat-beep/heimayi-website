@@ -1,0 +1,78 @@
+{
+  "code": "HTT Mini",
+  "name": "HTT Series Miniature Temperature Transmitter",
+  "desc": "Compact high-accuracy temperature transmitter, 4-20mA/RS485/HART/Modbus, IP65, −50°C~200°C.",
+  "overview": "The HTT Mini Series is a compact high-accuracy temperature transmitter for industrial process monitoring. Its small form factor allows direct installation in pipe fittings, equipment slots and narrow spaces. Supports 4-20mA analogue output with RS485 / HART / Modbus digital protocols. EMC-hardened circuit for interference-prone environments.",
+  "image": "images/htt_mini.png",
+  "tags": [
+    "−50°C to 200°C",
+    "±0.1°C",
+    "4-20mA / RS485 / HART",
+    "IP65"
+  ],
+  "specs": [
+    {
+      "label": "Measurement range",
+      "value": "−50°C – 200°C (customisable for special temperatures)"
+    },
+    {
+      "label": "Accuracy",
+      "value": "±0.1°C"
+    },
+    {
+      "label": "Signal output",
+      "value": "4-20mA; RS485 (Modbus)"
+    },
+    {
+      "label": "Protocol",
+      "value": "HART / Modbus"
+    },
+    {
+      "label": "Power supply",
+      "value": "15–33 VDC"
+    },
+    {
+      "label": "Ambient temperature",
+      "value": "−40°C – 85°C"
+    },
+    {
+      "label": "Humidity",
+      "value": "0–95% RH (non-condensing)"
+    },
+    {
+      "label": "Housing material",
+      "value": "SS304 (housing and sheath)"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP65"
+    },
+    {
+      "label": "Thread connection",
+      "value": "M20×1.5 (default); G1/2 (optional)"
+    },
+    {
+      "label": "Installation method",
+      "value": "Threaded / Flange / Snap-on clamp"
+    }
+  ],
+  "features": [
+    "Compact integrated design: small size for confined spaces such as equipment rooms, pipe slots, and small vessels",
+    "Quick installation: supports threaded, snap-on, or flange connection; no additional accessories required",
+    "High accuracy ±0.1°C with automatic non-linear compensation for thermocouple/RTD drift",
+    "EMC-compliant circuit with strong resistance to electromagnetic interference, voltage fluctuations, and RF noise",
+    "Multiple output types: supports 4-20mA analogue, digital, or hybrid; compatible with HART, Modbus, direct PLC/DCS",
+    "Optional LCD screen shows measured temperature value with local and remote viewing support",
+    "High protection: IP65/IP67 rated, dust-proof, waterproof, and corrosion-resistant",
+    "Low power consumption: reduces energy usage over 30% compared to conventional transmitters"
+  ],
+  "apps": [
+    "Water Treatment Plants",
+    "Power & Energy",
+    "Oil & Gas",
+    "Chemical Plants",
+    "Industrial Automation"
+  ],
+  "category": "instrumentation",
+  "theme": "dark"
+}

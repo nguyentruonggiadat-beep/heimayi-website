@@ -1,0 +1,81 @@
+{
+  "code": "HLP Flange",
+  "name": "HLP Series Flange Level Transmitter",
+  "desc": "Flange-type level transmitter for high-temp, high-viscosity, crystallizing or corrosive media. ±0.1% FS accuracy, 4-20mA/HART/Modbus, IP67/IP68.",
+  "overview": "The HLP Flange Series level transmitter is engineered for demanding media — high-viscosity fluids, crystallising liquids, corrosive acids and slurries. The direct-flange diaphragm eliminates impulse lines that can block or freeze. Diaphragm materials include 316L stainless steel, Hastelloy C, Monel and Tantalum. Integrated LoRaWAN / NB-IoT for remote monitoring.",
+  "image": "images/hlp_flange.png",
+  "tags": [
+    "±0.1% FS",
+    "−40°C to 200°C",
+    "4-20mA / HART / Modbus",
+    "IP67 / IP68"
+  ],
+  "specs": [
+    {
+      "label": "Measurement range",
+      "value": "0–40 kPa / 0–250 kPa / 0–1 MPa"
+    },
+    {
+      "label": "Accuracy",
+      "value": "±0.1% FS / ±0.2% FS"
+    },
+    {
+      "label": "Process temperature",
+      "value": "−40°C – 200°C"
+    },
+    {
+      "label": "Ambient temperature",
+      "value": "−40°C – 85°C"
+    },
+    {
+      "label": "Humidity",
+      "value": "0–95% RH (non-condensing)"
+    },
+    {
+      "label": "Signal output",
+      "value": "4-20mA (HART); RS485 (Modbus)"
+    },
+    {
+      "label": "Wireless options",
+      "value": "LoRaWAN / NB-IoT / 4G"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 24V"
+    },
+    {
+      "label": "Diaphragm material",
+      "value": "316L / Hastelloy / Monel / Tantalum / PTFE (custom)"
+    },
+    {
+      "label": "Housing material",
+      "value": "Aluminum alloy (corrosion-resistant) or SS"
+    },
+    {
+      "label": "Power consumption",
+      "value": "≤1.5 W (at DC 24V)"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP67 (standard); IP68 (optional)"
+    }
+  ],
+  "features": [
+    "High accuracy: ±0.1% FS for precise liquid level measurement across most industrial scenarios",
+    "Integrated compensation: auto-corrects for temperature and pressure variations for stable data",
+    "Multi-protocol support: 4-20mA with HART, Modbus; compatible with PLC, DCS, and industrial automation systems",
+    "Flexible diaphragm materials: 316L, Hastelloy C-276, Tantalum, PTFE; customisable for high-temp and sanitary use",
+    "Strong EMI resistance: multi-frequency RF filter counters electromagnetic interference in industrial environments",
+    "Solid protection: IP68 rated housing resists dust and contaminated water ingress",
+    "Easy installation and calibration: standard flange connection; supports zero and span calibration via HART"
+  ],
+  "apps": [
+    "Food & Beverage Processing",
+    "Pharmaceutical",
+    "Oil & Gas",
+    "Storage Tank Industries",
+    "Water Treatment"
+  ],
+  "category": "instrumentation",
+  "theme": "dark"
+}

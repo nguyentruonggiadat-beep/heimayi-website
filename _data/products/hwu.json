@@ -1,0 +1,64 @@
+{
+  "code": "HWU",
+  "name": "HWU Large-diameter Ultrasonic IoT Water Meter",
+  "desc": "Large-diameter IoT ultrasonic water meter, DN40–DN300, R50, no moving parts, 15–20 year lifespan, NB-IoT/4G/M-Bus/RS485, IP68.",
+  "overview": "The HWU Large-diameter Ultrasonic IoT Water Meter applies the same transit-time ultrasonic principle to larger pipes. No moving parts — service life typically 15–20 years with low maintenance cost. Low start-up flow rate (0.0015 m³/h). Intelligent features include flow volume alarm, leakage alert, abnormal flow detection and remote meter reading. Multi-channel configuration available.",
+  "image": "images/hwu_large.png",
+  "tags": [
+    "DN50 and above",
+    "Class 2",
+    "NB-IoT / 4G / M-Bus / RS485",
+    "IP68"
+  ],
+  "specs": [
+    {
+      "label": "Measurement principle",
+      "value": "Time-difference ultrasonic"
+    },
+    {
+      "label": "Measurement error",
+      "value": "<0.2%"
+    },
+    {
+      "label": "Min starting flow",
+      "value": "0.0015 m³/h"
+    },
+    {
+      "label": "Moving parts",
+      "value": "None (service life 15–20 years)"
+    },
+    {
+      "label": "Pipe size",
+      "value": "DN50 and above (large diameter)"
+    },
+    {
+      "label": "Channel configuration",
+      "value": "Single / Dual / Four-channel"
+    },
+    {
+      "label": "Body material",
+      "value": "Cast iron / Brass / Stainless steel"
+    },
+    {
+      "label": "Communication",
+      "value": "NB-IoT / 4G / M-Bus / RS485"
+    }
+  ],
+  "features": [
+    "No moving mechanical parts — typical service life 15–20 years, unaffected by impurities in water",
+    "Very low start-up flow (0.0015 m³/h) for accurate billing at near-zero consumption",
+    "Multi-channel configuration: 1, 2 or 4 ultrasonic channels for any pipe size",
+    "Intelligent monitoring: leakage alerts, reverse flow alarm, abnormal-flow detection",
+    "Ultra-low power technology — long battery life, low running cost",
+    "Multiple communication options: NB-IoT, 4G, M-Bus, RS485 for centralised reading"
+  ],
+  "apps": [
+    "Main Supply Lines",
+    "Industrial Plants",
+    "Municipal Water",
+    "Smart Water Networks",
+    "Irrigation Systems"
+  ],
+  "category": "iot-water-meters",
+  "theme": "dark"
+}

@@ -1,0 +1,91 @@
+{
+  "code": "HOR",
+  "name": "HOR Radar Level Gauge",
+  "desc": "Non-contact radar level gauge, 26GHz/80GHz, ±1mm accuracy, up to 70m liquid / 35m solid, 4-20mA/HART/RS485/Modbus, IP67.",
+  "overview": "The HOR Series uses a proprietary CMOS millimetre-wave RF chip to generate pulsed FMCW radar, achieving ±1mm measurement accuracy. 26 GHz standard / 80 GHz high-accuracy options. Non-contact technology means no media contamination, no wear and minimal maintenance costs. Supports Bluetooth in-field calibration via mobile phone. Rated for all dielectric constants ≥2.",
+  "image": "images/hor.png",
+  "tags": [
+    "±1 mm accuracy",
+    "0–70 m range",
+    "4-20mA / HART / RS485",
+    "−40°C to 100°C"
+  ],
+  "specs": [
+    {
+      "label": "Transmit frequency",
+      "value": "26 GHz (standard); 80 GHz (high accuracy)"
+    },
+    {
+      "label": "Measurement range",
+      "value": "Liquid: 0–30 m (up to 70 m); Solid: 0–20 m (up to 35 m)"
+    },
+    {
+      "label": "Accuracy",
+      "value": "±1 mm"
+    },
+    {
+      "label": "Measurement interval",
+      "value": "100 ms (fast); 1 s (normal)"
+    },
+    {
+      "label": "Beam angle",
+      "value": "3° / 18° / 20°"
+    },
+    {
+      "label": "Applicable dielectric constant",
+      "value": "≥2"
+    },
+    {
+      "label": "Process pressure",
+      "value": "−1 – 20 bar"
+    },
+    {
+      "label": "Ambient temperature / humidity",
+      "value": "−40°C – +100°C; ≤95% RH"
+    },
+    {
+      "label": "Signal output",
+      "value": "4-20mA + HART (2-wire); RS485 / Modbus (4-wire)"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 24V / AC 220V"
+    },
+    {
+      "label": "Housing material",
+      "value": "Aluminum alloy / Stainless steel"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP67"
+    },
+    {
+      "label": "Explosion-proof rating",
+      "value": "Ex ia IIC T6 Ga"
+    },
+    {
+      "label": "Process connection",
+      "value": "Threaded / Universal flange / Anti-corrosion flange / Sanitary clamp"
+    }
+  ],
+  "features": [
+    "Self-developed millimetre-wave CMOS RF chip: higher SNR, smaller dead zone, cleaner RF structure",
+    "Wide 5 GHz bandwidth for high resolution and measurement accuracy",
+    "Horn antenna design: narrow beam angle, focused energy, minimises false echoes inside tanks",
+    "Non-contact measurement: no media contamination, no wear, no maintenance; service life over 10 years",
+    "On-site calibration via mobile phone Bluetooth — no laptop required",
+    "Multiple interface support: 4-20mA/HART or RS485/Modbus",
+    "Works on any media with dielectric constant ≥2; temperature range −40°C to +300°C",
+    "Self-diagnostics and protection: auto-monitoring with full-system fault alerts; reverse polarity protection"
+  ],
+  "apps": [
+    "Metallurgy",
+    "Food & Pharmaceutical",
+    "Oil & Gas",
+    "Grain Storage",
+    "Mining & Coal",
+    "Water Treatment & Environment"
+  ],
+  "category": "instrumentation",
+  "theme": "dark"
+}

@@ -12,120 +12,85 @@ public_folder: "/images"
 locale: vi
 
 collections:
-  - name: "electric-valves"
-    label: "Van điện (Electric Valves)"
-    files:
-      - name: "products"
-        label: "Danh sách sản phẩm"
-        file: "_data/cat-valves.json"
-        format: json
-        fields: &product_fields
-          - {label: "Chủ đề nền của trang (sáng/tối)", name: "theme", widget: select, options: ["light", "dark"], default: "light", hint: "light = nền sáng, dark = nền tối — áp dụng cho cả danh mục này"}
-          - label: "Sản phẩm"
-            name: "products"
-            widget: list
-            summary: "{{fields.code}} — {{fields.name}}"
-            collapsed: true
-            fields:
-              # ── 1. Ảnh — thứ khách nhìn thấy đầu tiên ──
-              - {label: "🖼️ Ảnh sản phẩm", name: "image", widget: image, required: false, allow_multiple: false, hint: "Nền trắng hoặc trong suốt sẽ đẹp nhất. Đây là ảnh chính hiện trên thẻ sản phẩm và trang chi tiết."}
+  - name: "products"
+    label: "Sản phẩm"
+    label_singular: "Sản phẩm"
+    folder: "_data/products"
+    create: true
+    delete: true
+    slug: "{{fields.code}}"
+    summary: "{{code}} — {{name}}"
+    view_filters:
+      - {label: "Van điện", field: category, pattern: "electric-valves"}
+      - {label: "Thiết bị đo lường", field: category, pattern: "instrumentation"}
+      - {label: "Đồng hồ lưu lượng", field: category, pattern: "flow-meters"}
+      - {label: "Đồng hồ nước IoT", field: category, pattern: "iot-water-meters"}
+      - {label: "Thu thập dữ liệu", field: category, pattern: "data-collection"}
+      - {label: "Thành phố thông minh", field: category, pattern: "smart-city"}
+      - {label: "Smart HVAC", field: category, pattern: "smart-hvac"}
+    view_groups:
+      - {label: "Danh mục", field: category}
+    fields:
+      # ── 0. Phân loại ──
+      - label: "📂 Danh mục sản phẩm"
+        name: "category"
+        widget: select
+        options:
+          - {label: "Van điện (Electric Valves)", value: "electric-valves"}
+          - {label: "Thiết bị đo lường (Instrumentation)", value: "instrumentation"}
+          - {label: "Đồng hồ lưu lượng (Flow Meters)", value: "flow-meters"}
+          - {label: "Đồng hồ nước IoT (IoT Water Meters)", value: "iot-water-meters"}
+          - {label: "Thu thập dữ liệu (Data Collection)", value: "data-collection"}
+          - {label: "Thành phố thông minh (Smart City)", value: "smart-city"}
+          - {label: "Smart HVAC", value: "smart-hvac"}
+        hint: "Quyết định sản phẩm hiện ở trang danh mục nào"
+      - {label: "Chủ đề nền của trang (sáng/tối)", name: "theme", widget: select, options: ["light", "dark"], default: "light", hint: "light = nền sáng, dark = nền tối — áp dụng cho cả danh mục chứa sản phẩm này"}
 
-              # ── 2. Định danh — mã và tên ──
-              - {label: "🏷️ Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải DUY NHẤT, không được trùng với sản phẩm khác trong toàn bộ website"}
-              - {label: "🏷️ Tên sản phẩm", name: "name", widget: string, hint: "Tên đầy đủ, hiện làm tiêu đề trên thẻ sản phẩm và trang chi tiết"}
+      # ── 1. Ảnh — thứ khách nhìn thấy đầu tiên ──
+      - {label: "🖼️ Ảnh sản phẩm", name: "image", widget: image, required: false, allow_multiple: false, hint: "Nền trắng hoặc trong suốt sẽ đẹp nhất. Đây là ảnh chính hiện trên thẻ sản phẩm và trang chi tiết."}
 
-              # ── 3. Nội dung mô tả ──
-              - {label: "📝 Mô tả ngắn (thẻ sản phẩm)", name: "desc", widget: text, hint: "1–2 câu ngắn gọn — hiện trên thẻ sản phẩm ở trang danh mục"}
-              - {label: "📝 Mô tả chi tiết (trang sản phẩm)", name: "overview", widget: text, required: false, hint: "Có thể viết dài hơn — chỉ hiện khi khách bấm vào xem chi tiết sản phẩm"}
+      # ── 2. Định danh — mã và tên ──
+      - {label: "🏷️ Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải DUY NHẤT, không được trùng với sản phẩm khác trong toàn bộ website"}
+      - {label: "🏷️ Tên sản phẩm", name: "name", widget: string, hint: "Tên đầy đủ, hiện làm tiêu đề trên thẻ sản phẩm và trang chi tiết"}
 
-              # ── 4. Nhãn nổi bật ──
-              - label: "⭐ Tags nổi bật"
-                name: "tags"
-                widget: list
-                hint: "Các nhãn nhỏ hiện trên thẻ sản phẩm — ví dụ: DN15–DN150, PN16/PN25, IP65"
-                field: {label: "Nội dung tag", name: "tag", widget: string}
+      # ── 3. Nội dung mô tả ──
+      - {label: "📝 Mô tả ngắn (thẻ sản phẩm)", name: "desc", widget: text, hint: "1–2 câu ngắn gọn — hiện trên thẻ sản phẩm ở trang danh mục"}
+      - {label: "📝 Mô tả chi tiết (trang sản phẩm)", name: "overview", widget: text, required: false, hint: "Có thể viết dài hơn — chỉ hiện khi khách bấm vào xem chi tiết sản phẩm"}
 
-              # ── 5. Tính năng nổi bật ──
-              - label: "✅ Key Features (tính năng nổi bật)"
-                name: "features"
-                widget: list
-                required: false
-                collapsed: true
-                summary: "{{fields.feature}}"
-                hint: "Danh sách gạch đầu dòng hiện trong trang chi tiết sản phẩm — mỗi dòng là 1 tính năng, viết đầy đủ câu"
-                field: {label: "Tính năng", name: "feature", widget: text}
+      # ── 4. Nhãn nổi bật ──
+      - label: "⭐ Tags nổi bật"
+        name: "tags"
+        widget: list
+        hint: "Các nhãn nhỏ hiện trên thẻ sản phẩm — ví dụ: DN15–DN150, PN16/PN25, IP65"
+        field: {label: "Nội dung tag", name: "tag", widget: string}
 
-              # ── 6. Ứng dụng / lĩnh vực sử dụng ──
-              - label: "🏭 Applications (lĩnh vực ứng dụng)"
-                name: "apps"
-                widget: list
-                required: false
-                collapsed: true
-                summary: "{{fields.app}}"
-                hint: "Các lĩnh vực/ngành mà sản phẩm này thường được dùng — hiện dạng nhãn trong trang chi tiết"
-                field: {label: "Lĩnh vực", name: "app", widget: string}
+      # ── 5. Tính năng nổi bật ──
+      - label: "✅ Key Features (tính năng nổi bật)"
+        name: "features"
+        widget: list
+        required: false
+        collapsed: true
+        summary: "{{fields.feature}}"
+        hint: "Danh sách gạch đầu dòng hiện trong trang chi tiết sản phẩm — mỗi dòng là 1 tính năng, viết đầy đủ câu"
+        field: {label: "Tính năng", name: "feature", widget: text}
 
-              # ── 7. Bảng thông số kỹ thuật ──
-              - label: "⚙️ Bảng thông số kỹ thuật"
-                name: "specs"
-                widget: list
-                collapsed: true
-                summary: "{{fields.label}}: {{fields.value}}"
-                hint: "Hiện dạng bảng 2 cột trong trang chi tiết sản phẩm — thêm bao nhiêu dòng tuỳ ý"
-                fields:
-                  - {label: "Tên thông số", name: "label", widget: string, hint: "Ví dụ: Áp lực làm việc"}
-                  - {label: "Giá trị", name: "value", widget: string, hint: "Ví dụ: PN16, tối đa 16 bar"}
+      # ── 6. Ứng dụng / lĩnh vực sử dụng ──
+      - label: "🏭 Applications (lĩnh vực ứng dụng)"
+        name: "apps"
+        widget: list
+        required: false
+        collapsed: true
+        summary: "{{fields.app}}"
+        hint: "Các lĩnh vực/ngành mà sản phẩm này thường được dùng — hiện dạng nhãn trong trang chi tiết"
+        field: {label: "Lĩnh vực", name: "app", widget: string}
 
-  - name: "instrumentation"
-    label: "Thiết bị đo lường (Instrumentation)"
-    files:
-      - name: "products"
-        label: "Danh sách sản phẩm"
-        file: "_data/cat-instruments.json"
-        format: json
-        fields: *product_fields
-
-  - name: "flow-meters"
-    label: "Đồng hồ lưu lượng (Flow Meters)"
-    files:
-      - name: "products"
-        label: "Danh sách sản phẩm"
-        file: "_data/cat-flow.json"
-        format: json
-        fields: *product_fields
-
-  - name: "iot-water-meters"
-    label: "Đồng hồ nước IoT (IoT Water Meters)"
-    files:
-      - name: "products"
-        label: "Danh sách sản phẩm"
-        file: "_data/cat-water.json"
-        format: json
-        fields: *product_fields
-
-  - name: "data-collection"
-    label: "Thu thập dữ liệu (Data Collection)"
-    files:
-      - name: "products"
-        label: "Danh sách sản phẩm"
-        file: "_data/cat-data.json"
-        format: json
-        fields: *product_fields
-
-  - name: "smart-city"
-    label: "Thành phố thông minh (Smart City)"
-    files:
-      - name: "products"
-        label: "Danh sách sản phẩm"
-        file: "_data/cat-city.json"
-        format: json
-        fields: *product_fields
-
-  - name: "smart-hvac"
-    label: "Smart HVAC"
-    files:
-      - name: "products"
-        label: "Danh sách sản phẩm"
-        file: "_data/cat-hvac.json"
-        format: json
-        fields: *product_fields
+      # ── 7. Bảng thông số kỹ thuật ──
+      - label: "⚙️ Bảng thông số kỹ thuật"
+        name: "specs"
+        widget: list
+        collapsed: true
+        summary: "{{fields.label}}: {{fields.value}}"
+        hint: "Hiện dạng bảng 2 cột trong trang chi tiết sản phẩm — thêm bao nhiêu dòng tuỳ ý"
+        fields:
+          - {label: "Tên thông số", name: "label", widget: string, hint: "Ví dụ: Áp lực làm việc"}
+          - {label: "Giá trị", name: "value", widget: string, hint: "Ví dụ: PN16, tối đa 16 bar"}
