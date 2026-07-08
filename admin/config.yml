@@ -2,6 +2,10 @@ backend:
   name: git-gateway
   branch: main
 
+site_url: "https://appheimayi.netlify.app"
+display_url: "https://appheimayi.netlify.app"
+logo_url: "/images/logo.png"
+
 media_folder: "images"
 public_folder: "/images"
 
@@ -21,6 +25,7 @@ collections:
             name: "products"
             widget: list
             summary: "{{fields.code}} — {{fields.name}}"
+            collapsed: true
             fields:
               - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
               - {label: "Tên sản phẩm", name: "name", widget: string}
@@ -52,6 +57,7 @@ collections:
             name: "products"
             widget: list
             summary: "{{fields.code}} — {{fields.name}}"
+            collapsed: true
             fields:
               - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
               - {label: "Tên sản phẩm", name: "name", widget: string}
@@ -83,6 +89,7 @@ collections:
             name: "products"
             widget: list
             summary: "{{fields.code}} — {{fields.name}}"
+            collapsed: true
             fields:
               - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
               - {label: "Tên sản phẩm", name: "name", widget: string}
@@ -114,6 +121,7 @@ collections:
             name: "products"
             widget: list
             summary: "{{fields.code}} — {{fields.name}}"
+            collapsed: true
             fields:
               - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
               - {label: "Tên sản phẩm", name: "name", widget: string}
@@ -145,6 +153,7 @@ collections:
             name: "products"
             widget: list
             summary: "{{fields.code}} — {{fields.name}}"
+            collapsed: true
             fields:
               - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
               - {label: "Tên sản phẩm", name: "name", widget: string}
@@ -176,6 +185,7 @@ collections:
             name: "products"
             widget: list
             summary: "{{fields.code}} — {{fields.name}}"
+            collapsed: true
             fields:
               - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
               - {label: "Tên sản phẩm", name: "name", widget: string}
@@ -207,6 +217,7 @@ collections:
             name: "products"
             widget: list
             summary: "{{fields.code}} — {{fields.name}}"
+            collapsed: true
             fields:
               - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
               - {label: "Tên sản phẩm", name: "name", widget: string}
