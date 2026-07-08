@@ -78,7 +78,14 @@
 
     if (window.CMS && window.createClass && window.h) {
       CMS.registerPreviewStyle(previewStyle, { raw: true });
-      CMS.registerPreviewTemplate('products', ProductPreview(window.createClass, window.h));
+      // Folder collections are keyed by collection name (unlike file
+      // collections, which key by file name) — one call per category.
+      [
+        'electric-valves', 'instrumentation', 'flow-meters',
+        'iot-water-meters', 'data-collection', 'smart-city', 'smart-hvac'
+      ].forEach(function (name) {
+        CMS.registerPreviewTemplate(name, ProductPreview(window.createClass, window.h));
+      });
     }
   </script>
 </body>

@@ -1,0 +1,80 @@
+{
+  "code": "HFU",
+  "name": "HFU Ultrasonic Flow Meter",
+  "desc": "Time-of-flight industrial ultrasonic flowmeter with TGA technology. DN15~DN1200, ±1% accuracy, IP65/IP68, clamp-on/insertion/inline modes.",
+  "overview": "The HFU Ultrasonic Flowmeter uses a proprietary Time-of-Flight (TGA) algorithm for industry-leading precision. Available in clamp-on (external clip), plug-in and inline configurations. No pipe cutting required for clamp-on — install on any material pipe (steel, plastic, cast iron) without shutting down production. FPGA chip with 700,000 logic gates for high-speed signal processing.",
+  "image": "images/hfu.png",
+  "tags": [
+    "DN15–DN1200",
+    "±1% accuracy",
+    "4-20mA / RS485 / Modbus",
+    "Clamp-on available"
+  ],
+  "specs": [
+    {
+      "label": "Compatible pipe diameter",
+      "value": "DN15–DN1200"
+    },
+    {
+      "label": "Measurement range (velocity)",
+      "value": "±0.03–±12 m/s"
+    },
+    {
+      "label": "Accuracy",
+      "value": "±1%"
+    },
+    {
+      "label": "Converter ambient temperature",
+      "value": "−20°C – 60°C"
+    },
+    {
+      "label": "Sensor temperature",
+      "value": "−40°C – 180°C; small pipe sensor: 0°C – 115°C"
+    },
+    {
+      "label": "Ambient humidity",
+      "value": "≤99% RH (non-condensing)"
+    },
+    {
+      "label": "Signal output",
+      "value": "4-20mA (max load 750Ω); Pulse 0–10 kHz"
+    },
+    {
+      "label": "Communication",
+      "value": "RS232 / RS485 (Modbus)"
+    },
+    {
+      "label": "Power supply",
+      "value": "10–36 VDC / AC 90–245V"
+    },
+    {
+      "label": "Display",
+      "value": "TFT 320×480 pixel"
+    },
+    {
+      "label": "Converter housing",
+      "value": "Aluminum alloy; IP65"
+    },
+    {
+      "label": "Sensor protection",
+      "value": "IP68; shielded twisted-pair cable; standard 9 m; max 300 m"
+    }
+  ],
+  "features": [
+    "Clamp-on installation: zero pipe cutting, zero production downtime",
+    "Proprietary TGA Time-of-Flight algorithm: measurement rate over 300 times/second; accuracy below 1.0%",
+    "Powerful FPGA chip with 700,000 logic gates: high-frequency sampling with bubble/impurity tolerance",
+    "Handles intermittent bubbles or impurities within 5 seconds without losing measurement",
+    "Easy clip-on installation: no need to stop water supply or halt production",
+    "Durable metal housing: conductive, thermally stable, impact-resistant and crush-resistant",
+    "Bidirectional flow measurement; high-resolution colour LCD display; large 10-year data memory"
+  ],
+  "apps": [
+    "HVAC Cooling System",
+    "Thermal Power",
+    "Oil & Gas",
+    "Water Treatment",
+    "Building Energy Mgmt"
+  ],
+  "theme": "light"
+}

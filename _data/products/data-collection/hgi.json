@@ -1,0 +1,83 @@
+{
+  "code": "HGI",
+  "name": "HGI IoT Data Collection Terminal",
+  "desc": "IoT data collection terminal for pipeline temperature/pressure monitoring. 4G/LoRa/M-Bus/RS485 uplink, IP67/IP68, 4-channel temp + 2-channel pressure, 6-year battery.",
+  "overview": "The HGI IoT Data Collection Terminal is a high-performance wireless IoT device for collecting, storing and uploading temperature and pressure data from pipeline sensors. Supports multiple sensor types and protocols (M-Bus, RS485, LoRa, 4G). Used in district heating, water supply, gas pipelines and agricultural monitoring. Battery life up to 6 years.",
+  "image": "images/hgi.png",
+  "tags": [
+    "M-Bus / RS485 / LoRa input",
+    "NB-IoT / 4G uplink",
+    "19,000 mAh battery",
+    "IP67/IP68"
+  ],
+  "specs": [
+    {
+      "label": "Temperature measurement range",
+      "value": "−10°C – 95°C"
+    },
+    {
+      "label": "Temperature accuracy",
+      "value": "±0.3°C"
+    },
+    {
+      "label": "Uplink communication",
+      "value": "4G / LoRa / M-Bus / RS485"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 3.6V lithium battery"
+    },
+    {
+      "label": "Battery capacity",
+      "value": "19,000 mAh (standard); up to 76,000 mAh"
+    },
+    {
+      "label": "Standby current",
+      "value": "<2.5 µA"
+    },
+    {
+      "label": "Supported channels",
+      "value": "Up to 4 temperature + 2 pressure channels"
+    },
+    {
+      "label": "Collection cycle",
+      "value": "30 min – 30 days (default; adjustable)"
+    },
+    {
+      "label": "Upload cycle",
+      "value": "30 min – 30 days (adjustable)"
+    },
+    {
+      "label": "Enclosure material",
+      "value": "PVC or Aluminum alloy"
+    },
+    {
+      "label": "Dimensions",
+      "value": "PVC: 160×103×56 mm; Al: 194×135×50 mm"
+    },
+    {
+      "label": "Mounting method",
+      "value": "Wall mount"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP67 / IP68"
+    }
+  ],
+  "features": [
+    "High accuracy: temperature ±0.3°C, pressure ±0.5% FS (±0.25% FS optional) — pipeline monitoring without dedicated instruments",
+    "Surface-mount temperature sensor: installs on pipe exterior — no cutting, no welding, no process interruption",
+    "Battery-powered wireless version: standby <2.5 µA, battery life >6 years; no communication cable required",
+    "Wide environmental adaptability: high/low temperature, corrosion, HVAC, agriculture, underground pipelines",
+    "Flexible communication: M-Bus / RS485 / 4G / LoRa to suit any data system",
+    "IP67 / IP68 — outdoor, underground and submersion-rated"
+  ],
+  "apps": [
+    "District Heating Pipelines",
+    "Water Supply Pipelines",
+    "Gas Pipelines",
+    "Agricultural Monitoring",
+    "Pipeline Monitoring"
+  ],
+  "theme": "light"
+}

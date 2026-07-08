@@ -1,0 +1,85 @@
+{
+  "code": "HVI",
+  "name": "HVI Solar Irrigation Valve",
+  "desc": "Solar-powered irrigation valve requiring no grid power — ideal for remote agricultural applications.",
+  "overview": "The HVI solar-powered irrigation valve operates entirely off-grid with a 14V monocrystalline solar panel and integrated backup battery (7–15 days autonomy). LoRaWAN / 4G communication covers up to 10km. Bluetooth app for on-site commissioning. IP67 waterproof. Compatible with soil moisture sensors.",
+  "image": "images/hvi.png",
+  "tags": [
+    "UPVC / PP-GF body",
+    "IP67",
+    "LoRaWAN / 4G",
+    "Soil sensor compatible"
+  ],
+  "specs": [
+    {
+      "label": "Valve material",
+      "value": "UPVC / PP glass-fiber reinforced"
+    },
+    {
+      "label": "Cover material",
+      "value": "ABS"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP67"
+    },
+    {
+      "label": "Solar panel",
+      "value": "14V monocrystalline (≥22% efficiency)"
+    },
+    {
+      "label": "Battery",
+      "value": "Built-in rechargeable lithium battery (7–15 day backup)"
+    },
+    {
+      "label": "Static current",
+      "value": "≤50 µA"
+    },
+    {
+      "label": "Communication",
+      "value": "LoRa / 4G (coverage up to 3–10 km)"
+    },
+    {
+      "label": "Protocol",
+      "value": "Modbus / custom"
+    },
+    {
+      "label": "Opening control",
+      "value": "0–100% aperture"
+    },
+    {
+      "label": "Expansion ports",
+      "value": "1× DI, 1× 0-5V AI, 1× RS485 (multi-sensor)"
+    },
+    {
+      "label": "OTA upgrade",
+      "value": "Wireless OTA via Bluetooth / LoRa / 4G"
+    },
+    {
+      "label": "Flow error",
+      "value": "±5%"
+    },
+    {
+      "label": "Working pressure",
+      "value": "0.2–10 bar (2–100 m water column)"
+    }
+  ],
+  "features": [
+    "Independent solar power: 10–20W monocrystalline panel (efficiency ≥22%) with 7–15 day battery backup",
+    "Ultra-low power design: static current ≤50µA, auto-switches between solar charging and battery",
+    "Supports 4G/LoRaWAN wireless communication with coverage up to 3–10 km",
+    "Flexible control: adjust valve opening 0–100% via smartphone app or web browser",
+    "Integrates soil moisture and rainfall sensors for demand-based smart irrigation",
+    "Real-time monitoring: reports valve status, battery level, and environmental parameters",
+    "Automatic fault detection: self-detects valve jamming, communication failure, low battery",
+    "Comprehensive protection: over-flow, over-pressure, low-battery, short-circuit, reverse-polarity protection"
+  ],
+  "apps": [
+    "Agricultural Irrigation",
+    "Landscape Watering",
+    "Greenhouse Automation",
+    "Remote Fields",
+    "Smart Farming"
+  ],
+  "theme": "light"
+}

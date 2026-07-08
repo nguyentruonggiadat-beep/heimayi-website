@@ -11,41 +11,21 @@ public_folder: "/images"
 
 locale: vi
 
+# Each category is its own folder collection (_data/products/<category>/),
+# so the sidebar always shows products split by category — no manual
+# "Group by" step, and every product still opens straight into its own
+# edit form. All 7 share the same field layout via a YAML anchor.
 collections:
-  - name: "products"
-    label: "Sản phẩm"
-    label_singular: "Sản phẩm"
-    folder: "_data/products"
+  - name: "electric-valves"
+    label: "Van điện (Electric Valves)"
+    folder: "_data/products/electric-valves"
     extension: "json"
     format: "json"
     create: true
     delete: true
     slug: "{{fields.code}}"
     summary: "{{code}} — {{name}}"
-    view_filters:
-      - {label: "Van điện", field: category, pattern: "electric-valves"}
-      - {label: "Thiết bị đo lường", field: category, pattern: "instrumentation"}
-      - {label: "Đồng hồ lưu lượng", field: category, pattern: "flow-meters"}
-      - {label: "Đồng hồ nước IoT", field: category, pattern: "iot-water-meters"}
-      - {label: "Thu thập dữ liệu", field: category, pattern: "data-collection"}
-      - {label: "Thành phố thông minh", field: category, pattern: "smart-city"}
-      - {label: "Smart HVAC", field: category, pattern: "smart-hvac"}
-    view_groups:
-      - {label: "Danh mục", field: category}
-    fields:
-      # ── 0. Phân loại ──
-      - label: "📂 Danh mục sản phẩm"
-        name: "category"
-        widget: select
-        options:
-          - {label: "Van điện (Electric Valves)", value: "electric-valves"}
-          - {label: "Thiết bị đo lường (Instrumentation)", value: "instrumentation"}
-          - {label: "Đồng hồ lưu lượng (Flow Meters)", value: "flow-meters"}
-          - {label: "Đồng hồ nước IoT (IoT Water Meters)", value: "iot-water-meters"}
-          - {label: "Thu thập dữ liệu (Data Collection)", value: "data-collection"}
-          - {label: "Thành phố thông minh (Smart City)", value: "smart-city"}
-          - {label: "Smart HVAC", value: "smart-hvac"}
-        hint: "Quyết định sản phẩm hiện ở trang danh mục nào"
+    fields: &product_fields
       - {label: "Chủ đề nền của trang (sáng/tối)", name: "theme", widget: select, options: ["light", "dark"], default: "light", hint: "light = nền sáng, dark = nền tối — áp dụng cho cả danh mục chứa sản phẩm này"}
 
       # ── 1. Ảnh — thứ khách nhìn thấy đầu tiên ──
@@ -96,3 +76,69 @@ collections:
         fields:
           - {label: "Tên thông số", name: "label", widget: string, hint: "Ví dụ: Áp lực làm việc"}
           - {label: "Giá trị", name: "value", widget: string, hint: "Ví dụ: PN16, tối đa 16 bar"}
+
+  - name: "instrumentation"
+    label: "Thiết bị đo lường (Instrumentation)"
+    folder: "_data/products/instrumentation"
+    extension: "json"
+    format: "json"
+    create: true
+    delete: true
+    slug: "{{fields.code}}"
+    summary: "{{code}} — {{name}}"
+    fields: *product_fields
+
+  - name: "flow-meters"
+    label: "Đồng hồ lưu lượng (Flow Meters)"
+    folder: "_data/products/flow-meters"
+    extension: "json"
+    format: "json"
+    create: true
+    delete: true
+    slug: "{{fields.code}}"
+    summary: "{{code}} — {{name}}"
+    fields: *product_fields
+
+  - name: "iot-water-meters"
+    label: "Đồng hồ nước IoT (IoT Water Meters)"
+    folder: "_data/products/iot-water-meters"
+    extension: "json"
+    format: "json"
+    create: true
+    delete: true
+    slug: "{{fields.code}}"
+    summary: "{{code}} — {{name}}"
+    fields: *product_fields
+
+  - name: "data-collection"
+    label: "Thu thập dữ liệu (Data Collection)"
+    folder: "_data/products/data-collection"
+    extension: "json"
+    format: "json"
+    create: true
+    delete: true
+    slug: "{{fields.code}}"
+    summary: "{{code}} — {{name}}"
+    fields: *product_fields
+
+  - name: "smart-city"
+    label: "Thành phố thông minh (Smart City)"
+    folder: "_data/products/smart-city"
+    extension: "json"
+    format: "json"
+    create: true
+    delete: true
+    slug: "{{fields.code}}"
+    summary: "{{code}} — {{name}}"
+    fields: *product_fields
+
+  - name: "smart-hvac"
+    label: "Smart HVAC"
+    folder: "_data/products/smart-hvac"
+    extension: "json"
+    format: "json"
+    create: true
+    delete: true
+    slug: "{{fields.code}}"
+    summary: "{{code}} — {{name}}"
+    fields: *product_fields

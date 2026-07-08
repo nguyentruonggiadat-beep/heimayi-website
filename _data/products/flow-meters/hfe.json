@@ -1,0 +1,85 @@
+{
+  "code": "HFE",
+  "name": "HFE Intelligent Electromagnetic Flow Meter",
+  "desc": "High-accuracy EM flow meter for conductive liquids. DN6–DN3000, ±0.5% FS, bidirectional, zero pressure loss, SS316L/Hastelloy/Ti electrodes, RS485/HART.",
+  "overview": "The HFE Intelligent Electromagnetic Flowmeter uses Faraday's law of electromagnetic induction to measure flow of any electrically conductive liquid, including slurries, acids, alkalis and paper pulp. No obstruction — zero pressure drop. PTFE, Neoprene, FKM and PFA liner options. 316L, Hastelloy, Titanium and Tungsten Carbide electrodes. DN6 to DN3000 covers the widest possible range.",
+  "image": "images/hfe.png",
+  "tags": [
+    "DN6–DN3000",
+    "±0.5% accuracy",
+    "4-20mA / RS485 / Modbus",
+    "IP68"
+  ],
+  "specs": [
+    {
+      "label": "Nominal diameter",
+      "value": "DN6–DN3000 (DN150+ can be insertion type)"
+    },
+    {
+      "label": "Accuracy",
+      "value": "Full-bore: ±0.5% R (DN400+ better than ±1%); Insertion: ±2.5% R"
+    },
+    {
+      "label": "Velocity range",
+      "value": "0.5–10 m/s"
+    },
+    {
+      "label": "Pressure rating",
+      "value": "1.0 / 1.6 / 2.5 / 4.0 MPa (higher pressure customisable)"
+    },
+    {
+      "label": "Applicable media",
+      "value": "Acid, alkali, salt, paper pulp, mud, any conductive liquid"
+    },
+    {
+      "label": "Liner material",
+      "value": "PTFE / Neoprene / Polyurethane / FKM / FEP / PFA"
+    },
+    {
+      "label": "Electrode material",
+      "value": "316L / Hastelloy B / Hastelloy C / Ti / Ta / Pt-Ir / WC"
+    },
+    {
+      "label": "Ambient temperature",
+      "value": "−20°C – 70°C"
+    },
+    {
+      "label": "Signal output",
+      "value": "4-20mA / Pulse / RS485"
+    },
+    {
+      "label": "Protocol",
+      "value": "Modbus / HART"
+    },
+    {
+      "label": "Power supply",
+      "value": "AC 220V 50Hz / DC 24V / Lithium 3.6V"
+    },
+    {
+      "label": "Explosion-proof rating",
+      "value": "Ex db IIC T6 Gb"
+    },
+    {
+      "label": "Connection method",
+      "value": "Flange / Insertion"
+    }
+  ],
+  "features": [
+    "Zero obstruction: no moving parts, no pressure drop, no mechanical wear",
+    "High accuracy ±0.5% R for liquid, ±1.0% R for gas; unaffected by density, viscosity, temperature, or pressure",
+    "Temperature and pressure compensation: auto-corrects volume flow to standard conditions in real time",
+    "Liner options: PTFE, Neoprene, Polyurethane, FKM, FEP, PFA for any chemical compatibility",
+    "Electrode options: 316L, Hastelloy B/C, Titanium, Tantalum, Pt-Ir, Tungsten Carbide",
+    "Wide operating range: −40°C to 130°C process temperature; up to PN40 pressure rating",
+    "Self-diagnostics detects empty pipe, electrode fouling, and signal anomalies",
+    "Multiple interfaces: 4-20mA, pulse output; RS485 (Modbus), HART for PLC/SCADA integration"
+  ],
+  "apps": [
+    "Water Treatment",
+    "Power & Energy (Cooling)",
+    "Oil & Gas",
+    "Metallurgy & Mining",
+    "Textile & Dyeing"
+  ],
+  "theme": "light"
+}

@@ -1,0 +1,85 @@
+{
+  "code": "HLP Immersion",
+  "name": "HLP Series Immersion Level Gauge",
+  "desc": "Immersion hydrostatic level gauge, 0.3~110m range, ±0.1% FS accuracy, 4-20mA/RS485/4G/LoRaWAN, IP67/IP68 for tanks, wells and open channels.",
+  "overview": "The HLP Immersion Level Gauge (hydrostatic submersible transmitter) measures liquid level based on hydrostatic pressure proportional to fluid column height. Drop the probe directly into any open vessel, river, borehole or reservoir. No tank modification needed. IP67/IP68 rated, corrosion-resistant materials, EMI-protected circuitry and 4G wireless for remote monitoring.",
+  "image": "images/hlp_immersion.png",
+  "tags": [
+    "0.3–110 m",
+    "±0.1% FS",
+    "4-20mA / RS485 / 4G / LoRaWAN",
+    "IP67/IP68"
+  ],
+  "specs": [
+    {
+      "label": "Measurement range",
+      "value": "0.3–110 m"
+    },
+    {
+      "label": "Accuracy",
+      "value": "±0.1% FS / ±0.25% FS"
+    },
+    {
+      "label": "Medium temperature",
+      "value": "−30°C – 115°C"
+    },
+    {
+      "label": "Ambient temperature",
+      "value": "−20°C – 85°C"
+    },
+    {
+      "label": "Overload capacity",
+      "value": "2× full-scale pressure"
+    },
+    {
+      "label": "Response time",
+      "value": "≤100 ms"
+    },
+    {
+      "label": "Signal output",
+      "value": "4-20mA / 0-5V / 0-10V / RS485 (Modbus)"
+    },
+    {
+      "label": "Wireless",
+      "value": "4G / LoRaWAN"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 24V"
+    },
+    {
+      "label": "Diaphragm material",
+      "value": "316L / Hastelloy / Monel / Tantalum / PTFE (custom)"
+    },
+    {
+      "label": "Housing material",
+      "value": "Aluminum alloy or SS"
+    },
+    {
+      "label": "Power consumption",
+      "value": "≤1.5 W"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP67 / IP68"
+    }
+  ],
+  "features": [
+    "Submersible design: sensor immersed directly without complex installation; suitable for tanks, rivers, deep wells",
+    "High accuracy: isolated diffused silicon or capacitive sensor with ±0.1% FS full-scale accuracy",
+    "Auto temperature compensation: integrated sensor auto-corrects for liquid density changes from −40°C to 125°C",
+    "Corrosion-resistant and explosion-proof: 316L stainless steel or PVDF; Exd II CT6 option for hazardous environments",
+    "Rigid, durable structure: no moving parts; shock-resistant and vibration-resistant for long service life",
+    "Multiple output signals: 4-20mA, 0-5V, 0-10V, RS485 for easy PLC/DCS integration",
+    "Wireless 4G transmission option: direct interaction with monitoring platforms, no RTU required",
+    "Comprehensive protection: reverse polarity, over-current/over-pressure, and EMI protection built-in"
+  ],
+  "apps": [
+    "Food Processing",
+    "Water Quality & Oil Exploration",
+    "Oil & Gas",
+    "Irrigation & Agriculture",
+    "Industrial Process Control"
+  ],
+  "theme": "dark"
+}

@@ -1,0 +1,71 @@
+{
+  "code": "HVM Wireless",
+  "name": "HVM Wireless Miniature Ball Valve",
+  "desc": "Compact wireless remote-control miniature ball valve with IoT-enabled remote operation.",
+  "overview": "The HVM Wireless miniature ball valve requires no wiring — powered by a rechargeable Li-ion 3.6V battery with LoRaWAN / 4G wireless communication. OTA firmware updates. 100,000-cycle service life. Ideal for retrofit installations where cabling is impractical.",
+  "image": "images/hvm_wireless.png",
+  "tags": [
+    "DN8–DN40",
+    "LoRaWAN / 4G",
+    "Battery powered",
+    "OTA updates"
+  ],
+  "specs": [
+    {
+      "label": "Nominal diameter",
+      "value": "DN8 / DN15 / DN20 / DN25 / DN32 / DN40"
+    },
+    {
+      "label": "Communication",
+      "value": "LoRa / LoRaWAN / 4G"
+    },
+    {
+      "label": "Power supply",
+      "value": "Lithium battery 3.6V"
+    },
+    {
+      "label": "Opening degree control",
+      "value": "0–100%"
+    },
+    {
+      "label": "Valve torque",
+      "value": "3.5–4.5 N·m"
+    },
+    {
+      "label": "Static power consumption",
+      "value": "0 mA (static); <25 mA (dynamic)"
+    },
+    {
+      "label": "Water medium temperature",
+      "value": "0°C – 100°C"
+    },
+    {
+      "label": "Ambient temperature",
+      "value": "−20°C – 45°C"
+    },
+    {
+      "label": "Body material",
+      "value": "Brass"
+    },
+    {
+      "label": "Service life",
+      "value": "100,000 cycles"
+    }
+  ],
+  "features": [
+    "Wireless installation: no wiring required, reducing construction costs",
+    "Multi-protocol compatibility: LoRaWAN / 4G wireless for easy integration and expansion",
+    "Low power consumption with long operating life; suitable for applications without continuous power supply",
+    "OTA firmware upgrades over the air — no field service required",
+    "Bluetooth commissioning app for on-site setup and diagnostics",
+    "100,000-cycle rated — same durability as wired version"
+  ],
+  "apps": [
+    "Retrofit HVAC",
+    "Remote Locations",
+    "Smart Agriculture",
+    "Smart City",
+    "Building IoT"
+  ],
+  "theme": "light"
+}

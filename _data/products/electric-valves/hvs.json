@@ -1,0 +1,89 @@
+{
+  "code": "HVS",
+  "name": "HVS Electric Control Globe Valve",
+  "desc": "Linear electric globe valve for precise flow/pressure/temperature regulation. PN16/25, −20°C~280°C, Modbus/RS485/4-20mA.",
+  "overview": "The HVS Series electric control globe valve uses a linear electric actuator with a multi-stage precision gearbox to achieve high-accuracy flow control. Designed for steam, hot water and chemical pipelines, it supports 4-20mA, RS485, M-Bus and Modbus protocols for seamless integration with building automation and industrial SCADA systems.",
+  "image": "images/hvs.png",
+  "tags": [
+    "DN15–DN150",
+    "PN16/PN25",
+    "−20°C to 280°C",
+    "4-20mA / RS485 / Modbus"
+  ],
+  "specs": [
+    {
+      "label": "Applicable media",
+      "value": "Cold water, hot water, high-temp hot water, saturated steam, thermal oil, clean water"
+    },
+    {
+      "label": "Connection method",
+      "value": "Flange connection"
+    },
+    {
+      "label": "Pipe size",
+      "value": "DN15 – DN150"
+    },
+    {
+      "label": "Valve stroke",
+      "value": "DN15–DN50: 20 mm; DN65–DN150: 40 mm"
+    },
+    {
+      "label": "Rated pressure",
+      "value": "PN16 / PN25"
+    },
+    {
+      "label": "Medium temperature",
+      "value": "−20°C ~ 280°C"
+    },
+    {
+      "label": "Leakage rate",
+      "value": "0 ~ 0.01%"
+    },
+    {
+      "label": "Flow characteristic",
+      "value": "Linear / Equal Percentage (selectable)"
+    },
+    {
+      "label": "Signal input",
+      "value": "4-20mA / RS485 / M-Bus"
+    },
+    {
+      "label": "Protocol",
+      "value": "Modbus"
+    },
+    {
+      "label": "Body material",
+      "value": "Ductile iron / Carbon steel / SS304"
+    },
+    {
+      "label": "Valve stem",
+      "value": "Stainless steel"
+    },
+    {
+      "label": "Disc & Seat",
+      "value": "Stainless steel"
+    },
+    {
+      "label": "Sealing material",
+      "value": "SS304 / FEPM (silicon-free)"
+    }
+  ],
+  "features": [
+    "Multi-stage precision gear drive with superior transmission accuracy for exact positioning and control",
+    "Control range configurable anywhere along full mechanical travel, covering both opening and closing directions",
+    "Supports linear and equal-percentage flow characteristics, compatible with various media and control curves",
+    "Stable operation from −20°C to 70°C; suitable for industrial, HVAC, building, and chemical pipeline environments",
+    "Dual output: fault signal output + visual alarm indicator light",
+    "Motor torque protected via electric actuator control, eliminating traditional mechanical travel switches",
+    "Accepts 4-20mA, 0-10V, digital, and Modbus signals; optional infrared remote control",
+    "Integrates multiple function modules; connects directly to building automation systems"
+  ],
+  "apps": [
+    "HVAC & Building Automation",
+    "District Heating",
+    "Water Treatment",
+    "Chemical Process",
+    "Steam Systems"
+  ],
+  "theme": "light"
+}

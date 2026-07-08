@@ -1,0 +1,95 @@
+{
+  "code": "HGC",
+  "name": "HGC Centralized Supermeter",
+  "desc": "Centralized data collection supermeter, M-Bus/RS485 slave devices, 4G/5G/LAN/WiFi uplink, 250-node capacity, compatible with heat/water/electricity/gas meters. IP54.",
+  "overview": "The HGC Centralized Supermeter is an M-Bus master data concentrator for district and campus meter reading. It connects to water, heat, electricity and gas meters via M-Bus / RS485, schedules automatic meter reading, stores data locally, and uploads to the Heimayi cloud platform via 4G, 5G, Ethernet or WiFi. Web-based management interface with two-way command support.",
+  "image": "images/hgc.png",
+  "tags": [
+    "M-Bus master",
+    "4G / 5G / LAN / WiFi uplink",
+    "Up to 250 slave meters",
+    "IP54"
+  ],
+  "specs": [
+    {
+      "label": "Processor",
+      "value": "32-bit industrial CPU"
+    },
+    {
+      "label": "Memory (standard)",
+      "value": "256 KB RAM; 16 MB Flash"
+    },
+    {
+      "label": "Supported protocols",
+      "value": "CJ/T188, EN1434-3, Modbus, DL/T645-2007, DL/T645-1997"
+    },
+    {
+      "label": "M-Bus load capacity",
+      "value": "150W / 300W / 350W / 800W (4 levels); up to 60–250 slave devices"
+    },
+    {
+      "label": "RS485 load capacity",
+      "value": "128 points"
+    },
+    {
+      "label": "M-Bus voltage",
+      "value": "High: 36V; Low: 20V"
+    },
+    {
+      "label": "Uplink communication",
+      "value": "4G / 5G / LAN (Ethernet) / WiFi"
+    },
+    {
+      "label": "Downlink communication",
+      "value": "RS485 / M-Bus / LoRa; RS232 (fault code output)"
+    },
+    {
+      "label": "Data storage",
+      "value": "Standard 16 MB; retention time 100 years"
+    },
+    {
+      "label": "Controller power",
+      "value": "DC 12V, 1.5A, 1.8W"
+    },
+    {
+      "label": "Box power supply",
+      "value": "AC 220V, 3A; full-load average <20W"
+    },
+    {
+      "label": "Operating temperature",
+      "value": "−20°C – 80°C"
+    },
+    {
+      "label": "Humidity",
+      "value": "5–90% RH (non-condensing)"
+    },
+    {
+      "label": "RTC drift",
+      "value": "<5 sec/day; battery backup ≥36 months"
+    },
+    {
+      "label": "Housing dimensions",
+      "value": "400×300×150 mm (expandable per project)"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP54 (standard); IP65 optional"
+    }
+  ],
+  "features": [
+    "Supports remote online upgrade and remote operation & maintenance management",
+    "Wide compatibility: simultaneously manages water, electricity, heat and flow meters on one concentrator",
+    "High-reliability automation: periodic auto meter reading, auto protocol parsing, offline operation and local data backup",
+    "Built-in web server: manage concentrator and set parameters from any PC browser",
+    "Hardware watchdog: auto-resets system after fault or power failure — no manual intervention needed",
+    "Open secondary development interfaces — easily integrates with third-party meter management platforms"
+  ],
+  "apps": [
+    "District Metering Areas",
+    "Campus & Industrial Parks",
+    "Residential Communities",
+    "Municipal Water Networks",
+    "Gas Utility Networks"
+  ],
+  "theme": "light"
+}

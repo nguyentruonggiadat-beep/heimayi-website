@@ -1,0 +1,75 @@
+{
+  "code": "HPT",
+  "name": "HPT Series Intelligent Pressure Transmitter",
+  "desc": "Intelligent pressure transmitter, compact design for direct pipe mounting, gauge/absolute/differential pressure, IP67/IP68, 4-20mA/RS485/HART.",
+  "overview": "The HPT Series intelligent pressure transmitter is a new-generation microprocessor-based transmitter achieving ±0.075% FS accuracy. It supports HART 7.0 and Modbus for remote calibration and status monitoring. IoT cloud connectivity enables real-time data analysis, alarm management and energy optimisation. Memory retains calibration data through power outages.",
+  "image": "images/hpt_intelligent.png",
+  "tags": [
+    "−0.1 to 60 MPa",
+    "±0.075% FS",
+    "4-20mA / HART / Modbus",
+    "IP65/IP67"
+  ],
+  "specs": [
+    {
+      "label": "Measurement range",
+      "value": "−0.1 MPa – 60 MPa"
+    },
+    {
+      "label": "Pressure type",
+      "value": "Gauge / Absolute / Sealed gauge"
+    },
+    {
+      "label": "Accuracy",
+      "value": "±0.075% FS (best); ±0.1% / ±0.2% / ±0.5% FS"
+    },
+    {
+      "label": "Long-term stability",
+      "value": "±0.1% FS / year"
+    },
+    {
+      "label": "Overload capacity",
+      "value": "1.5× measurement range"
+    },
+    {
+      "label": "Working temperature",
+      "value": "−40°C – 85°C"
+    },
+    {
+      "label": "Signal output",
+      "value": "4-20mA (2-wire); 0-10/20mA (3-wire); 0/1-5/10V (3-wire); RS485"
+    },
+    {
+      "label": "Protocol",
+      "value": "HART / Modbus"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 24V"
+    },
+    {
+      "label": "Body / Diaphragm material",
+      "value": "SS housing; 316L diaphragm; FKM or NBR O-ring"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP65 (threaded); IP67 (cable)"
+    }
+  ],
+  "features": [
+    "High-accuracy silicon sensor: supports thin-film and diffused silicon sensors; accuracy up to ±0.075% FS",
+    "HART 7.0 remote calibration, parameter setting, and status monitoring without site visit",
+    "Industrial IoT connectivity: uploads pressure data to cloud platform for real-time monitoring",
+    "High durability: strong overload capacity, stable output in variable temperature, vibration, and impact conditions",
+    "Comprehensive protection: up to IP67/IP68; dust-proof, waterproof, and corrosion-resistant",
+    "Data continuity: parameters retained after power restoration; non-volatile EEPROM memory"
+  ],
+  "apps": [
+    "Food & Pharmaceutical",
+    "Power & Energy",
+    "Oil & Gas",
+    "HVAC & Building Automation",
+    "Process Control"
+  ],
+  "theme": "dark"
+}

@@ -1,0 +1,87 @@
+{
+  "code": "HGI Edge",
+  "name": "HGE Edge Data Acquisition Computer",
+  "desc": "Edge data acquisition computer with edge computing, 4G uplink, RS485/M-Bus/analog downlink, IP68, 38,000 mAh battery, 6-year operational life.",
+  "overview": "The HGI Edge Data Acquisition Computer provides edge computing capability for community, building and agricultural IoT deployments. Local filtering, feature extraction, anomaly detection and real-time logic processing eliminates the need to transmit raw data to the cloud. Supports M-Bus, RS485 and analog 4-20mA inputs. Battery life up to 10 years. IP68 rated for all-weather installation.",
+  "image": "images/hge.png",
+  "tags": [
+    "4G uplink",
+    "M-Bus / RS485 downlink",
+    "38,000 mAh battery",
+    "IP68"
+  ],
+  "specs": [
+    {
+      "label": "Uplink communication",
+      "value": "4G"
+    },
+    {
+      "label": "Downlink communication",
+      "value": "M-Bus / RS485 / 4-20mA analogue"
+    },
+    {
+      "label": "Extended sensors",
+      "value": "Temperature, humidity, pressure, level, CH₄, H₂S, CO"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 3.6V lithium battery"
+    },
+    {
+      "label": "Battery capacity",
+      "value": "38,000 mAh (standard); up to 76,000 mAh"
+    },
+    {
+      "label": "Standby current",
+      "value": "<2 µA"
+    },
+    {
+      "label": "Battery life",
+      "value": "~6 years (at 38,000 mAh, 2 collections/day)"
+    },
+    {
+      "label": "Edge computing latency",
+      "value": "10–50 ms"
+    },
+    {
+      "label": "Collection cycle",
+      "value": "30 min – 30 days (adjustable)"
+    },
+    {
+      "label": "Upload cycle",
+      "value": "30 min – 30 days (adjustable)"
+    },
+    {
+      "label": "Enclosure material",
+      "value": "Aluminum alloy"
+    },
+    {
+      "label": "Dimensions",
+      "value": "194×135×50 mm"
+    },
+    {
+      "label": "Mounting method",
+      "value": "Wall mount"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP68"
+    }
+  ],
+  "features": [
+    "Edge computing: data processed locally — end-to-end latency 10~50 ms, no cloud round-trip needed",
+    "Supports diverse sensors: temperature, humidity, pressure, liquid level, CH₄, H₂S, CO for comprehensive monitoring",
+    "Ultra-low standby current <2 µA — Lithium battery life up to 10 years",
+    "Flexible communication: 4G uplink; RS485 / M-Bus / 4-20mA analogue downlink",
+    "Compact 194×135×50mm wall-mount enclosure — deploys in any tight space without complex wiring",
+    "IP68 and EMI-resistant — durable in harsh outdoor and underground environments"
+  ],
+  "apps": [
+    "Smart Communities",
+    "Smart Buildings",
+    "Smart Agriculture",
+    "Smart Water Mgmt",
+    "Smart City Infrastructure"
+  ],
+  "theme": "light"
+}

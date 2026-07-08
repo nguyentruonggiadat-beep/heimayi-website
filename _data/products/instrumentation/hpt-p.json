@@ -1,0 +1,84 @@
+{
+  "code": "HPT ΔP",
+  "name": "HPT Series Differential Pressure Transmitter",
+  "desc": "Smart differential pressure transmitter, ±0.075% accuracy, range ratio 100:1, HART/Modbus/LoRaWAN, IP65/IP67, for flow/level/filter monitoring.",
+  "overview": "The HPT ΔP Series smart differential pressure transmitter measures precise differential pressure between two process points. Core applications include flow calculation, liquid level in pressurised vessels, filter monitoring and leak detection. ±0.075% accuracy with 100:1 turndown. LoRaWAN wireless option for remote installations.",
+  "image": "images/hpt_dp.png",
+  "tags": [
+    "0–10 MPa",
+    "±0.075% FS",
+    "HART / Modbus / LoRaWAN",
+    "IP65/IP67"
+  ],
+  "specs": [
+    {
+      "label": "Measurement range",
+      "value": "0–10 MPa"
+    },
+    {
+      "label": "Accuracy",
+      "value": "±0.075% / ±0.1% / ±0.2% FS"
+    },
+    {
+      "label": "Turndown ratio",
+      "value": "40:1 standard; 100:1 optional"
+    },
+    {
+      "label": "Long-term stability",
+      "value": "36-month drift: ±0.2% of max span"
+    },
+    {
+      "label": "Response time",
+      "value": "≤60 ms"
+    },
+    {
+      "label": "Ambient temperature",
+      "value": "−50°C – 85°C; humidity 0–95% RH (non-condensing)"
+    },
+    {
+      "label": "Signal output",
+      "value": "4-20mA / RS485"
+    },
+    {
+      "label": "Protocol",
+      "value": "HART / Modbus / LoRaWAN"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 24V"
+    },
+    {
+      "label": "Diaphragm material",
+      "value": "316L / Hastelloy C / Monel / Tantalum (optional)"
+    },
+    {
+      "label": "Housing material",
+      "value": "Aluminum alloy / 316L SS"
+    },
+    {
+      "label": "Connection",
+      "value": "Flange DN15–DN200 PN16–PN400; Thread M20×1.5 or 1/2\" NPT"
+    },
+    {
+      "label": "Protection rating",
+      "value": "IP65 / IP67"
+    }
+  ],
+  "features": [
+    "Advanced composite sensor: single-crystal silicon or diffused silicon; ±0.075% FS accuracy",
+    "Wide turndown ratio up to 100:1; covers micro DP (0–1 kPa) to high DP (0–10 MPa) in one transmitter",
+    "Excellent long-term stability: drift better than 0.1%/year, reducing calibration frequency",
+    "Remote configuration and calibration via HART, Modbus without on-site manual operation",
+    "Non-volatile EEPROM memory: calibration data retained during power loss",
+    "Corrosion-resistant diaphragm: 316L stainless steel, Hastelloy C, Monel, or Tantalum for corrosive media",
+    "Self-diagnostics: monitors sensor status, circuit, and communication with 100ms alarm response"
+  ],
+  "apps": [
+    "HVAC & Building Automation",
+    "Food & Pharmaceutical",
+    "Power & Energy",
+    "Oil & Gas",
+    "Filter Monitoring"
+  ],
+  "theme": "dark"
+}

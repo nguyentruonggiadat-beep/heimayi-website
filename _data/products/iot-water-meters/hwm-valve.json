@@ -1,0 +1,101 @@
+{
+  "code": "HWM Valve",
+  "name": "HWM IoT Valve Controlled Water Meter",
+  "desc": "IoT valve-controlled water meter, NB-IoT/4G, remote valve open/close, flow limiting, IP68 three-chamber, 6+ year battery.",
+  "overview": "The HWM Valve IoT Water Meter integrates NB-IoT / 4G communication with a built-in motorised valve for remote open/close control. Applications include district water management, leakage detection, automated shut-off for non-payment, and pressure management. Battery powered by high-energy-density Li-SOCl₂, rated for over 6 years of continuous service.",
+  "image": "images/hwm_valve.png",
+  "tags": [
+    "DN15–DN25",
+    "Remote valve control",
+    "NB-IoT / 4G",
+    "IP68"
+  ],
+  "specs": [
+    {
+      "label": "Pipe size",
+      "value": "DN15 / DN20 / DN25"
+    },
+    {
+      "label": "Accuracy class (mechanical)",
+      "value": "Class B / Class E1"
+    },
+    {
+      "label": "Accuracy class (electronics)",
+      "value": "Class 2"
+    },
+    {
+      "label": "Temperature range",
+      "value": "0.1°C – 30°C"
+    },
+    {
+      "label": "Max working pressure",
+      "value": "≤1 MPa"
+    },
+    {
+      "label": "Allowable pressure loss",
+      "value": "≤0.063 MPa"
+    },
+    {
+      "label": "Flow error at low flow (Q1≤Q<Q2)",
+      "value": "±5% (T≤30°C); ±3% (T>30°C)"
+    },
+    {
+      "label": "Flow error at high flow (Q2≤Q≤Q4)",
+      "value": "±2%"
+    },
+    {
+      "label": "Turndown ratio R (DN15)",
+      "value": "80 or 100"
+    },
+    {
+      "label": "Max flow Q4 (DN15, R80)",
+      "value": "3.1 m³/h"
+    },
+    {
+      "label": "Min flow Q1 (DN15, R80)",
+      "value": "0.050 m³/h"
+    },
+    {
+      "label": "Starting flow Qs (DN15, R80)",
+      "value": "0.031 m³/h"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 3.6V (Li-SOCl₂; life ≥6 years)"
+    },
+    {
+      "label": "Valve control",
+      "value": "Remote open/close / flow limiting via NB-IoT / 4G"
+    },
+    {
+      "label": "Communication",
+      "value": "NB-IoT / 4G"
+    },
+    {
+      "label": "Display range",
+      "value": "0.0001–9,999,999 m³"
+    },
+    {
+      "label": "Standard",
+      "value": "GB/T 778 / CJ/T 133"
+    }
+  ],
+  "features": [
+    "NB-IoT/4G network transmission: deep signal penetration, stable, two-way communication with software platform",
+    "Anti-interference young-sampling technology filters pipeline vibration and hydraulic hammering; true signal from internal sensor",
+    "IP68 rated; fully epoxy-encapsulated; submerged in water normally with stable performance",
+    "Ultra-low power Li-SOCl₂ battery with high energy density; battery life up to 6+ years",
+    "Integrated motorised valve: remotely open/close valve, limit flow; supports prepayment and auto-shutoff on zero balance",
+    "Smart scheduled reading with configurable thresholds and active alerts for abnormal water usage",
+    "Real-time alarms: triggers on overflow, backflow, slow leak, and other abnormal flow events",
+    "Self-diagnostics: real-time monitoring of battery level and valve status with alerts and data logging"
+  ],
+  "apps": [
+    "District Water Management",
+    "Leakage Control",
+    "Smart Water Networks",
+    "Remote Shut-off",
+    "Pre-paid Water Systems"
+  ],
+  "theme": "dark"
+}

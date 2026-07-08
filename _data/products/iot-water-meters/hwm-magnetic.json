@@ -1,0 +1,95 @@
+{
+  "code": "HWM Magnetic",
+  "name": "HWM IoT Magnetic Water Meter",
+  "desc": "IoT magnetic impeller water meter, NB-IoT/4G, anti-magnetic, IP68 three-chamber, 6+ year battery, optional IC card recharge.",
+  "overview": "The HWM Series IoT Magnetic Water Meter uses a new-generation microprocessor to acquire and record water flow continuously, then transmit data to the management platform via NB-IoT / 4G for remote billing. Epoxy-moulded magnetic anti-tamper pin design resists external interference. Supports two-way communication for remote valve control and parameter setting.",
+  "image": "images/hwm_magnetic.png",
+  "tags": [
+    "DN15–DN25",
+    "Class B/C",
+    "NB-IoT / 4G / M-Bus",
+    "IP68"
+  ],
+  "specs": [
+    {
+      "label": "Pipe size",
+      "value": "DN15 / DN20 / DN25"
+    },
+    {
+      "label": "Accuracy class (mechanical)",
+      "value": "Class B / Class E1"
+    },
+    {
+      "label": "Accuracy class (electronics)",
+      "value": "Class 2"
+    },
+    {
+      "label": "Temperature range",
+      "value": "0.1°C – 30°C"
+    },
+    {
+      "label": "Max working pressure",
+      "value": "≤1 MPa"
+    },
+    {
+      "label": "Allowable pressure loss",
+      "value": "≤0.063 MPa"
+    },
+    {
+      "label": "Flow error at low flow (Q1≤Q<Q2)",
+      "value": "±5% (T≤30°C); ±3% (T>30°C)"
+    },
+    {
+      "label": "Flow error at high flow (Q2≤Q≤Q4)",
+      "value": "±2%"
+    },
+    {
+      "label": "Turndown ratio R (DN15)",
+      "value": "80 or 100"
+    },
+    {
+      "label": "Max flow Q4 (DN15, R80)",
+      "value": "3.1 m³/h"
+    },
+    {
+      "label": "Min flow Q1 (DN15, R80)",
+      "value": "0.050 m³/h"
+    },
+    {
+      "label": "Starting flow Qs (DN15, R80)",
+      "value": "0.031 m³/h"
+    },
+    {
+      "label": "Power supply",
+      "value": "DC 3.6V"
+    },
+    {
+      "label": "Communication",
+      "value": "NB-IoT / 4G"
+    },
+    {
+      "label": "Display range",
+      "value": "0.0001–9,999,999 m³"
+    },
+    {
+      "label": "Standard",
+      "value": "GB/T 778 / CJ/T 133"
+    }
+  ],
+  "features": [
+    "NB-IoT/4G automatic reading eliminates manual meter-reading visits; stable, two-way communication",
+    "Dynamic network maintenance: system auto-maintains at regular intervals without manual adjustment",
+    "Waterproof epoxy-encapsulated circuit with anti-magnetic ring design; IP68 rated",
+    "Smart scheduled reading: configurable thresholds and active alerts for abnormal water usage",
+    "Real-time monitoring: triggers alarms for overflow, backflow, slow leak, and other abnormal flow events",
+    "Epoxy-moulded anti-tamper pin resists external magnet attacks; multiple body material options available"
+  ],
+  "apps": [
+    "Residential Communities",
+    "Commercial Buildings",
+    "Schools & Hospitals",
+    "Smart Water Networks",
+    "Rural Water Supply"
+  ],
+  "theme": "dark"
+}
