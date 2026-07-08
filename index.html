@@ -3182,7 +3182,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(
 /* ── PRODUCT LOADER (reads from _data/cat-*.json, edited via /admin CMS) ── */
 (async function loadProducts() {
   // Each product now lives in its own file under _data/products/ (one file
-  // per product, edited individually via /admin). _data/products/index.json
+  // per product, edited individually via /admin). _data/products-index.json
   // lists which files exist — Netlify regenerates it on every build via
   // scripts/build-manifest.js, so newly added/removed products always show
   // up without any manual step.
@@ -3197,8 +3197,8 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(
   };
   let ALL;
   try {
-    const manifestRes = await fetch('_data/products/index.json', { cache: 'no-store' });
-    if (!manifestRes.ok) throw new Error('fetch failed: _data/products/index.json');
+    const manifestRes = await fetch('_data/products-index.json', { cache: 'no-store' });
+    if (!manifestRes.ok) throw new Error('fetch failed: _data/products-index.json');
     const files = await manifestRes.json();
     const products = await Promise.all(files.map(async (fn) => {
       const res = await fetch('_data/products/' + fn, { cache: 'no-store' });
