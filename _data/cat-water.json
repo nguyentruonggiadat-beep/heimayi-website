@@ -1,0 +1,738 @@
+{
+  "theme": "dark",
+  "products": [
+    {
+      "code": "HWM Magnetic",
+      "name": "HWM IoT Magnetic Water Meter",
+      "desc": "IoT magnetic impeller water meter, NB-IoT/4G, anti-magnetic, IP68 three-chamber, 6+ year battery, optional IC card recharge.",
+      "overview": "The HWM Series IoT Magnetic Water Meter uses a new-generation microprocessor to acquire and record water flow continuously, then transmit data to the management platform via NB-IoT / 4G for remote billing. Epoxy-moulded magnetic anti-tamper pin design resists external interference. Supports two-way communication for remote valve control and parameter setting.",
+      "image": "images/hwm_magnetic.png",
+      "tags": [
+        "DN15–DN25",
+        "Class B/C",
+        "NB-IoT / 4G / M-Bus",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Pipe size",
+          "value": "DN15 / DN20 / DN25"
+        },
+        {
+          "label": "Accuracy class (mechanical)",
+          "value": "Class B / Class E1"
+        },
+        {
+          "label": "Accuracy class (electronics)",
+          "value": "Class 2"
+        },
+        {
+          "label": "Temperature range",
+          "value": "0.1°C – 30°C"
+        },
+        {
+          "label": "Max working pressure",
+          "value": "≤1 MPa"
+        },
+        {
+          "label": "Allowable pressure loss",
+          "value": "≤0.063 MPa"
+        },
+        {
+          "label": "Flow error at low flow (Q1≤Q<Q2)",
+          "value": "±5% (T≤30°C); ±3% (T>30°C)"
+        },
+        {
+          "label": "Flow error at high flow (Q2≤Q≤Q4)",
+          "value": "±2%"
+        },
+        {
+          "label": "Turndown ratio R (DN15)",
+          "value": "80 or 100"
+        },
+        {
+          "label": "Max flow Q4 (DN15, R80)",
+          "value": "3.1 m³/h"
+        },
+        {
+          "label": "Min flow Q1 (DN15, R80)",
+          "value": "0.050 m³/h"
+        },
+        {
+          "label": "Starting flow Qs (DN15, R80)",
+          "value": "0.031 m³/h"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 3.6V"
+        },
+        {
+          "label": "Communication",
+          "value": "NB-IoT / 4G"
+        },
+        {
+          "label": "Display range",
+          "value": "0.0001–9,999,999 m³"
+        },
+        {
+          "label": "Standard",
+          "value": "GB/T 778 / CJ/T 133"
+        }
+      ]
+    },
+    {
+      "code": "HWM Non-magnetic",
+      "name": "HWM IoT Non-magnetic Water Meter",
+      "desc": "Non-magnetic impeller IoT water meter — interference-resistant, remote data transmission.",
+      "overview": "The HWM Non-magnetic IoT Water Meter uses a proprietary non-contact electronic sensing element that eliminates reliance on magnetic sensing. This makes it completely immune to strong-magnet tampering attacks — one of the most common forms of meter fraud. Liquid crystal display shows reading, battery status and signal strength. Bi-directional NB-IoT / 4G communication.",
+      "image": "images/hwm_nonmagnetic.png",
+      "tags": [
+        "DN15–DN25",
+        "Anti-tamper",
+        "NB-IoT / 4G",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Pipe size",
+          "value": "DN15 / DN20 / DN25"
+        },
+        {
+          "label": "Accuracy class (mechanical)",
+          "value": "Class B / Class E1"
+        },
+        {
+          "label": "Accuracy class (electronics)",
+          "value": "Class 2"
+        },
+        {
+          "label": "Temperature range",
+          "value": "0.1°C – 30°C"
+        },
+        {
+          "label": "Max working pressure",
+          "value": "≤1 MPa"
+        },
+        {
+          "label": "Allowable pressure loss",
+          "value": "≤0.063 MPa"
+        },
+        {
+          "label": "Flow error at low flow (Q1≤Q<Q2)",
+          "value": "±5% (T≤30°C); ±3% (T>30°C)"
+        },
+        {
+          "label": "Flow error at high flow (Q2≤Q≤Q4)",
+          "value": "±2%"
+        },
+        {
+          "label": "Turndown ratio R (DN15)",
+          "value": "80 or 100"
+        },
+        {
+          "label": "Max flow Q4 (DN15, R80)",
+          "value": "3.1 m³/h"
+        },
+        {
+          "label": "Min flow Q1 (DN15, R80)",
+          "value": "0.050 m³/h"
+        },
+        {
+          "label": "Starting flow Qs (DN15, R80)",
+          "value": "0.031 m³/h"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 3.6V"
+        },
+        {
+          "label": "Sensing method",
+          "value": "Non-contact electronic sensor (no reed switch); direct impulse reading"
+        },
+        {
+          "label": "Communication",
+          "value": "NB-IoT / 4G"
+        },
+        {
+          "label": "Display range",
+          "value": "0.0001–9,999,999 m³"
+        },
+        {
+          "label": "Standard",
+          "value": "GB/T 778 / CJ/T 133"
+        }
+      ]
+    },
+    {
+      "code": "HWM IC Card",
+      "name": "HWM IC Card Intelligent Water Meter",
+      "desc": "Prepaid IC card smart water meter. Pay-before-use, automatic valve control by balance, anti-counterfeiting, low-voltage protection.",
+      "overview": "The HWM IC Card Smart Water Meter enables prepaid water metering using an IC card. Users top up at any service station; the meter automatically closes the valve when the balance runs out. Usage history can be checked on the card. Manages over-pressure alarms, anti-tamper detection and remote valve control. Suitable for residential communities, schools, hotels and industrial parks.",
+      "image": "images/hwm_iccard.png",
+      "tags": [
+        "DN15–DN25",
+        "Prepaid / Postpaid",
+        "Remote valve control",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Pipe size",
+          "value": "DN15 / DN20 / DN25"
+        },
+        {
+          "label": "Accuracy class (mechanical)",
+          "value": "Class B / Class E1"
+        },
+        {
+          "label": "Accuracy class (electronics)",
+          "value": "Class 2"
+        },
+        {
+          "label": "Temperature range",
+          "value": "0.1°C – 30°C"
+        },
+        {
+          "label": "Max working pressure",
+          "value": "≤1 MPa"
+        },
+        {
+          "label": "Allowable pressure loss",
+          "value": "≤0.063 MPa"
+        },
+        {
+          "label": "Flow error at low flow (Q1≤Q<Q2)",
+          "value": "±5% (T≤30°C); ±3% (T>30°C)"
+        },
+        {
+          "label": "Flow error at high flow (Q2≤Q≤Q4)",
+          "value": "±2%"
+        },
+        {
+          "label": "Turndown ratio R (DN15)",
+          "value": "80 or 100"
+        },
+        {
+          "label": "Max flow Q4 (DN15, R80)",
+          "value": "3.1 m³/h"
+        },
+        {
+          "label": "Min flow Q1 (DN15, R80)",
+          "value": "0.050 m³/h"
+        },
+        {
+          "label": "Starting flow Qs (DN15, R80)",
+          "value": "0.031 m³/h"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 3.6V"
+        },
+        {
+          "label": "Prepaid function",
+          "value": "IC card prepaid; alarm at 5 m³ remaining (configurable); auto valve closure"
+        },
+        {
+          "label": "Display range",
+          "value": "0.0001–9,999,999 m³"
+        },
+        {
+          "label": "Standard",
+          "value": "GB/T 778 / CJ/T 133"
+        }
+      ]
+    },
+    {
+      "code": "HWM Photo",
+      "name": "HWM Electronic Remote Water Meter",
+      "desc": "Photoelectric infrared direct-reading remote water meter via M-Bus/RS485. No accumulated error, no continuous power required.",
+      "overview": "The HWM Photo Series uses a non-contact photoelectric absolute encoder to read the mechanical counter directly, with no mechanical linkage drift. Data is transmitted via M-Bus bus concentrator or 4G/NB-IoT network. Ultra-low power draw — battery life exceeds 6 years. Fully sealed electronic section prevents corrosion. Compatible with hot water supply as well.",
+      "image": "images/hwm_photo.png",
+      "tags": [
+        "DN15–DN25",
+        "Absolute encoder",
+        "NB-IoT / 4G / M-Bus",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Pipe size",
+          "value": "DN15 / DN20 / DN25"
+        },
+        {
+          "label": "Accuracy class (mechanical)",
+          "value": "Class B / Class E1"
+        },
+        {
+          "label": "Accuracy class (electronics)",
+          "value": "Class 2"
+        },
+        {
+          "label": "Temperature range",
+          "value": "0.1°C – 30°C"
+        },
+        {
+          "label": "Max working pressure",
+          "value": "≤1 MPa"
+        },
+        {
+          "label": "Allowable pressure loss",
+          "value": "≤0.063 MPa"
+        },
+        {
+          "label": "Flow error at low flow (Q1≤Q<Q2)",
+          "value": "±5% (T≤30°C); ±3% (T>30°C)"
+        },
+        {
+          "label": "Flow error at high flow (Q2≤Q≤Q4)",
+          "value": "±2%"
+        },
+        {
+          "label": "Turndown ratio R (DN15)",
+          "value": "80 or 100"
+        },
+        {
+          "label": "Max flow Q4 (DN15, R80)",
+          "value": "3.1 m³/h"
+        },
+        {
+          "label": "Min flow Q1 (DN15, R80)",
+          "value": "0.050 m³/h"
+        },
+        {
+          "label": "Starting flow Qs (DN15, R80)",
+          "value": "0.031 m³/h"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 3.6V"
+        },
+        {
+          "label": "Reading method",
+          "value": "Photoelectric direct reading (infrared non-contact dial scanning)"
+        },
+        {
+          "label": "Communication",
+          "value": "M-Bus / RS485; concentrator via 4G or NB-IoT for remote reading"
+        },
+        {
+          "label": "Display range",
+          "value": "0.0001–9,999,999 m³"
+        },
+        {
+          "label": "Standard",
+          "value": "GB/T 778 / CJ/T 133"
+        }
+      ]
+    },
+    {
+      "code": "HWM Valve",
+      "name": "HWM IoT Valve Controlled Water Meter",
+      "desc": "IoT valve-controlled water meter, NB-IoT/4G, remote valve open/close, flow limiting, IP68 three-chamber, 6+ year battery.",
+      "overview": "The HWM Valve IoT Water Meter integrates NB-IoT / 4G communication with a built-in motorised valve for remote open/close control. Applications include district water management, leakage detection, automated shut-off for non-payment, and pressure management. Battery powered by high-energy-density Li-SOCl₂, rated for over 6 years of continuous service.",
+      "image": "images/hwm_valve.png",
+      "tags": [
+        "DN15–DN25",
+        "Remote valve control",
+        "NB-IoT / 4G",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Pipe size",
+          "value": "DN15 / DN20 / DN25"
+        },
+        {
+          "label": "Accuracy class (mechanical)",
+          "value": "Class B / Class E1"
+        },
+        {
+          "label": "Accuracy class (electronics)",
+          "value": "Class 2"
+        },
+        {
+          "label": "Temperature range",
+          "value": "0.1°C – 30°C"
+        },
+        {
+          "label": "Max working pressure",
+          "value": "≤1 MPa"
+        },
+        {
+          "label": "Allowable pressure loss",
+          "value": "≤0.063 MPa"
+        },
+        {
+          "label": "Flow error at low flow (Q1≤Q<Q2)",
+          "value": "±5% (T≤30°C); ±3% (T>30°C)"
+        },
+        {
+          "label": "Flow error at high flow (Q2≤Q≤Q4)",
+          "value": "±2%"
+        },
+        {
+          "label": "Turndown ratio R (DN15)",
+          "value": "80 or 100"
+        },
+        {
+          "label": "Max flow Q4 (DN15, R80)",
+          "value": "3.1 m³/h"
+        },
+        {
+          "label": "Min flow Q1 (DN15, R80)",
+          "value": "0.050 m³/h"
+        },
+        {
+          "label": "Starting flow Qs (DN15, R80)",
+          "value": "0.031 m³/h"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 3.6V (Li-SOCl₂; life ≥6 years)"
+        },
+        {
+          "label": "Valve control",
+          "value": "Remote open/close / flow limiting via NB-IoT / 4G"
+        },
+        {
+          "label": "Communication",
+          "value": "NB-IoT / 4G"
+        },
+        {
+          "label": "Display range",
+          "value": "0.0001–9,999,999 m³"
+        },
+        {
+          "label": "Standard",
+          "value": "GB/T 778 / CJ/T 133"
+        }
+      ]
+    },
+    {
+      "code": "HWM Vertical",
+      "name": "HWM Large-diameter Vertical IoT Water Meter",
+      "desc": "Large-diameter vertical spiral-wing IoT water meter. DN50~DN200, R200, NB-IoT/4G, IP68, optional valve control.",
+      "overview": "The HWM Vertical Large-diameter IoT Water Meter is specifically designed for high-flow applications: industrial manufacturing, municipal water supply and urban residential mains. Vertical-axis spiral wing design. Accurate at low flow rates. Suitable for filters with fine and coarse filtration. Optional valve control for remote shut-off. NB-IoT / 4G wireless.",
+      "image": "images/hwm_vertical.png",
+      "tags": [
+        "DN50–DN200",
+        "R200",
+        "NB-IoT / 4G",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Pipe size",
+          "value": "DN50 / DN80 / DN100 / DN150 / DN200"
+        },
+        {
+          "label": "Turndown ratio",
+          "value": "R200"
+        },
+        {
+          "label": "Max flow Q4 (DN50)",
+          "value": "50 m³/h"
+        },
+        {
+          "label": "Transitional flow Q3 (DN50)",
+          "value": "40 m³/h"
+        },
+        {
+          "label": "Intermediate flow Q2 (DN50)",
+          "value": "0.32 m³/h"
+        },
+        {
+          "label": "Min flow Q1 (DN50)",
+          "value": "0.2 m³/h"
+        },
+        {
+          "label": "Starting flow Qs (DN50)",
+          "value": "0.001 m³/h"
+        },
+        {
+          "label": "Max display volume",
+          "value": "9,999,999 m³"
+        },
+        {
+          "label": "Communication",
+          "value": "NB-IoT / 4G wireless"
+        },
+        {
+          "label": "Valve control (optional)",
+          "value": "Integrated electric valve: remote open/close, flow limiting"
+        }
+      ]
+    },
+    {
+      "code": "HWM Horizontal",
+      "name": "HWM Large-diameter Horizontal IoT Water Meter",
+      "desc": "Large-diameter horizontal spiral-wing IoT water meter, DN40–DN250, R50, NB-IoT/4G, IP68. High adaptability to complex environments.",
+      "overview": "The HWM Horizontal Large-diameter IoT Water Meter uses a new-generation microprocessor to measure water volume in large horizontal mains, then transmit data via NB-IoT / 4G for remote billing and management. The dual-way communication supports valve control addition. Compatible with direct reading cameras (HWC) for alternate reading methods.",
+      "image": "images/hwm_horizontal.png",
+      "tags": [
+        "DN40–DN300",
+        "R50",
+        "NB-IoT / 4G",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Pipe size",
+          "value": "DN40 / DN50 / DN65 / DN80 / DN100 / DN125 / DN150 / DN200 / DN250 / DN300"
+        },
+        {
+          "label": "Turndown ratio",
+          "value": "R50"
+        },
+        {
+          "label": "Max flow Q4 (DN40)",
+          "value": "16 m³/h"
+        },
+        {
+          "label": "Transitional flow Q3 (DN40)",
+          "value": "20 m³/h"
+        },
+        {
+          "label": "Min flow Q1 (DN40)",
+          "value": "0.32 m³/h"
+        },
+        {
+          "label": "Starting flow Qs (DN40)",
+          "value": "0.02 m³/h"
+        },
+        {
+          "label": "Max display volume (DN40)",
+          "value": "999,999 m³"
+        },
+        {
+          "label": "Communication",
+          "value": "NB-IoT / 4G wireless"
+        },
+        {
+          "label": "Valve control (optional)",
+          "value": "Integrated electric valve for remote control"
+        }
+      ]
+    },
+    {
+      "code": "HWU Small",
+      "name": "HWU Small Ultrasonic IoT Water Meter",
+      "desc": "Small-diameter IoT ultrasonic water meter, DN15–DN40, R250/R400, picosecond chip, IP68, RS485/M-Bus/NB-IoT/LoRa/4G.",
+      "overview": "The HWU Small-diameter Ultrasonic IoT Water Meter uses transit-time ultrasonic technology — no moving parts, no wear, long service life. Picosecond-resolution chips measure flow starting from near-zero rates. Stores 24 daily / 360 monthly / 192 hourly records. Real-time monitoring of battery, temperature, flow and pipe status alerts. Supports RS485 / M-Bus / NB-IoT / LoRa / 4G.",
+      "image": "images/hwu_small.png",
+      "tags": [
+        "DN15–DN40",
+        "Class 2",
+        "RS485 / M-Bus / NB-IoT / LoRa / 4G",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Measurement medium",
+          "value": "Clean water (biologically active, fully pipe-filled)"
+        },
+        {
+          "label": "Accuracy class",
+          "value": "Class 2"
+        },
+        {
+          "label": "Max working pressure",
+          "value": "1.6 MPa"
+        },
+        {
+          "label": "Environmental class",
+          "value": "Class O"
+        },
+        {
+          "label": "Temperature class",
+          "value": "T30 / T50 / T90 (selectable)"
+        },
+        {
+          "label": "EMC class",
+          "value": "U10 / D5"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 3.6V (lithium battery)"
+        },
+        {
+          "label": "Communication",
+          "value": "RS485 / M-Bus / NB-IoT / LoRa / 4G / TTL (selectable)"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP68"
+        },
+        {
+          "label": "Flow DN15 (R250)",
+          "value": "Min: 2.4 L/h; Transitional: 10 L/h; Max: 2,500 L/h; Overload: 3,125 L/h"
+        },
+        {
+          "label": "Flow DN20 (R250)",
+          "value": "Min: 4 L/h; Transitional: 16 L/h; Max: 4,000 L/h; Overload: 5,000 L/h"
+        },
+        {
+          "label": "Flow DN25 (R250)",
+          "value": "Min: 6.4 L/h; Transitional: 25 L/h; Max: 6,300 L/h; Overload: 7,875 L/h"
+        },
+        {
+          "label": "Flow DN32 (R250)",
+          "value": "Min: 10.2 L/h; Transitional: 40 L/h; Max: 10,000 L/h; Overload: 12,500 L/h"
+        },
+        {
+          "label": "Flow DN40 (R250)",
+          "value": "Min: 16 L/h; Transitional: 64 L/h; Max: 16,000 L/h; Overload: 20,000 L/h"
+        }
+      ]
+    },
+    {
+      "code": "HWU",
+      "name": "HWU Large-diameter Ultrasonic IoT Water Meter",
+      "desc": "Large-diameter IoT ultrasonic water meter, DN40–DN300, R50, no moving parts, 15–20 year lifespan, NB-IoT/4G/M-Bus/RS485, IP68.",
+      "overview": "The HWU Large-diameter Ultrasonic IoT Water Meter applies the same transit-time ultrasonic principle to larger pipes. No moving parts — service life typically 15–20 years with low maintenance cost. Low start-up flow rate (0.0015 m³/h). Intelligent features include flow volume alarm, leakage alert, abnormal flow detection and remote meter reading. Multi-channel configuration available.",
+      "image": "images/hwu_large.png",
+      "tags": [
+        "DN50 and above",
+        "Class 2",
+        "NB-IoT / 4G / M-Bus / RS485",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Measurement principle",
+          "value": "Time-difference ultrasonic"
+        },
+        {
+          "label": "Measurement error",
+          "value": "<0.2%"
+        },
+        {
+          "label": "Min starting flow",
+          "value": "0.0015 m³/h"
+        },
+        {
+          "label": "Moving parts",
+          "value": "None (service life 15–20 years)"
+        },
+        {
+          "label": "Pipe size",
+          "value": "DN50 and above (large diameter)"
+        },
+        {
+          "label": "Channel configuration",
+          "value": "Single / Dual / Four-channel"
+        },
+        {
+          "label": "Body material",
+          "value": "Cast iron / Brass / Stainless steel"
+        },
+        {
+          "label": "Communication",
+          "value": "NB-IoT / 4G / M-Bus / RS485"
+        }
+      ]
+    },
+    {
+      "code": "HWC Direct",
+      "name": "HWC IoT Camera Direct Reading Module",
+      "desc": "AI camera module for small mechanical meter retrofit. >99% image recognition accuracy, LPWAN+NB-IoT, IP68, 6-year battery life.",
+      "overview": "The HWC IoT Camera Direct-reading Module uses AI image recognition based on deep learning to read any mechanical water meter dial — no replacement of the original meter needed. Accuracy rate >99%. Reading in <3 seconds. Detachable from the meter for easy replacement. Combined LPWAN network (NB-IoT gateway) to reduce infrastructure cost. Battery life up to 6 years.",
+      "image": "images/hwc_direct.png",
+      "tags": [
+        "Retrofit any meter",
+        "AI >99% accuracy",
+        "NB-IoT / LoRaWAN",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Power supply",
+          "value": "3.6V (built-in battery)"
+        },
+        {
+          "label": "Standby current",
+          "value": "<3 µA; max operating current <30 mA"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−25°C – 65°C"
+        },
+        {
+          "label": "Recognition rate",
+          "value": ">99%"
+        },
+        {
+          "label": "Reading time",
+          "value": "<3 seconds"
+        },
+        {
+          "label": "Communication speed",
+          "value": "Up to 200 kbps (LPWAN)"
+        },
+        {
+          "label": "RF sensitivity",
+          "value": "−112 dBm"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP68"
+        },
+        {
+          "label": "Communication",
+          "value": "NB-IoT"
+        }
+      ]
+    },
+    {
+      "code": "HGCA",
+      "name": "HGCA IoT Camera Gateway",
+      "desc": "IoT camera gateway for HWC modules. 16-node capacity, 470–510 MHz LPWAN, Li battery, 2 MB local storage.",
+      "overview": "The HGCA IoT Camera Gateway is a concentrator for HWC camera direct-reading modules. It collects data wirelessly from up to 16 nodes (HWC modules), aggregates readings and transmits to the cloud via 4G. Compact form factor for wall or tight-space mounting. Bluetooth for on-site inspection and verification. IP67 rated.",
+      "image": "images/hgca.png",
+      "tags": [
+        "Manages up to 16 HWC nodes",
+        "4G uplink",
+        "Bluetooth commissioning",
+        "IP67"
+      ],
+      "specs": [
+        {
+          "label": "Power supply",
+          "value": "Lithium battery"
+        },
+        {
+          "label": "Standby current",
+          "value": "<3 µA; max operating current 0.6A (at 3.6V)"
+        },
+        {
+          "label": "Max connected nodes",
+          "value": "16 nodes"
+        },
+        {
+          "label": "Wireless frequency",
+          "value": "470–510 MHz (dedicated meter reading band)"
+        },
+        {
+          "label": "Data transmission speed",
+          "value": "50–200 kbps"
+        },
+        {
+          "label": "Transmit power",
+          "value": "<14 dBm"
+        },
+        {
+          "label": "RF sensitivity",
+          "value": "−112 dBm"
+        },
+        {
+          "label": "Data storage capacity",
+          "value": "2 MByte"
+        },
+        {
+          "label": "Protocol",
+          "value": "Super-frame + two-way search"
+        }
+      ]
+    }
+  ]
+}

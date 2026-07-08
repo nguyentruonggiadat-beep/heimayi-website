@@ -1,0 +1,125 @@
+{
+  "theme": "dark",
+  "products": [
+    {
+      "code": "HMC",
+      "name": "HMC Intelligent Manhole Cover Monitor",
+      "desc": "Smart manhole cover monitor with unauthorized-opening alerts and 24/7 IoT status tracking.",
+      "overview": "The HMC Intelligent Manhole Cover Monitoring Instrument detects unauthorised opening, displacement, vibration, flooding and methane gas accumulation in urban drainage systems. BeiDou / GPS positioning for accurate location tracking. 4G / LoRa communication with 6-year battery life. IP67 waterproof and explosion-proof rated for underground environments.",
+      "image": "images/hmc.png",
+      "tags": [
+        "GPS / BeiDou",
+        "4G / LoRa",
+        "6-yr battery",
+        "IP67",
+        "Methane sensor option"
+      ],
+      "specs": [
+        {
+          "label": "Monitoring (basic)",
+          "value": "Tilt / displacement + flooding"
+        },
+        {
+          "label": "Monitoring (standard)",
+          "value": "Tilt / displacement + flooding + water level"
+        },
+        {
+          "label": "Monitoring (advanced)",
+          "value": "Tilt / displacement + flooding + water level + methane gas"
+        },
+        {
+          "label": "Communication",
+          "value": "4G + Bluetooth"
+        },
+        {
+          "label": "Power supply",
+          "value": "Lithium battery; 19,000 mAh"
+        },
+        {
+          "label": "Battery lifespan",
+          "value": "6 years (under good signal, stable conditions)"
+        },
+        {
+          "label": "Response time",
+          "value": "<10 seconds"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−30°C – 75°C"
+        },
+        {
+          "label": "Enclosure material",
+          "value": "ABS plastic (helmet-grade impact resistance)"
+        },
+        {
+          "label": "Dimensions",
+          "value": "142×105×63 mm"
+        },
+        {
+          "label": "Installation",
+          "value": "Rear surface of manhole cover"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP67 / IP68"
+        },
+        {
+          "label": "Mechanical lock",
+          "value": "Customisable (matched with full manhole cover system)"
+        }
+      ]
+    },
+    {
+      "code": "HLL",
+      "name": "HLL Smart Logistics Locator",
+      "desc": "Smart IoT logistics locator with multi-mode positioning (LBS+BLE+BDS), 4G cloud management, IP65–IP68. For cold chain, circular packaging and high-value cargo tracking.",
+      "overview": "The HLL Smart Logistics Locator is an IoT tracking device for cold chain logistics, high-value cargo and returnable packaging management. BeiDou / GPS / LBS tri-mode positioning. Tilt, shock and temperature sensors. 4G real-time data upload. 7–10 day standby battery life. IP65–IP68 for all-weather operation.",
+      "image": "images/hll.png",
+      "tags": [
+        "GPS / BeiDou / LBS",
+        "4G real-time",
+        "Shock & tilt alert",
+        "7–10 day standby",
+        "IP65–IP68"
+      ],
+      "specs": [
+        {
+          "label": "Positioning system",
+          "value": "LBS base station + BeiDou inertial navigation + Bluetooth BLE; BDS (BeiDou) optional"
+        },
+        {
+          "label": "Positioning accuracy",
+          "value": "1–10 m (single-point)"
+        },
+        {
+          "label": "Communication",
+          "value": "4G"
+        },
+        {
+          "label": "Bluetooth version",
+          "value": "BLE 4.2"
+        },
+        {
+          "label": "Power supply",
+          "value": "5× AA alkaline batteries; Li-ion rechargeable optional"
+        },
+        {
+          "label": "Standby time",
+          "value": "7–10 days (customisable for longer)"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−40°C – 85°C"
+        },
+        {
+          "label": "Humidity",
+          "value": "0–95% RH (non-condensing)"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP65–IP68"
+        }
+      ]
+    }
+  ]
+}

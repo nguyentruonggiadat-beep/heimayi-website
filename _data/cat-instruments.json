@@ -1,0 +1,529 @@
+{
+  "theme": "dark",
+  "products": [
+    {
+      "code": "HTT Mini",
+      "name": "HTT Series Miniature Temperature Transmitter",
+      "desc": "Compact high-accuracy temperature transmitter, 4-20mA/RS485/HART/Modbus, IP65, −50°C~200°C.",
+      "overview": "The HTT Mini Series is a compact high-accuracy temperature transmitter for industrial process monitoring. Its small form factor allows direct installation in pipe fittings, equipment slots and narrow spaces. Supports 4-20mA analogue output with RS485 / HART / Modbus digital protocols. EMC-hardened circuit for interference-prone environments.",
+      "image": "images/htt_mini.png",
+      "tags": [
+        "−50°C to 200°C",
+        "±0.1°C",
+        "4-20mA / RS485 / HART",
+        "IP65"
+      ],
+      "specs": [
+        {
+          "label": "Measurement range",
+          "value": "−50°C – 200°C (customisable for special temperatures)"
+        },
+        {
+          "label": "Accuracy",
+          "value": "±0.1°C"
+        },
+        {
+          "label": "Signal output",
+          "value": "4-20mA; RS485 (Modbus)"
+        },
+        {
+          "label": "Protocol",
+          "value": "HART / Modbus"
+        },
+        {
+          "label": "Power supply",
+          "value": "15–33 VDC"
+        },
+        {
+          "label": "Ambient temperature",
+          "value": "−40°C – 85°C"
+        },
+        {
+          "label": "Humidity",
+          "value": "0–95% RH (non-condensing)"
+        },
+        {
+          "label": "Housing material",
+          "value": "SS304 (housing and sheath)"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP65"
+        },
+        {
+          "label": "Thread connection",
+          "value": "M20×1.5 (default); G1/2 (optional)"
+        },
+        {
+          "label": "Installation method",
+          "value": "Threaded / Flange / Snap-on clamp"
+        }
+      ]
+    },
+    {
+      "code": "HTT",
+      "name": "HTT Series Temperature Transmitter",
+      "desc": "Thermocouple & RTD transmitter, 2-wire 4-20mA, LoRaWAN/NB-IoT/4G/RS485/HART/Modbus, IP65, battery or DC 9V~36V.",
+      "overview": "The HTT Series 2-wire temperature transmitter supports both thermocouple (TC) and RTD (PT100/PT1000) sensors. It installs directly in the sensor junction box, sharing the 4-20mA signal line as a power supply — eliminating expensive cabling. Multi-protocol wireless options (LoRaWAN, NB-IoT, 4G) available for remote transmission over kilometres.",
+      "image": "images/htt.png",
+      "tags": [
+        "−40°C to 150°C",
+        "±0.1–0.5°C",
+        "LoRaWAN / NB-IoT / 4G / RS485",
+        "IP65 · Ex rated"
+      ],
+      "specs": [
+        {
+          "label": "Measurement range",
+          "value": "−40°C – 150°C (default)"
+        },
+        {
+          "label": "Accuracy",
+          "value": "±0.1°C – ±0.5°C"
+        },
+        {
+          "label": "Long-term drift",
+          "value": "≤0.1°C / year"
+        },
+        {
+          "label": "Response time",
+          "value": "≤18 s (at 1 m/s wind speed)"
+        },
+        {
+          "label": "Communication",
+          "value": "LoRaWAN / NB-IoT / 4G / RS485 / 4-20mA"
+        },
+        {
+          "label": "Protocol",
+          "value": "Modbus / HART"
+        },
+        {
+          "label": "Power supply",
+          "value": "Li-SOCl₂ 3.6V (38 Ah) or external DC 9–36V"
+        },
+        {
+          "label": "Battery life",
+          "value": "≥5 years (ambient); ≥18 months (at −30°C)"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP65"
+        },
+        {
+          "label": "Explosion-proof rating",
+          "value": "Exd IIC T6 Gb (optional)"
+        },
+        {
+          "label": "Ambient temperature",
+          "value": "−40°C – 80°C"
+        },
+        {
+          "label": "Housing material",
+          "value": "SS304 / Aluminum alloy"
+        },
+        {
+          "label": "Display",
+          "value": "LCD (temperature / battery / signal status)"
+        },
+        {
+          "label": "Reporting cycle",
+          "value": "1–1,440 min (adjustable)"
+        },
+        {
+          "label": "Data buffer",
+          "value": "1,000 historical records"
+        }
+      ]
+    },
+    {
+      "code": "HPT Mini",
+      "name": "HPT Series Miniature Pressure Transmitter",
+      "desc": "High-accuracy miniature pressure transmitter, cavity-free direct pipe mounting, gauge/absolute/differential, IP67/IP68, 4-20mA/RS485/HART.",
+      "overview": "The HPT Mini Series miniature pressure transmitter uses silicon micro-fusion and diffused silicon sensing technology for compact, lightweight and highly accurate pressure measurement. The all-stainless-steel structure is suitable for direct pipeline mounting from DN25. IP67/IP68 waterproofing and explosion-proof options (Exd IIC T6 Ga) make it ideal for outdoor and hazardous environments.",
+      "image": "images/hpt_mini.png",
+      "tags": [
+        "0–100 MPa range",
+        "±0.1% FS",
+        "4-20mA / RS485 / HART",
+        "IP67/IP68"
+      ],
+      "specs": [
+        {
+          "label": "Measurement type",
+          "value": "Gauge / Absolute / Differential pressure"
+        },
+        {
+          "label": "Measurement range",
+          "value": "0–1 kPa to 0–100 MPa (customisable)"
+        },
+        {
+          "label": "Accuracy",
+          "value": "±0.1% FS / ±0.25% FS"
+        },
+        {
+          "label": "Medium temperature",
+          "value": "−40°C – +125°C (standard); −196°C – +200°C (optional)"
+        },
+        {
+          "label": "Ambient temperature",
+          "value": "−40°C – +85°C (−60°C low-temp version available)"
+        },
+        {
+          "label": "Overload capacity",
+          "value": "3× rated pressure"
+        },
+        {
+          "label": "Response time",
+          "value": "≤1 ms"
+        },
+        {
+          "label": "Signal output",
+          "value": "4-20mA / RS485 (Modbus) / HART"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 24V"
+        },
+        {
+          "label": "Wetted material",
+          "value": "316L SS / Hastelloy C-276 / Ceramic (optional)"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP67 / IP68"
+        },
+        {
+          "label": "Explosion-proof rating",
+          "value": "Exd IIC T6 Ga / Ex ia IIC T6 Ga (optional)"
+        }
+      ]
+    },
+    {
+      "code": "HPT",
+      "name": "HPT Series Intelligent Pressure Transmitter",
+      "desc": "Intelligent pressure transmitter, compact design for direct pipe mounting, gauge/absolute/differential pressure, IP67/IP68, 4-20mA/RS485/HART.",
+      "overview": "The HPT Series intelligent pressure transmitter is a new-generation microprocessor-based transmitter achieving ±0.075% FS accuracy. It supports HART 7.0 and Modbus for remote calibration and status monitoring. IoT cloud connectivity enables real-time data analysis, alarm management and energy optimisation. Memory retains calibration data through power outages.",
+      "image": "images/hpt_intelligent.png",
+      "tags": [
+        "−0.1 to 60 MPa",
+        "±0.075% FS",
+        "4-20mA / HART / Modbus",
+        "IP65/IP67"
+      ],
+      "specs": [
+        {
+          "label": "Measurement range",
+          "value": "−0.1 MPa – 60 MPa"
+        },
+        {
+          "label": "Pressure type",
+          "value": "Gauge / Absolute / Sealed gauge"
+        },
+        {
+          "label": "Accuracy",
+          "value": "±0.075% FS (best); ±0.1% / ±0.2% / ±0.5% FS"
+        },
+        {
+          "label": "Long-term stability",
+          "value": "±0.1% FS / year"
+        },
+        {
+          "label": "Overload capacity",
+          "value": "1.5× measurement range"
+        },
+        {
+          "label": "Working temperature",
+          "value": "−40°C – 85°C"
+        },
+        {
+          "label": "Signal output",
+          "value": "4-20mA (2-wire); 0-10/20mA (3-wire); 0/1-5/10V (3-wire); RS485"
+        },
+        {
+          "label": "Protocol",
+          "value": "HART / Modbus"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 24V"
+        },
+        {
+          "label": "Body / Diaphragm material",
+          "value": "SS housing; 316L diaphragm; FKM or NBR O-ring"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP65 (threaded); IP67 (cable)"
+        }
+      ]
+    },
+    {
+      "code": "HPT ΔP",
+      "name": "HPT Series Differential Pressure Transmitter",
+      "desc": "Smart differential pressure transmitter, ±0.075% accuracy, range ratio 100:1, HART/Modbus/LoRaWAN, IP65/IP67, for flow/level/filter monitoring.",
+      "overview": "The HPT ΔP Series smart differential pressure transmitter measures precise differential pressure between two process points. Core applications include flow calculation, liquid level in pressurised vessels, filter monitoring and leak detection. ±0.075% accuracy with 100:1 turndown. LoRaWAN wireless option for remote installations.",
+      "image": "images/hpt_dp.png",
+      "tags": [
+        "0–10 MPa",
+        "±0.075% FS",
+        "HART / Modbus / LoRaWAN",
+        "IP65/IP67"
+      ],
+      "specs": [
+        {
+          "label": "Measurement range",
+          "value": "0–10 MPa"
+        },
+        {
+          "label": "Accuracy",
+          "value": "±0.075% / ±0.1% / ±0.2% FS"
+        },
+        {
+          "label": "Turndown ratio",
+          "value": "40:1 standard; 100:1 optional"
+        },
+        {
+          "label": "Long-term stability",
+          "value": "36-month drift: ±0.2% of max span"
+        },
+        {
+          "label": "Response time",
+          "value": "≤60 ms"
+        },
+        {
+          "label": "Ambient temperature",
+          "value": "−50°C – 85°C; humidity 0–95% RH (non-condensing)"
+        },
+        {
+          "label": "Signal output",
+          "value": "4-20mA / RS485"
+        },
+        {
+          "label": "Protocol",
+          "value": "HART / Modbus / LoRaWAN"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 24V"
+        },
+        {
+          "label": "Diaphragm material",
+          "value": "316L / Hastelloy C / Monel / Tantalum (optional)"
+        },
+        {
+          "label": "Housing material",
+          "value": "Aluminum alloy / 316L SS"
+        },
+        {
+          "label": "Connection",
+          "value": "Flange DN15–DN200 PN16–PN400; Thread M20×1.5 or 1/2\" NPT"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP65 / IP67"
+        }
+      ]
+    },
+    {
+      "code": "HLP Flange",
+      "name": "HLP Series Flange Level Transmitter",
+      "desc": "Flange-type level transmitter for high-temp, high-viscosity, crystallizing or corrosive media. ±0.1% FS accuracy, 4-20mA/HART/Modbus, IP67/IP68.",
+      "overview": "The HLP Flange Series level transmitter is engineered for demanding media — high-viscosity fluids, crystallising liquids, corrosive acids and slurries. The direct-flange diaphragm eliminates impulse lines that can block or freeze. Diaphragm materials include 316L stainless steel, Hastelloy C, Monel and Tantalum. Integrated LoRaWAN / NB-IoT for remote monitoring.",
+      "image": "images/hlp_flange.png",
+      "tags": [
+        "±0.1% FS",
+        "−40°C to 200°C",
+        "4-20mA / HART / Modbus",
+        "IP67 / IP68"
+      ],
+      "specs": [
+        {
+          "label": "Measurement range",
+          "value": "0–40 kPa / 0–250 kPa / 0–1 MPa"
+        },
+        {
+          "label": "Accuracy",
+          "value": "±0.1% FS / ±0.2% FS"
+        },
+        {
+          "label": "Process temperature",
+          "value": "−40°C – 200°C"
+        },
+        {
+          "label": "Ambient temperature",
+          "value": "−40°C – 85°C"
+        },
+        {
+          "label": "Humidity",
+          "value": "0–95% RH (non-condensing)"
+        },
+        {
+          "label": "Signal output",
+          "value": "4-20mA (HART); RS485 (Modbus)"
+        },
+        {
+          "label": "Wireless options",
+          "value": "LoRaWAN / NB-IoT / 4G"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 24V"
+        },
+        {
+          "label": "Diaphragm material",
+          "value": "316L / Hastelloy / Monel / Tantalum / PTFE (custom)"
+        },
+        {
+          "label": "Housing material",
+          "value": "Aluminum alloy (corrosion-resistant) or SS"
+        },
+        {
+          "label": "Power consumption",
+          "value": "≤1.5 W (at DC 24V)"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP67 (standard); IP68 (optional)"
+        }
+      ]
+    },
+    {
+      "code": "HLP Immersion",
+      "name": "HLP Series Immersion Level Gauge",
+      "desc": "Immersion hydrostatic level gauge, 0.3~110m range, ±0.1% FS accuracy, 4-20mA/RS485/4G/LoRaWAN, IP67/IP68 for tanks, wells and open channels.",
+      "overview": "The HLP Immersion Level Gauge (hydrostatic submersible transmitter) measures liquid level based on hydrostatic pressure proportional to fluid column height. Drop the probe directly into any open vessel, river, borehole or reservoir. No tank modification needed. IP67/IP68 rated, corrosion-resistant materials, EMI-protected circuitry and 4G wireless for remote monitoring.",
+      "image": "images/hlp_immersion.png",
+      "tags": [
+        "0.3–110 m",
+        "±0.1% FS",
+        "4-20mA / RS485 / 4G / LoRaWAN",
+        "IP67/IP68"
+      ],
+      "specs": [
+        {
+          "label": "Measurement range",
+          "value": "0.3–110 m"
+        },
+        {
+          "label": "Accuracy",
+          "value": "±0.1% FS / ±0.25% FS"
+        },
+        {
+          "label": "Medium temperature",
+          "value": "−30°C – 115°C"
+        },
+        {
+          "label": "Ambient temperature",
+          "value": "−20°C – 85°C"
+        },
+        {
+          "label": "Overload capacity",
+          "value": "2× full-scale pressure"
+        },
+        {
+          "label": "Response time",
+          "value": "≤100 ms"
+        },
+        {
+          "label": "Signal output",
+          "value": "4-20mA / 0-5V / 0-10V / RS485 (Modbus)"
+        },
+        {
+          "label": "Wireless",
+          "value": "4G / LoRaWAN"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 24V"
+        },
+        {
+          "label": "Diaphragm material",
+          "value": "316L / Hastelloy / Monel / Tantalum / PTFE (custom)"
+        },
+        {
+          "label": "Housing material",
+          "value": "Aluminum alloy or SS"
+        },
+        {
+          "label": "Power consumption",
+          "value": "≤1.5 W"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP67 / IP68"
+        }
+      ]
+    },
+    {
+      "code": "HOR",
+      "name": "HOR Radar Level Gauge",
+      "desc": "Non-contact radar level gauge, 26GHz/80GHz, ±1mm accuracy, up to 70m liquid / 35m solid, 4-20mA/HART/RS485/Modbus, IP67.",
+      "overview": "The HOR Series uses a proprietary CMOS millimetre-wave RF chip to generate pulsed FMCW radar, achieving ±1mm measurement accuracy. 26 GHz standard / 80 GHz high-accuracy options. Non-contact technology means no media contamination, no wear and minimal maintenance costs. Supports Bluetooth in-field calibration via mobile phone. Rated for all dielectric constants ≥2.",
+      "image": "images/hor.png",
+      "tags": [
+        "±1 mm accuracy",
+        "0–70 m range",
+        "4-20mA / HART / RS485",
+        "−40°C to 100°C"
+      ],
+      "specs": [
+        {
+          "label": "Transmit frequency",
+          "value": "26 GHz (standard); 80 GHz (high accuracy)"
+        },
+        {
+          "label": "Measurement range",
+          "value": "Liquid: 0–30 m (up to 70 m); Solid: 0–20 m (up to 35 m)"
+        },
+        {
+          "label": "Accuracy",
+          "value": "±1 mm"
+        },
+        {
+          "label": "Measurement interval",
+          "value": "100 ms (fast); 1 s (normal)"
+        },
+        {
+          "label": "Beam angle",
+          "value": "3° / 18° / 20°"
+        },
+        {
+          "label": "Applicable dielectric constant",
+          "value": "≥2"
+        },
+        {
+          "label": "Process pressure",
+          "value": "−1 – 20 bar"
+        },
+        {
+          "label": "Ambient temperature / humidity",
+          "value": "−40°C – +100°C; ≤95% RH"
+        },
+        {
+          "label": "Signal output",
+          "value": "4-20mA + HART (2-wire); RS485 / Modbus (4-wire)"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 24V / AC 220V"
+        },
+        {
+          "label": "Housing material",
+          "value": "Aluminum alloy / Stainless steel"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP67"
+        },
+        {
+          "label": "Explosion-proof rating",
+          "value": "Ex ia IIC T6 Ga"
+        },
+        {
+          "label": "Process connection",
+          "value": "Threaded / Universal flange / Anti-corrosion flange / Sanitary clamp"
+        }
+      ]
+    }
+  ]
+}

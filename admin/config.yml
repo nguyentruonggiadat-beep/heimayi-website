@@ -1,0 +1,226 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: vi
+
+collections:
+  - name: "electric-valves"
+    label: "Van điện (Electric Valves)"
+    files:
+      - name: "products"
+        label: "Danh sách sản phẩm"
+        file: "_data/cat-valves.json"
+        format: json
+        fields:
+          - {label: "Chủ đề nền (sáng/tối)", name: "theme", widget: select, options: ["light", "dark"], default: "light", hint: "light = nền sáng, dark = nền tối"}
+          - label: "Sản phẩm"
+            name: "products"
+            widget: list
+            summary: "{{fields.code}} — {{fields.name}}"
+            fields:
+              - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
+              - {label: "Tên sản phẩm", name: "name", widget: string}
+              - {label: "Mô tả ngắn (hiện trên thẻ sản phẩm)", name: "desc", widget: text}
+              - {label: "Mô tả chi tiết (hiện trong trang chi tiết)", name: "overview", widget: text, required: false}
+              - {label: "Hình ảnh", name: "image", widget: image, required: false, allow_multiple: false, hint: "Tải ảnh sản phẩm lên, nền trắng/trong suốt là đẹp nhất"}
+              - label: "Tags (thông số nổi bật, hiện dạng nhãn nhỏ)"
+                name: "tags"
+                widget: list
+                field: {label: "Tag", name: "tag", widget: string}
+              - label: "Bảng thông số kỹ thuật"
+                name: "specs"
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - {label: "Tên thông số", name: "label", widget: string}
+                  - {label: "Giá trị", name: "value", widget: string}
+
+  - name: "instrumentation"
+    label: "Thiết bị đo lường (Instrumentation)"
+    files:
+      - name: "products"
+        label: "Danh sách sản phẩm"
+        file: "_data/cat-instruments.json"
+        format: json
+        fields:
+          - {label: "Chủ đề nền (sáng/tối)", name: "theme", widget: select, options: ["light", "dark"], default: "light", hint: "light = nền sáng, dark = nền tối"}
+          - label: "Sản phẩm"
+            name: "products"
+            widget: list
+            summary: "{{fields.code}} — {{fields.name}}"
+            fields:
+              - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
+              - {label: "Tên sản phẩm", name: "name", widget: string}
+              - {label: "Mô tả ngắn (hiện trên thẻ sản phẩm)", name: "desc", widget: text}
+              - {label: "Mô tả chi tiết (hiện trong trang chi tiết)", name: "overview", widget: text, required: false}
+              - {label: "Hình ảnh", name: "image", widget: image, required: false, allow_multiple: false, hint: "Tải ảnh sản phẩm lên, nền trắng/trong suốt là đẹp nhất"}
+              - label: "Tags (thông số nổi bật, hiện dạng nhãn nhỏ)"
+                name: "tags"
+                widget: list
+                field: {label: "Tag", name: "tag", widget: string}
+              - label: "Bảng thông số kỹ thuật"
+                name: "specs"
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - {label: "Tên thông số", name: "label", widget: string}
+                  - {label: "Giá trị", name: "value", widget: string}
+
+  - name: "flow-meters"
+    label: "Đồng hồ lưu lượng (Flow Meters)"
+    files:
+      - name: "products"
+        label: "Danh sách sản phẩm"
+        file: "_data/cat-flow.json"
+        format: json
+        fields:
+          - {label: "Chủ đề nền (sáng/tối)", name: "theme", widget: select, options: ["light", "dark"], default: "light", hint: "light = nền sáng, dark = nền tối"}
+          - label: "Sản phẩm"
+            name: "products"
+            widget: list
+            summary: "{{fields.code}} — {{fields.name}}"
+            fields:
+              - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
+              - {label: "Tên sản phẩm", name: "name", widget: string}
+              - {label: "Mô tả ngắn (hiện trên thẻ sản phẩm)", name: "desc", widget: text}
+              - {label: "Mô tả chi tiết (hiện trong trang chi tiết)", name: "overview", widget: text, required: false}
+              - {label: "Hình ảnh", name: "image", widget: image, required: false, allow_multiple: false, hint: "Tải ảnh sản phẩm lên, nền trắng/trong suốt là đẹp nhất"}
+              - label: "Tags (thông số nổi bật, hiện dạng nhãn nhỏ)"
+                name: "tags"
+                widget: list
+                field: {label: "Tag", name: "tag", widget: string}
+              - label: "Bảng thông số kỹ thuật"
+                name: "specs"
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - {label: "Tên thông số", name: "label", widget: string}
+                  - {label: "Giá trị", name: "value", widget: string}
+
+  - name: "iot-water-meters"
+    label: "Đồng hồ nước IoT (IoT Water Meters)"
+    files:
+      - name: "products"
+        label: "Danh sách sản phẩm"
+        file: "_data/cat-water.json"
+        format: json
+        fields:
+          - {label: "Chủ đề nền (sáng/tối)", name: "theme", widget: select, options: ["light", "dark"], default: "light", hint: "light = nền sáng, dark = nền tối"}
+          - label: "Sản phẩm"
+            name: "products"
+            widget: list
+            summary: "{{fields.code}} — {{fields.name}}"
+            fields:
+              - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
+              - {label: "Tên sản phẩm", name: "name", widget: string}
+              - {label: "Mô tả ngắn (hiện trên thẻ sản phẩm)", name: "desc", widget: text}
+              - {label: "Mô tả chi tiết (hiện trong trang chi tiết)", name: "overview", widget: text, required: false}
+              - {label: "Hình ảnh", name: "image", widget: image, required: false, allow_multiple: false, hint: "Tải ảnh sản phẩm lên, nền trắng/trong suốt là đẹp nhất"}
+              - label: "Tags (thông số nổi bật, hiện dạng nhãn nhỏ)"
+                name: "tags"
+                widget: list
+                field: {label: "Tag", name: "tag", widget: string}
+              - label: "Bảng thông số kỹ thuật"
+                name: "specs"
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - {label: "Tên thông số", name: "label", widget: string}
+                  - {label: "Giá trị", name: "value", widget: string}
+
+  - name: "data-collection"
+    label: "Thu thập dữ liệu (Data Collection)"
+    files:
+      - name: "products"
+        label: "Danh sách sản phẩm"
+        file: "_data/cat-data.json"
+        format: json
+        fields:
+          - {label: "Chủ đề nền (sáng/tối)", name: "theme", widget: select, options: ["light", "dark"], default: "light", hint: "light = nền sáng, dark = nền tối"}
+          - label: "Sản phẩm"
+            name: "products"
+            widget: list
+            summary: "{{fields.code}} — {{fields.name}}"
+            fields:
+              - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
+              - {label: "Tên sản phẩm", name: "name", widget: string}
+              - {label: "Mô tả ngắn (hiện trên thẻ sản phẩm)", name: "desc", widget: text}
+              - {label: "Mô tả chi tiết (hiện trong trang chi tiết)", name: "overview", widget: text, required: false}
+              - {label: "Hình ảnh", name: "image", widget: image, required: false, allow_multiple: false, hint: "Tải ảnh sản phẩm lên, nền trắng/trong suốt là đẹp nhất"}
+              - label: "Tags (thông số nổi bật, hiện dạng nhãn nhỏ)"
+                name: "tags"
+                widget: list
+                field: {label: "Tag", name: "tag", widget: string}
+              - label: "Bảng thông số kỹ thuật"
+                name: "specs"
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - {label: "Tên thông số", name: "label", widget: string}
+                  - {label: "Giá trị", name: "value", widget: string}
+
+  - name: "smart-city"
+    label: "Thành phố thông minh (Smart City)"
+    files:
+      - name: "products"
+        label: "Danh sách sản phẩm"
+        file: "_data/cat-city.json"
+        format: json
+        fields:
+          - {label: "Chủ đề nền (sáng/tối)", name: "theme", widget: select, options: ["light", "dark"], default: "light", hint: "light = nền sáng, dark = nền tối"}
+          - label: "Sản phẩm"
+            name: "products"
+            widget: list
+            summary: "{{fields.code}} — {{fields.name}}"
+            fields:
+              - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
+              - {label: "Tên sản phẩm", name: "name", widget: string}
+              - {label: "Mô tả ngắn (hiện trên thẻ sản phẩm)", name: "desc", widget: text}
+              - {label: "Mô tả chi tiết (hiện trong trang chi tiết)", name: "overview", widget: text, required: false}
+              - {label: "Hình ảnh", name: "image", widget: image, required: false, allow_multiple: false, hint: "Tải ảnh sản phẩm lên, nền trắng/trong suốt là đẹp nhất"}
+              - label: "Tags (thông số nổi bật, hiện dạng nhãn nhỏ)"
+                name: "tags"
+                widget: list
+                field: {label: "Tag", name: "tag", widget: string}
+              - label: "Bảng thông số kỹ thuật"
+                name: "specs"
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - {label: "Tên thông số", name: "label", widget: string}
+                  - {label: "Giá trị", name: "value", widget: string}
+
+  - name: "smart-hvac"
+    label: "Smart HVAC"
+    files:
+      - name: "products"
+        label: "Danh sách sản phẩm"
+        file: "_data/cat-hvac.json"
+        format: json
+        fields:
+          - {label: "Chủ đề nền (sáng/tối)", name: "theme", widget: select, options: ["light", "dark"], default: "light", hint: "light = nền sáng, dark = nền tối"}
+          - label: "Sản phẩm"
+            name: "products"
+            widget: list
+            summary: "{{fields.code}} — {{fields.name}}"
+            fields:
+              - {label: "Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải là DUY NHẤT, không trùng sản phẩm khác"}
+              - {label: "Tên sản phẩm", name: "name", widget: string}
+              - {label: "Mô tả ngắn (hiện trên thẻ sản phẩm)", name: "desc", widget: text}
+              - {label: "Mô tả chi tiết (hiện trong trang chi tiết)", name: "overview", widget: text, required: false}
+              - {label: "Hình ảnh", name: "image", widget: image, required: false, allow_multiple: false, hint: "Tải ảnh sản phẩm lên, nền trắng/trong suốt là đẹp nhất"}
+              - label: "Tags (thông số nổi bật, hiện dạng nhãn nhỏ)"
+                name: "tags"
+                widget: list
+                field: {label: "Tag", name: "tag", widget: string}
+              - label: "Bảng thông số kỹ thuật"
+                name: "specs"
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - {label: "Tên thông số", name: "label", widget: string}
+                  - {label: "Giá trị", name: "value", widget: string}

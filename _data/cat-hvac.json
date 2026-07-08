@@ -1,0 +1,412 @@
+{
+  "theme": "dark",
+  "products": [
+    {
+      "code": "HVC",
+      "name": "HVC Fan Coil Temperature Control Valve",
+      "desc": "HVAC fan coil control valve, precisely regulates coolant/hot water flow based on room temperature feedback, RS485, 15–30% energy savings.",
+      "overview": "The HVC Fan Coil Temperature Control Valve is the core control element in HVAC fan coil systems. It precisely regulates chilled/hot water flow to each fan coil unit based on room temperature feedback, maintaining room temperature at the set point and achieving 15–30% energy savings across the entire chiller system. Compatible with AC220V and DC24V power. RS485 for direct thermostat connection.",
+      "image": "images/hvc.png",
+      "tags": [
+        "DN15–DN25",
+        "AC220V / DC24V",
+        "RS485",
+        "IP54"
+      ],
+      "specs": [
+        {
+          "label": "Nominal diameter",
+          "value": "DN15 / DN20 / DN25"
+        },
+        {
+          "label": "Working pressure",
+          "value": "1.6 MPa (standard); 2.5 MPa (high-pressure)"
+        },
+        {
+          "label": "Water medium temperature",
+          "value": "0°C – 95°C"
+        },
+        {
+          "label": "Valve body temperature",
+          "value": "5°C – 120°C (fluid)"
+        },
+        {
+          "label": "Actuator ambient temperature",
+          "value": "−10°C – 50°C"
+        },
+        {
+          "label": "Leakage rate",
+          "value": "≤0.01% Kv (soft seal); ≤0.1% Kv (hard seal)"
+        },
+        {
+          "label": "Power supply",
+          "value": "AC 220V ±10% / DC 24V ±5%"
+        },
+        {
+          "label": "Drive power",
+          "value": "≤10W (operating); ≤0.1W (standby)"
+        },
+        {
+          "label": "Communication",
+          "value": "RS485"
+        },
+        {
+          "label": "Temperature control accuracy",
+          "value": "±0.5°C"
+        },
+        {
+          "label": "Service life",
+          "value": "2-way valve: ≥50,000 cycles; electric valve: ≥100,000 cycles"
+        },
+        {
+          "label": "Body material",
+          "value": "Brass H59-1; SS304 (corrosion-resistant optional)"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP54"
+        }
+      ]
+    },
+    {
+      "code": "HTT Room",
+      "name": "HTC Battery Room Temperature Collector",
+      "desc": "Battery-powered wireless room temperature collector — no wiring, flexible installation for any space.",
+      "overview": "The HTT Room (HTC) Battery-powered Room Temperature Collector wirelessly measures room temperature in heating/cooling network buildings and transmits data to the platform via LoRa / 433MHz / NB-IoT / 4G. Designed for ultra-low power consumption — battery lasts up to 6 years. Anti-tamper detection. Can also control fan coil valve opening. No wiring required — mount with 3M tape.",
+      "image": "images/htc_room.png",
+      "tags": [
+        "±0.3°C accuracy",
+        "Up to 6-yr battery",
+        "LoRa / NB-IoT / 4G / 433MHz",
+        "Wall/desk mount"
+      ],
+      "specs": [
+        {
+          "label": "Temperature measurement range",
+          "value": "−10°C – 60°C"
+        },
+        {
+          "label": "Temperature accuracy",
+          "value": "±0.3°C (standard); ±0.1°C (optional)"
+        },
+        {
+          "label": "Communication",
+          "value": "433 MHz / NB-IoT / 4G / LoRa"
+        },
+        {
+          "label": "Power supply",
+          "value": "Lithium battery"
+        },
+        {
+          "label": "Battery capacity",
+          "value": "3,000 mAh / 10,800 mAh"
+        },
+        {
+          "label": "Standby power",
+          "value": "<5 µA; max standby life 6 years"
+        },
+        {
+          "label": "Collection cycle",
+          "value": "30 min – 30 days (adjustable)"
+        },
+        {
+          "label": "Enclosure material",
+          "value": "PC+ABS fire-retardant alloy"
+        },
+        {
+          "label": "Dimensions",
+          "value": "86×86×17 mm (standard); 115×86×24 mm (large)"
+        },
+        {
+          "label": "Installation",
+          "value": "Wall mount / Table mount"
+        }
+      ]
+    },
+    {
+      "code": "HHU",
+      "name": "HHU Ultrasonic Heat Meter",
+      "desc": "Smart ultrasonic heat/cold energy meter, GB/T32224-2020 & JJG225-2024 compliant, IP65/67/68, RS485/M-Bus/4G/NB-IoT, PT1000 sensor.",
+      "overview": "The HHU Ultrasonic Heat Energy Meter measures heating and cooling energy in district heating, central air conditioning and building energy management systems. Ultrasonic flow measurement means no moving parts, long service life and minimal maintenance. Class 2 accuracy. Supports M-Bus, RS485, NB-IoT and 4G for remote data collection. IP65–IP68 waterproofing.",
+      "image": "images/hhu.png",
+      "tags": [
+        "Class 2",
+        "DN15–DN300",
+        "M-Bus / RS485 / NB-IoT / 4G",
+        "IP65–IP68"
+      ],
+      "specs": [
+        {
+          "label": "Fluid type",
+          "value": "Water / homogeneous single-phase liquid"
+        },
+        {
+          "label": "Accuracy class",
+          "value": "Class 2"
+        },
+        {
+          "label": "Turndown ratio",
+          "value": "Heat meter R=100:1; household R=25:1"
+        },
+        {
+          "label": "Temperature sensor",
+          "value": "PT1000 platinum resistance"
+        },
+        {
+          "label": "Temperature range",
+          "value": "4°C – 95°C"
+        },
+        {
+          "label": "Temperature difference ΔT range",
+          "value": "3K – 75K"
+        },
+        {
+          "label": "Temperature resolution",
+          "value": "0.01°C"
+        },
+        {
+          "label": "Nominal pressure",
+          "value": "1.0 MPa (1.6 MPa and 2.5 MPa supported)"
+        },
+        {
+          "label": "Pressure loss",
+          "value": "<0.015 MPa"
+        },
+        {
+          "label": "Power supply",
+          "value": "Li-ion 3.6V; life >6 years"
+        },
+        {
+          "label": "Communication",
+          "value": "RS485 / M-Bus (default); 4G / NB-IoT"
+        },
+        {
+          "label": "Protocol",
+          "value": "Modbus / T188 / customisable"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP65 / IP67 / IP68"
+        },
+        {
+          "label": "Environmental class",
+          "value": "Class A"
+        },
+        {
+          "label": "Flow DN15",
+          "value": "Q1: 0.015 m³/h; Q2: 1.5 m³/h; Q4: 3.0 m³/h"
+        },
+        {
+          "label": "Flow DN20",
+          "value": "Q1: 0.025 m³/h; Q2: 2.5 m³/h; Q4: 5.0 m³/h"
+        },
+        {
+          "label": "Flow DN25",
+          "value": "Q1: 0.035 m³/h; Q2: 3.5 m³/h; Q4: 7.0 m³/h"
+        },
+        {
+          "label": "Flow DN32",
+          "value": "Q1: 0.06 m³/h; Q2: 6.0 m³/h; Q4: 12.0 m³/h"
+        },
+        {
+          "label": "Flow DN40",
+          "value": "Q1: 0.1 m³/h; Q2: 10.0 m³/h; Q4: 20.0 m³/h"
+        },
+        {
+          "label": "Flow DN50",
+          "value": "Q1: 0.6 m³/h; Q2: 15 m³/h; Q4: 30 m³/h"
+        },
+        {
+          "label": "Flow DN65",
+          "value": "Q1: 1 m³/h; Q2: 25 m³/h; Q4: 50 m³/h"
+        },
+        {
+          "label": "Flow DN80",
+          "value": "Q1: 1.6 m³/h; Q2: 40 m³/h; Q4: 80 m³/h"
+        },
+        {
+          "label": "Flow DN100",
+          "value": "Q1: 2.4 m³/h; Q2: 60 m³/h; Q4: 120 m³/h"
+        },
+        {
+          "label": "Flow DN150",
+          "value": "Q1: 6 m³/h; Q2: 150 m³/h; Q4: 300 m³/h"
+        },
+        {
+          "label": "Flow DN200",
+          "value": "Q1: 10 m³/h; Q2: 250 m³/h; Q4: 500 m³/h"
+        }
+      ]
+    },
+    {
+      "code": "PICV-L",
+      "name": "PICV Large Caliber Pressure Independent Valve",
+      "desc": "Large caliber PICV with integrated ultrasonic flow meter, temperature sensor, smart valve control, and 4G/RS485 for intelligent building energy management.",
+      "overview": "The PICV-L Large Caliber PICV Energy Valve is designed for AHU, primary chiller plant and main distribution pipework. Integrates Class 2 ultrasonic flow measurement, dual temperature sensors and precision electric valve control in one device. Remote valve control and real-time energy monitoring via 4G or RS485. IP68 for plant room environments.",
+      "image": "images/picv_l.png",
+      "tags": [
+        "DN50–DN250",
+        "Class 2 ultrasonic",
+        "4G / RS485",
+        "IP68"
+      ],
+      "specs": [
+        {
+          "label": "Nominal bore",
+          "value": "DN50 / DN65 / DN80 / DN100"
+        },
+        {
+          "label": "Working pressure",
+          "value": "1.6 MPa"
+        },
+        {
+          "label": "Accuracy class",
+          "value": "Class 2"
+        },
+        {
+          "label": "Rangeability",
+          "value": "R100"
+        },
+        {
+          "label": "Bidirectional flow",
+          "value": "Yes"
+        },
+        {
+          "label": "Valve authority",
+          "value": "100%"
+        },
+        {
+          "label": "Output torque",
+          "value": "≥120 N·m"
+        },
+        {
+          "label": "Transmission ratio",
+          "value": "33,100:1"
+        },
+        {
+          "label": "Valve open/close time",
+          "value": "≤135 s/cycle"
+        },
+        {
+          "label": "Service life",
+          "value": "100,000 leak-free cycles"
+        },
+        {
+          "label": "Power supply",
+          "value": "External DC 24V / Internal Li 3.6V"
+        },
+        {
+          "label": "Battery life",
+          "value": ">6 years (at 20°C, ≤60% humidity)"
+        },
+        {
+          "label": "Communication",
+          "value": "RS485 (wired) / 4G (wireless)"
+        },
+        {
+          "label": "Protocol",
+          "value": "T188 / Modbus / custom"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP68"
+        },
+        {
+          "label": "Body material",
+          "value": "Cast iron or stainless steel"
+        },
+        {
+          "label": "Valve stem material",
+          "value": "SS304"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−30°C – 150°C (valve); 0°C – 95°C (ambient)"
+        },
+        {
+          "label": "Flow DN50",
+          "value": "Q1: 0.15 m³/h; Q3: 15.0 m³/h; Q4: 30.0 m³/h"
+        },
+        {
+          "label": "Flow DN65",
+          "value": "Q1: 0.25 m³/h; Q3: 25.0 m³/h; Q4: 50.0 m³/h"
+        },
+        {
+          "label": "Flow DN80",
+          "value": "Q1: 0.4 m³/h; Q3: 40.0 m³/h; Q4: 80.0 m³/h"
+        },
+        {
+          "label": "Flow DN100",
+          "value": "Q1: 0.6 m³/h; Q3: 60.0 m³/h; Q4: 120.0 m³/h"
+        }
+      ]
+    },
+    {
+      "code": "HVA IoT",
+      "name": "HVA Unit IoT Intelligent Valve",
+      "desc": "IoT flow balance valve for centralized cooling/heating networks. Integrates temperature sensing, M-Bus/RS485/NB-IoT/4G/LoRa for whole-network hydraulic balance.",
+      "overview": "The HVA IoT Intelligent Valve is designed for centralized chilled water and district heating networks. It connects to the cloud via M-Bus, NB-IoT, 4G or LoRa and performs real-time hydraulic balancing across building units — adjusting valve position based on return temperature to prevent over-cooling / over-heating. Large built-in battery (38,000 mAh) provides years of wireless operation.",
+      "image": "images/hva_iot.png",
+      "tags": [
+        "DN40–DN400",
+        "M-Bus / NB-IoT / 4G / LoRa",
+        "38,000 mAh battery",
+        "IP65–IP68"
+      ],
+      "specs": [
+        {
+          "label": "Nominal diameter",
+          "value": "V901 (M-Bus/RS485): DN40–DN400; V902 (NB-IoT/4G/LoRa): DN40–DN150"
+        },
+        {
+          "label": "Communication V901",
+          "value": "M-Bus / RS485"
+        },
+        {
+          "label": "Communication V902",
+          "value": "NB-IoT / 4G / LoRa"
+        },
+        {
+          "label": "Actuator torque",
+          "value": "80 N·m / 120 N·m (standard); 250 / 500 / 1,000 N·m (custom)"
+        },
+        {
+          "label": "Power supply",
+          "value": "DC 24V / Battery"
+        },
+        {
+          "label": "Battery capacity",
+          "value": "38,000 mAh (standard); 76,000 mAh (optional)"
+        },
+        {
+          "label": "Static power consumption",
+          "value": "<6 mA (wired); <10 µA (wireless)"
+        },
+        {
+          "label": "Water medium temperature",
+          "value": "0°C – 95°C"
+        },
+        {
+          "label": "Body material",
+          "value": "SS304 / Carbon steel / Cast iron"
+        },
+        {
+          "label": "Actuator housing",
+          "value": "Die-cast aluminum alloy"
+        },
+        {
+          "label": "Service life",
+          "value": "100,000 cycles"
+        },
+        {
+          "label": "Protection rating",
+          "value": "IP65 (standard); IP68 (optional)"
+        },
+        {
+          "label": "Aperture control",
+          "value": "1% step; 0–100% full-range proportional"
+        }
+      ]
+    }
+  ]
+}
