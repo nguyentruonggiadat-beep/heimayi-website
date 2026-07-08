@@ -31,7 +31,7 @@ collections:
       - {label: "Thành phố thông minh", field: category, pattern: "smart-city"}
       - {label: "Smart HVAC", field: category, pattern: "smart-hvac"}
     view_groups:
-      - {label: "Danh mục", field: category, default: true}
+      - {label: "Danh mục", field: category}
     fields:
       # ── 0. Phân loại ──
       - label: "📂 Danh mục sản phẩm"
