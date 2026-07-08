@@ -82,14 +82,11 @@
     }
 
     if (window.CMS && window.createClass && window.h) {
-      var collections = [
-        'electric-valves', 'instrumentation', 'flow-meters',
-        'iot-water-meters', 'data-collection', 'smart-city', 'smart-hvac'
-      ];
       CMS.registerPreviewStyle(previewStyle, { raw: true });
-      collections.forEach(function (name) {
-        CMS.registerPreviewTemplate(name, ProductPreview(window.createClass, window.h));
-      });
+      // All 7 categories share the same file name ("products"), so a single
+      // registration covers every collection — Decap keys file-collection
+      // previews by file name, not by the parent collection name.
+      CMS.registerPreviewTemplate('products', ProductPreview(window.createClass, window.h));
     }
   </script>
 </body>
