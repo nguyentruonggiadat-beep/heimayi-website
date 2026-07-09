@@ -63,5 +63,6 @@
     "Industrial Meter Upgrades",
     "Smart City Water"
   ],
-  "theme": "dark"
+  "theme": "dark",
+  "family": "Reading & Gateway Modules"
 }

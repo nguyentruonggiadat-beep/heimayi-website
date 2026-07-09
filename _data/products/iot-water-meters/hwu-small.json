@@ -83,5 +83,6 @@
     "Smart Water IoT",
     "Utility Metering"
   ],
-  "theme": "dark"
+  "theme": "dark",
+  "family": "Ultrasonic Water Meters"
 }

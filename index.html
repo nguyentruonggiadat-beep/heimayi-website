@@ -1318,6 +1318,19 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
+.pc-family-header {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.35);
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  margin-top: 8px;
+}
+.pc-family-header:first-child { margin-top: 0; }
+.pc-family-header-light { color: rgba(0,0,0,.4); border-bottom-color: rgba(0,0,0,.1); }
 
 /* product card — uniform white */
 .pc {
@@ -3351,7 +3364,16 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(
   Object.entries(ALL).forEach(([catId, cat]) => {
     const grid = document.getElementById('grid-' + catId);
     if (!grid) return;
-    grid.innerHTML = (cat.products || []).map((p, i) => renderCard(p, cat.theme, i)).join('');
+    const light = cat.theme === 'light';
+    let html = '', lastFamily;
+    (cat.products || []).forEach((p, i) => {
+      if (p.family && p.family !== lastFamily) {
+        html += `<div class="pc-family-header${light ? ' pc-family-header-light' : ''}">${p.family}</div>`;
+        lastFamily = p.family;
+      }
+      html += renderCard(p, cat.theme, i);
+    });
+    grid.innerHTML = html;
     grid.querySelectorAll('.rv').forEach(el => io.observe(el));
   });
 })();

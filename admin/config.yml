@@ -34,6 +34,7 @@ collections:
       # ── 2. Định danh — mã và tên ──
       - {label: "🏷️ Mã sản phẩm", name: "code", widget: string, hint: "Ví dụ: HVS, HVB — phải DUY NHẤT, không được trùng với sản phẩm khác trong toàn bộ website"}
       - {label: "🏷️ Tên sản phẩm", name: "name", widget: string, hint: "Tên đầy đủ, hiện làm tiêu đề trên thẻ sản phẩm và trang chi tiết"}
+      - {label: "📁 Nhóm sản phẩm con (không bắt buộc)", name: "family", widget: string, required: false, hint: "Chỉ dùng khi danh mục có nhiều dòng sản phẩm khác nhau — ví dụ trong IoT Water Meters có 'Ultrasonic Water Meters', 'Electromagnetic & Mechanical Water Meters'... Các sản phẩm cùng tên nhóm sẽ được xếp cạnh nhau kèm tiêu đề nhỏ trên trang web. Để trống nếu danh mục không cần chia nhỏ."}
 
       # ── 3. Nội dung mô tả ──
       - {label: "📝 Mô tả ngắn (thẻ sản phẩm)", name: "desc", widget: text, hint: "1–2 câu ngắn gọn — hiện trên thẻ sản phẩm ở trang danh mục"}
