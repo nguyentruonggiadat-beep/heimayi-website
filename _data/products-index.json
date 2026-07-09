@@ -2,12 +2,14 @@
   "data-collection/hgc.json",
   "data-collection/hgi-edge.json",
   "data-collection/hgi.json",
+  "electric-valves/hva-iot.json",
   "electric-valves/hva.json",
   "electric-valves/hvb.json",
   "electric-valves/hvi.json",
   "electric-valves/hvm-wired.json",
   "electric-valves/hvm-wireless.json",
   "electric-valves/hvs.json",
+  "electric-valves/picv-l.json",
   "flow-meters/hfe.json",
   "flow-meters/hfu.json",
   "flow-meters/hfv.json",
@@ -34,7 +36,5 @@
   "smart-city/hmc.json",
   "smart-hvac/hhu.json",
   "smart-hvac/htt-room.json",
-  "smart-hvac/hva-iot.json",
-  "smart-hvac/hvc.json",
-  "smart-hvac/picv-l.json"
+  "smart-hvac/hvc.json"
 ]
