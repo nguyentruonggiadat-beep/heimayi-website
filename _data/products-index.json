@@ -5,6 +5,7 @@
   "electric-valves/hva-iot.json",
   "electric-valves/hva.json",
   "electric-valves/hvb.json",
+  "electric-valves/hvc.json",
   "electric-valves/hvi.json",
   "electric-valves/hvm-wired.json",
   "electric-valves/hvm-wireless.json",
@@ -35,6 +36,5 @@
   "smart-city/hll.json",
   "smart-city/hmc.json",
   "smart-hvac/hhu.json",
-  "smart-hvac/htt-room.json",
-  "smart-hvac/hvc.json"
+  "smart-hvac/htt-room.json"
 ]
