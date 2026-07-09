@@ -1,14 +1,14 @@
 {
-  "code": "HVB",
+  "theme": "light",
   "name": "HVB Electric Control Butterfly Valve",
+  "code": "HVB",
   "desc": "Quarter-turn electric butterfly valve for high-volume flow control in industrial and building systems.",
-  "overview": "The HVB series covers both electric butterfly valves (DN50–DN500) and electric ball valves (DN15–DN300), driven by quarter-turn electric actuators. Dual mechanical and electronic limit protection ensures safe operation. Supports 4-20mA, RS485 and M-Bus for integration with any BMS or SCADA system.",
-  "image": "images/hvb.png",
-  "tags": [
-    "DN15–DN500",
-    "PN16/PN25",
-    "±1% accuracy",
-    "4-20mA / RS485 / M-Bus"
+  "apps": [
+    "HVAC Chiller Systems",
+    "Municipal Water Supply",
+    "Industrial Process",
+    "Power Generation",
+    "Wastewater Treatment"
   ],
   "specs": [
     {
@@ -76,6 +76,14 @@
       "value": "AC 220V (50/60Hz) or DC 24V"
     }
   ],
+  "tags": [
+    "DN15–DN500",
+    "PN16/PN25",
+    "±1% accuracy",
+    "4-20mA / RS485 / M-Bus"
+  ],
+  "overview": "The HVB series covers both electric butterfly valves (DN50–DN500) and electric ball valves (DN15–DN300), driven by quarter-turn electric actuators. Dual mechanical and electronic limit protection ensures safe operation. Supports 4-20mA, RS485 and M-Bus for integration with any BMS or SCADA system.",
+  "image": "",
   "features": [
     "Compact design with large flow capacity (high Cv value), space-saving for large-diameter pipelines",
     "High adjustment accuracy with fast response, meeting precise process parameter control requirements",
@@ -85,13 +93,5 @@
     "W-body design filters particles and fibers, suitable for special media like paper pulp (slurry)",
     "Smart protection: dual limit switch (mechanical + electronic), over-temperature/over-pressure alarm, auto parameter setting",
     "Long service life: small contact area between ball and seat reduces friction and corrosion"
-  ],
-  "apps": [
-    "HVAC Chiller Systems",
-    "Municipal Water Supply",
-    "Industrial Process",
-    "Power Generation",
-    "Wastewater Treatment"
-  ],
-  "theme": "light"
+  ]
 }
