@@ -83,7 +83,7 @@
     "4-20mA / RS485 / M-Bus"
   ],
   "overview": "The HVB series covers both electric butterfly valves (DN50–DN500) and electric ball valves (DN15–DN300), driven by quarter-turn electric actuators. Dual mechanical and electronic limit protection ensures safe operation. Supports 4-20mA, RS485 and M-Bus for integration with any BMS or SCADA system.",
-  "image": "",
+  "image": "/images/screenshot-2026-07-09-at-08.16.33.png",
   "features": [
     "Compact design with large flow capacity (high Cv value), space-saving for large-diameter pipelines",
     "High adjustment accuracy with fast response, meeting precise process parameter control requirements",
