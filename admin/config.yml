@@ -47,6 +47,11 @@ collections:
           - {label: "Ultrasonic Water Meters", value: "Ultrasonic Water Meters"}
           - {label: "Electromagnetic & Mechanical Water Meters", value: "Electromagnetic & Mechanical Water Meters"}
           - {label: "Reading & Gateway Modules", value: "Reading & Gateway Modules"}
+          - {label: "Level Measurement", value: "Level Measurement"}
+          - {label: "Pressure Measurement", value: "Pressure Measurement"}
+          - {label: "Temperature Measurement", value: "Temperature Measurement"}
+          - {label: "Data Terminals & Concentrators", value: "Data Terminals & Concentrators"}
+          - {label: "Flow & Reading Modules", value: "Flow & Reading Modules"}
         hint: "Chọn nhóm có sẵn để xếp sản phẩm cùng nhóm cạnh nhau, kèm tiêu đề trên trang web. Chọn '— Không chia nhóm —' nếu không cần. Muốn thêm nhóm mới hoàn toàn thì nhắn tôi thêm vào danh sách này."
 
       # ── 3. Nội dung mô tả ──

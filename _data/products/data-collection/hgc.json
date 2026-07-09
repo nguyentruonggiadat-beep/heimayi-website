@@ -91,5 +91,6 @@
     "Municipal Water Networks",
     "Gas Utility Networks"
   ],
-  "theme": "light"
+  "theme": "light",
+  "family": "Data Terminals & Concentrators"
 }

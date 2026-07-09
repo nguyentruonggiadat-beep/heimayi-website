@@ -86,5 +86,6 @@
     "Mining & Coal",
     "Water Treatment & Environment"
   ],
-  "theme": "dark"
+  "theme": "dark",
+  "family": "Level Measurement"
 }

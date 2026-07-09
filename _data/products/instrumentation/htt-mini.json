@@ -73,5 +73,6 @@
     "Chemical Plants",
     "Industrial Automation"
   ],
-  "theme": "dark"
+  "theme": "dark",
+  "family": "Temperature Measurement"
 }

@@ -71,5 +71,6 @@
     "HVAC & Building Automation",
     "Process Control"
   ],
-  "theme": "dark"
+  "theme": "dark",
+  "family": "Pressure Measurement"
 }

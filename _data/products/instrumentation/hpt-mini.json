@@ -75,5 +75,6 @@
     "Food & Pharmaceutical",
     "Industrial Automation"
   ],
-  "theme": "dark"
+  "theme": "dark",
+  "family": "Pressure Measurement"
 }

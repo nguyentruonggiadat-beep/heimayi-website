@@ -80,5 +80,6 @@
     "Oil & Gas",
     "Filter Monitoring"
   ],
-  "theme": "dark"
+  "theme": "dark",
+  "family": "Pressure Measurement"
 }

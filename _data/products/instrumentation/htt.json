@@ -88,5 +88,6 @@
     "Chemical Process",
     "Pharmaceutical"
   ],
-  "theme": "dark"
+  "theme": "dark",
+  "family": "Temperature Measurement"
 }
