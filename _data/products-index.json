@@ -1,5 +1,7 @@
 [
+  "data-collection/hfu.json",
   "data-collection/hgc.json",
+  "data-collection/hgca.json",
   "data-collection/hgi-edge.json",
   "data-collection/hgi.json",
   "electric-valves/hva-iot.json",
@@ -12,7 +14,6 @@
   "electric-valves/hvs.json",
   "electric-valves/picv-l.json",
   "flow-meters/hfe.json",
-  "flow-meters/hfu.json",
   "flow-meters/hfv.json",
   "instrumentation/hlp-flange.json",
   "instrumentation/hlp-immersion.json",
@@ -22,7 +23,6 @@
   "instrumentation/hpt.json",
   "instrumentation/htt-mini.json",
   "instrumentation/htt.json",
-  "iot-water-meters/hgca.json",
   "iot-water-meters/hwc-direct.json",
   "iot-water-meters/hwm-horizontal.json",
   "iot-water-meters/hwm-ic-card.json",
