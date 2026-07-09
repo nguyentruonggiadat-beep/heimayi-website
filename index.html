@@ -3365,8 +3365,21 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(
     const grid = document.getElementById('grid-' + catId);
     if (!grid) return;
     const light = cat.theme === 'light';
+
+    // Group products by family (if set), keeping each family's items together
+    // regardless of manifest/file order — first-seen order of each family
+    // and of products within it is preserved.
+    const familyOrder = [];
+    const byFamily = {};
+    (cat.products || []).forEach(p => {
+      const key = p.family || '';
+      if (!byFamily[key]) { byFamily[key] = []; familyOrder.push(key); }
+      byFamily[key].push(p);
+    });
+    const sorted = familyOrder.flatMap(key => byFamily[key]);
+
     let html = '', lastFamily;
-    (cat.products || []).forEach((p, i) => {
+    sorted.forEach((p, i) => {
       if (p.family && p.family !== lastFamily) {
         html += `<div class="pc-family-header${light ? ' pc-family-header-light' : ''}">${p.family}</div>`;
         lastFamily = p.family;
